@@ -37,9 +37,9 @@ file is built to: {sdkroot}/SDK/build/docs/modern/cmodern-all-classes-flatten.js
 - copy this file to ./AllClassesFiles/docs/modern/
 
 Step 3 - change globals (in globals.js)
-  global['ExtVersion'] = '7.3.0' (or whatever new version is)
-  optional - global['AllClassesFolder'] = './'
-  optional - global["generatedFolders"] = "./GeneratedFolders/";
+  - global['ExtVersion'] = '7.3.0' (or whatever new version is)
+  - optional - global['AllClassesFolder'] = './'
+  - optional - global["generatedFolders"] = "./GeneratedFolders/";
 
 change old version (7.3.0) to new version
 - global['ExtVersion'] (as mentioned above)
@@ -84,7 +84,7 @@ Step 6 - generate npm packages for extreact and extangular
   - ext-react-classic
   - ext-angular-classic
 
-Step 7 - publish 2 ext-react and ext-angular packages
+Step 7 - publish 2 ext-react and 2 ext-angular packages
 
 - run: npm publish ext-react-modern
 - run: npm publish ext-angular-modern
