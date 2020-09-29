@@ -5,7 +5,7 @@ note: a ./ in front of any file or folder represents this project path (the one 
 Step 1 - Acquire the latest version/branch of the SDK from https://github.com/extjs/SDK
 
 - create a new folder where SDK will be downloaded - this readme will refer to it as {sdkroot}
-  - {sdkroot} = /Volumes/BOOTCAMP/GusmanoAssociates/Customers/Sencha/bridges
+  - {sdkroot} = folder where SDK will be downloaded
 - cd to {sdkroot}
 - run: git clone https://github.com/extjs/SDK
 
