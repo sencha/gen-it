@@ -372,6 +372,10 @@ function createWebComponents() {
   writeTemplateFile(`${webComponentsTemplateFolder}package.json.tpl`,`${webComponentsPackageFolder}package.json`,info);
   writeTemplateFile(`${webComponentsTemplateFolder}README.md.tpl`,`${webComponentsPackageFolder}README.md`,info);
   writeTemplateFile(`${webComponentsTemplateFolder}webpack.config.js.tpl`,`${webComponentsPackageFolder}webpack.config.js`,info);
+
+writeTemplateFile(`${webComponentsTemplateFolder}ext-web-components-${info.toolkit}.js.tpl`,`${webComponentsPackageFolder}ext-web-components-${info.toolkit}.js`,info);
+
+
 }
 
 function createAngular() {

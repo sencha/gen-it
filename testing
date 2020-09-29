@@ -1,0 +1,27 @@
+Testing for 7.3.0 packages
+
+replace all references to 7.2.0 ti 7.3.0 in the following:
+
+
+ext-web-components
+
+https://docs.sencha.com/extwebcomponents/7.2.0/guides/getting_started/getting_started_existing_javascript_modern.html
+
+https://docs.sencha.com/extwebcomponents/7.2.0/guides/getting_started/getting_started_existing_javascript_classic.html
+
+
+ext-angular
+
+npm i @angular/cli@9.1.7
+
+https://docs.sencha.com/extangular/7.2.0/guides/getting_started/creating_ext_angular_app_modern.html
+
+https://docs.sencha.com/extangular/7.2.0/guides/getting_started/creating_ext_angular_app_classic.html
+
+
+ext-react
+
+https://docs.sencha.com/extreact/7.2.0/guides/getting_started/creating_ext_react_app_modern.html
+
+https://docs.sencha.com/extreact/7.2.0/guides/getting_started/creating_ext_react_app_classic.html
+
