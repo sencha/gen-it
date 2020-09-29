@@ -50,24 +50,46 @@ Step 3 - install npm packages
 (the following is run in the root folder of this project)
 - run: npm install
 
-Step 4 - generate npm packages
+Step 4 - generate npm packages for webcomponents
 
 (the following is run in the root folder of this project)
 
-- run: npm run modern
+- run: npm run modern-extwebcomponents
+- run: npm run classic-extwebcomponents
 
   Generated npm packages are at: ./GeneratedFolders/blank/
-  - ext-angular-modern
-  - ext-react-modern
-  - ext=web-components-modern
+  - ext-web-components-modern
+  - ext-web-components-classic
 
-- run: npm run classic
+Step 5 - publish 2 web-component packages
+
+Since the Ext-Angular and ExtReact rely on the web-components packages being npm published,
+you must publish these 2 packages first:
+
+- run: npm publish ext-web-components-modern
+- run: npm publish ext-web-components-classic
+
+Step 6 - generate npm packages for extreact and extangular
+
+(the following is run in the root folder of this project)
+
+- run: npm run modern-extreact
+- run: npm run modern-extangular
+- run: npm run classic-extreact
+- run: npm run classic-extangular
 
   Generated npm packages are at: ./GeneratedFolders/blank/
-  - ext-angular-modern
   - ext-react-modern
-  - ext=web-components-modern
+  - ext-angular-modern
+  - ext-react-classic
+  - ext-angular-classic
 
+Step 7 - publish 2 ext-react and ext-angular packages
+
+- run: npm publish ext-react-modern
+- run: npm publish ext-angular-modern
+- run: npm publish ext-react-classic
+- run: npm publish ext-angular-classic
 
 Project Documentation
 

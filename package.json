@@ -3,8 +3,12 @@
     "version": "7.3.0",
     "description": "generate",
     "scripts": {
-        "modern": "node ./genIt.js blank modern",
-        "classic": "node ./genIt.js blank classic"
+        "modern-extwebcomponents": "node ./genIt.js blank modern extwebcomponents",
+        "modern-extangular": "node ./genIt.js blank modern extangular",
+        "modern-extreact": "node ./genIt.js blank modern extreact",
+        "classic-extwebcomponents": "node ./genIt.js blank classic extwebcomponents",
+        "classic-extangular": "node ./genIt.js blank classic extangular",
+        "classic-extreact": "node ./genIt.js blank classic extreact"
     },
     "author": "Marc Gusmano",
     "license": "MIT",

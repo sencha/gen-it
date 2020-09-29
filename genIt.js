@@ -784,15 +784,16 @@ function log(val) {
 
 function doEnd() {
   console.log('\n')
-  if(doWebComponents == true) {
-    console.log(`https://sencha.myget.org/feed/early-adopter/package/npm/%40sencha/ext-web-components${info.toolkitshown}${info.bundle}/${info.version}`)
-  }
-  if(doAngular == true) {
-    console.log(`https://sencha.myget.org/feed/early-adopter/package/npm/%40sencha/ext-angular${info.toolkitshown}${info.bundle}/${info.version}`)
-  }
-  if(doReact == true) {
-    console.log(`https://sencha.myget.org/feed/early-adopter/package/npm/%40sencha/ext-react${info.toolkitshown}${info.bundle}/${info.version}`)
-  }
+  console.log('done')
+  // if(doWebComponents == true) {
+  //   console.log(`https://sencha.myget.org/feed/early-adopter/package/npm/%40sencha/ext-web-components${info.toolkitshown}${info.bundle}/${info.version}`)
+  // }
+  // if(doAngular == true) {
+  //   console.log(`https://sencha.myget.org/feed/early-adopter/package/npm/%40sencha/ext-angular${info.toolkitshown}${info.bundle}/${info.version}`)
+  // }
+  // if(doReact == true) {
+  //   console.log(`https://sencha.myget.org/feed/early-adopter/package/npm/%40sencha/ext-react${info.toolkitshown}${info.bundle}/${info.version}`)
+  // }
   //mjg
   if(doDoc == true) {
     global['reactnames'] = global['reactnames'].sort();

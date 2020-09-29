@@ -1,17 +1,36 @@
 exports.setGlobals =() => {
   console.log('These are set in globals.js...\n')
 
-  global["doWebComponents"]      = false;
-  global["doAngular"]            = true;
-  global["doReact"]              = true;
-  global["doDoc"]                = false;
-
   global["createFolders"]        = true;
   global["launch"]               = true;
   global["postLaunch"]           = true;
-  global["npmInstall"]           = true;
-  global["npmPublishRightAfter"] = true;
   global["copy"]                 = false;
+
+  global["doWebComponents"]      = false;
+  global["doAngular"]            = false;
+  global["doReact"]              = false;
+  global["doDoc"]                = false;
+
+  global["products"] = process.argv[4]
+  var products = global["products"].split("-");
+  //console.log(products)
+  if (products.includes("extwebcomponents")) {
+    global["doWebComponents"] = true;
+  }
+  if (products.includes("extangular")) {
+    global["doAngular"] = true;
+  }
+  if (products.includes("extreact")) {
+    global["doReact"] = true;
+  }
+
+  //console.log(global["doWebComponents"])
+  //console.log(global["doAngular"])
+  //console.log(global["doReact"])
+
+  global["npmInstall"]           = false;
+  global["npmPublishRightAfter"] = false;
+
 
   console.log('PRODUCTS:')
   console.log(`doWebComponents:\t${doWebComponents}`)
@@ -20,12 +39,12 @@ exports.setGlobals =() => {
   console.log(`doDoc:\t\t\t${doDoc}`)
   console.log(`\n`)
   console.log('STEPS:')
-  console.log(`createFolders:\t\t${createFolders}`)
-  console.log(`launch:\t\t\t${launch}`)
-  console.log(`postLaunch:\t\t${postLaunch}`)
+  //console.log(`createFolders:\t\t${createFolders}`)
+  //console.log(`launch:\t\t\t${launch}`)
+  //console.log(`postLaunch:\t\t${postLaunch}`)
   console.log(`npmInstall:\t\t${npmInstall}`)
   console.log(`npmPublishRightAfter:\t${npmPublishRightAfter}`)
-  console.log(`copy:\t\t\t${copy}`)
+  //console.log(`copy:\t\t\t${copy}`)
   console.log(`\n`)
 
   global['ExtVersion'] = '7.3.0'
