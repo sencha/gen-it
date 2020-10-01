@@ -99,11 +99,11 @@ Step 7 - npm install 2 ext-react packages
 - run: npm install
 - run: npm publish
 
-Step 8 - publish or link 2 ext-angular packages
+Step 8 - publish or link ext-angular-classic package
 
 - cd to ./GeneratedFolders/blank/ext-angular-classic
 - run: npm install
-- run: npm run packagr
+- run: npm run packagr (this will create a ./dist folder)
 - copy ./bin ./dist/bin
 - copy ./postinstall.js ./dist/postinstall.js
 - cd to ./dist
@@ -115,16 +115,16 @@ Step 8 - publish or link 2 ext-angular packages
   "bin": {
     "ext-angular": "./bin/ext-angular.js"
   },
-- npm publish
+- run: npm publish or npm link
 
-- cd to ./GeneratedFolders/blank/ext-angular-modetn
+Step 9 - publish or link ext-angular-modern package
+
+- cd to ./GeneratedFolders/blank/ext-angular-modern
 - run: npm install
-- run: npm run packagr
+- run: npm run packagr (this will create a ./dist folder)
 - copy ./bin ./dist/bin
 - copy ./postinstall.js ./dist/postinstall.js
 - cd to ./dist
-- add script step to ./dist/package.json**
-- npm publish
 - add scripts entry to ./dist/package.json
   "scripts": {
     "postinstall": "node ./postinstall.js"
@@ -133,7 +133,7 @@ Step 8 - publish or link 2 ext-angular packages
   "bin": {
     "ext-angular": "./bin/ext-angular.js"
   },
-- npm publish
+- run: npm publish or npm link
 
 
 Project Documentation
