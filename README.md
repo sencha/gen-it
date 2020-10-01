@@ -108,13 +108,17 @@ Step 8 - publish or link ext-angular-classic package
 - copy ./postinstall.js ./dist/postinstall.js
 - cd to ./dist
 - add scripts entry to ./dist/package.json
+```
   "scripts": {
     "postinstall": "node ./postinstall.js"
   }
+```
 - add bin entry to ./dist/package.json
+```
   "bin": {
     "ext-angular": "./bin/ext-angular.js"
   },
+```
 - run: npm publish or npm link
 
 Step 9 - publish or link ext-angular-modern package
@@ -126,13 +130,17 @@ Step 9 - publish or link ext-angular-modern package
 - copy ./postinstall.js ./dist/postinstall.js
 - cd to ./dist
 - add scripts entry to ./dist/package.json
+```
   "scripts": {
     "postinstall": "node ./postinstall.js"
   }
+```
 - add bin entry to ./dist/package.json
+```
   "bin": {
     "ext-angular": "./bin/ext-angular.js"
   },
+```
 - run: npm publish or npm link
 
 
