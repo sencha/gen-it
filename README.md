@@ -61,13 +61,16 @@ Step 4 - generate npm packages for webcomponents
   - ext-web-components-modern
   - ext-web-components-classic
 
-Step 5 - publish 2 web-component packages
+Step 5 - publish or link 2 web-component packages
 
 Since the Ext-Angular and ExtReact rely on the web-components packages being npm published,
 you must publish these 2 packages first:
 
 - run: npm publish ext-web-components-modern
 - run: npm publish ext-web-components-classic
+or
+- run: npm link ext-web-components-modern
+- run: npm link ext-web-components-classic
 
 Step 6 - generate npm packages for extreact and extangular
 
@@ -84,12 +87,52 @@ Step 6 - generate npm packages for extreact and extangular
   - ext-react-classic
   - ext-angular-classic
 
-Step 7 - publish 2 ext-react and 2 ext-angular packages
+Step 7 - npm install 2 ext-react packages
 
-- run: npm publish ext-react-modern
-- run: npm publish ext-angular-modern
-- run: npm publish ext-react-classic
-- run: npm publish ext-angular-classic
+- cd to ./GeneratedFolders/blank/ext-react-modern
+- run: npm install
+- run: npm publish
+
+- cd to ./GeneratedFolders/blank/ext-react-classic
+- run: npm install
+- run: npm publish
+
+Step 8 - publish or link 2 ext-angular packages
+
+- cd to ./GeneratedFolders/blank/ext-angular-classic
+- run: npm install
+- run: npm run packagr
+- copy ./bin ./dist/bin
+- copy ./postinstall.js ./dist/postinstall.js
+- cd to ./dist
+- add scripts entry to ./dist/package.json
+  "scripts": {
+    "postinstall": "node ./postinstall.js"
+  }
+- add bin entry to ./dist/package.json
+  "bin": {
+    "ext-angular": "./bin/ext-angular.js"
+  },
+- npm publish
+
+- cd to ./GeneratedFolders/blank/ext-angular-modetn
+- run: npm install
+- run: npm run packagr
+- copy ./bin ./dist/bin
+- copy ./postinstall.js ./dist/postinstall.js
+- cd to ./dist
+- add script step to ./dist/package.json**
+- npm publish
+- add scripts entry to ./dist/package.json
+  "scripts": {
+    "postinstall": "node ./postinstall.js"
+  }
+- add bin entry to ./dist/package.json
+  "bin": {
+    "ext-angular": "./bin/ext-angular.js"
+  },
+- npm publish
+
 
 Project Documentation
 

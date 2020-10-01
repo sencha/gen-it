@@ -28,7 +28,7 @@ exports.setGlobals =() => {
   //console.log(global["doAngular"])
   //console.log(global["doReact"])
 
-  global["npmInstall"]           = false;
+  global["npmInstall"]           = true;
   global["npmPublishRightAfter"] = false;
 
 
