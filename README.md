@@ -1,30 +1,38 @@
-This Readme documents the process to re-generate a new set of npm packages for the bridge products.
+# gen-it
 
-note: a ./ in front of any file or folder represents this project path (the one with the README.md)
+This Readme documents how to use the gen-it.js tool and the process to re-generate a new set of npm packages for all 3 bridge products: 
+- ExtAngular
+- ExtWebComponents
+- ExtReact
 
-Step 1 - Acquire the latest version/branch of the SDK from https://github.com/extjs/SDK
+**NOTE: a ./ in front of any file or folder represents this project path (the one with the README.md)**
+
+## Step 1 - Acquire the latest version/branch of the SDK from https://github.com/extjs/SDK
 
 - create a new folder where SDK will be downloaded - this readme will refer to it as {sdkroot}
   - {sdkroot} = folder where SDK will be downloaded
 - cd to {sdkroot}
 - run: git clone https://github.com/extjs/SDK
 
-Step 2 - Generate the DOXI files for classic and modern toolkits
-note: root folder of sdk is {sdkroot}
+## Step 2 - Generate the DOXI files for classic and modern toolkits
+
+**NOTE: root folder of sdk is {sdkroot}
 
 to produce: ./AllClassesFiles/docs/classic/classic-all-classes-flatten.json
 
--create the following folders in this project (the one with this README.md)
+### 2.1 - create the following folders in this project (the one with this README.md)
   - ./AllClassesFiles
   - ./AllClassesFiles/docs
   - ./AllClassesFiles/docs/classic
   - ./AllClassesFiles/docs/modern
 
+### 2.2 - Classic Doxi
 - cd {sdkroot}/SDK/docs/classic
 - run: sencha doxi build all-classes-flatten
 
-file is built to: {sdkroot}/SDK/build/docs/classic/classic-all-classes-flatten.json
+**NOTE: file is built to (output): {sdkroot}/SDK/build/docs/classic/classic-all-classes-flatten.json**
 
+### 2.3 - Modern Doxi
 - copy this file to ./AllClassesFiles/docs/classic/
 
 to produce: AllClassesFiles/modern/modern-all-classes-flatten.json
@@ -32,11 +40,11 @@ to produce: AllClassesFiles/modern/modern-all-classes-flatten.json
 - cd {sdkroot}/SDK/docs/modern
 - run: sencha doxi build all-classes-flatten
 
-file is built to: {sdkroot}/SDK/build/docs/modern/cmodern-all-classes-flatten.json
+**NOTE: file is built to: {sdkroot}/SDK/build/docs/modern/cmodern-all-classes-flatten.json**
 
 - copy this file to ./AllClassesFiles/docs/modern/
 
-Step 3 - change globals (in globals.js)
+## Step 3 - change globals (in globals.js)
   - global['ExtVersion'] = '7.3.0' (or whatever new version is)
   - optional - global['AllClassesFolder'] = './'
   - optional - global["generatedFolders"] = "./GeneratedFolders/";
@@ -45,12 +53,12 @@ change old version (7.3.0) to new version
 - global['ExtVersion'] (as mentioned above)
 - all references in the filetemplates folder
 
-Step 3 - install npm packages
+## Step 4 - install npm packages
 
 (the following is run in the root folder of this project)
 - run: npm install
 
-Step 4 - generate npm packages for webcomponents
+## Step 5 - generate npm packages for webcomponents
 
 (the following is run in the root folder of this project)
 
@@ -61,7 +69,7 @@ Step 4 - generate npm packages for webcomponents
   - ext-web-components-modern
   - ext-web-components-classic
 
-Step 5 - publish or link 2 web-component packages
+## Step 6 - publish or link 2 web-component packages
 
 Since the Ext-Angular and ExtReact rely on the web-components packages being npm published,
 you must publish these 2 packages first:
@@ -74,7 +82,7 @@ or
 - run: npm link ext-web-components-modern
 - run: npm link ext-web-components-classic
 
-Step 6 - generate npm packages for extreact and extangular
+## Step 7 - generate npm packages for extreact and extangular
 
 (the following is run in the root folder of this project)
 
@@ -89,7 +97,7 @@ Step 6 - generate npm packages for extreact and extangular
   - ext-react-classic
   - ext-angular-classic
 
-Step 7 - npm install 2 ext-react packages
+## Step 8 - npm install 2 ext-react packages
 
 - cd to ./GeneratedFolders/blank/ext-react-modern
 - run: npm install
@@ -99,7 +107,7 @@ Step 7 - npm install 2 ext-react packages
 - run: npm install
 - run: npm publish
 
-Step 8 - publish or link ext-angular-classic package
+## Step 9 - publish or link ext-angular-classic package
 
 - cd to ./GeneratedFolders/blank/ext-angular-classic
 - run: npm install
@@ -121,7 +129,7 @@ Step 8 - publish or link ext-angular-classic package
 ```
 - run: npm publish or npm link
 
-Step 9 - publish or link ext-angular-modern package
+## Step 10 - publish or link ext-angular-modern package
 
 - cd to ./GeneratedFolders/blank/ext-angular-modern
 - run: npm install
@@ -144,7 +152,7 @@ Step 9 - publish or link ext-angular-modern package
 - run: npm publish or npm link
 
 
-Project Documentation
+# Project Documentation
 
 standard project files
 
