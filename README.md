@@ -154,6 +154,8 @@ or
 
 # Project Documentation
 
+## gen-it tool
+
 standard project files
 
 - ./package.json (npm package file)
@@ -184,3 +186,94 @@ node ./genIt.js blank modern
 2nd is the js file to run
 3rd is the suffix (blank means no suffix added to name)
 4th is toolkit (classic or modern)
+
+# Sencha Ext JS Bridges Project(s) Architecture Documentation 
+A guide on how ExtAngular and ExtReact consume ExtWebComponents (EWC) and how the packages are associated to each other (dependencies).
+
+## Products: 
+1. ExtAngular
+2. ExtReact
+3. ExtWebComponents
+
+## High Level
+There are 10 packages that need to be updated. 
+
+Packages built using *gen-it.js*:
+* ext-angular-classic
+* ext-angular-modern
+* ext-react-classic
+* ext-react-modern
+* ext-web-components-classic
+* ext-web-components-modern
+
+Packages build using *theme-and-engine.js*
+ext-classic-runtime
+ext-modern-runtime
+
+Packages built from the existing bridge [ext-react-repo](https://github.com/sencha/ext-react):
+* cra-template-ext-react-classic
+* cra-template-ext-react-modern
+
+There are versions of ExtReact, ExtAngular and ExtWebComponents for both the classic and modern toolkits. Here is a list of the components:
+
+* ext-web-components-classic
+* ext-web-components-modern
+* ext-angular-classic
+* ext-angular-modern
+* ext-react-classic
+* ext-react-modern
+
+**NOTE: ext-angular and ext-react require the respective ext-web-components package (by toolkit) in order to run. As such, both products package.json file includes a dependencies reference, similar to the following**
+```
+   "@sencha/ext-web-components-classic": "~7.3.0",
+   ```
+
+## gen-it.js tool
+
+The list of components above can be generated with the ‘gen-it.js’ tool available here: https://github.com/sencha/gen-it 	
+Documentation on using this tool is available here: https://github.com/sencha/gen-it/blob/master/README.md
+
+This tool will generate npm packages for all 6 components (above), which are then ready to be published to npm.
+
+## theme-and-engine.js tool
+
+There is also a second tool: theme-and-engine.js available at the following link:https://github.com/sencha/theme-and-engine
+Documentation on using this tool is available here: https://github.com/sencha/theme-and-engine/blob/master/README.md
+
+This tool will generate 2 npm packages with the following engine and theme files
+
+1. `ext-classic-runtime` containing:
+    - `classic.engine.enterprise.js`
+    - Material folder (for the material theme)
+2. `ext-modern-runtime`
+    - `modern.engine.enterprise.js`
+    - Material folder (for the material theme)
+
+These 2 npm packages (above) contain the ExtJS engine and theme needed for the products, with these, no custom Ext JS webpack plugin is need
+
+## Special considerations when building `ext-angular` and `ext-react` toolkit packages
+Both `ext-angular-[toolkit]` and `ext-react-[toolkit]` contain a `postinstall.js` file (which is used for npm post install).  This file will look for the above packages, and, if found, will copy the engine and theme files needed for both `Angular CLI` and `create-react-app` (native React) generated applications. 
+
+**NOTE: during the development process, it is critical that the bin/ directory and postinstall.js are copied into each packages dist folder and that package.json is configured to run the post install hook**
+
+`create-react-app` - copies to the ./public folder and modifies ./public/index.html.
+`Angular CLI` - copies to the root of the project and make entries in the angular.json file
+
+### CRA (create-react-app) Templates
+
+For ExtReact, there are 2 cra templates (one for modern and one for classic) available here:
+- [classic](https://github.com/sencha/ext-react/tree/ext-react-7.3.x/packages/cra-template-ext-react-classic)
+- [modern](https://github.com/sencha/ext-react/tree/ext-react-7.3.x/packages/cra-template-ext-react-modern)
+
+For both of these packages, a new version of Ext JS requires changing the version numbers in both packages files, specifically:
+* package.json
+* template.json
+
+
+
+
+
+
+
+
+
