@@ -74,7 +74,7 @@ change old version (7.3.0) to new version
 Since the Ext-Angular and ExtReact rely on the web-components packages being npm published,
 you must publish these 2 packages first:
 
-1. Change into GeneratedFiles/blank/<package_name/> and run `npm install`
+1. Change into GeneratedFolders/blank/<package_name/> and run `npm install`
 2. Run the publish commands:
 - run: npm publish ext-web-components-modern
 - run: npm publish ext-web-components-classic
