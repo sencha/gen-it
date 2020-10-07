@@ -127,7 +127,7 @@ or
     "ext-angular": "./bin/ext-angular.js"
   },
 ```
-- run: npm publish or npm link
+- run: npm publish or npm link from the ./dist folder
 
 ## Step 10 - publish or link ext-angular-modern package
 
@@ -149,7 +149,7 @@ or
     "ext-angular": "./bin/ext-angular.js"
   },
 ```
-- run: npm publish or npm link
+- run: npm publish or npm link from the ./dist folder
 
 
 # Project Documentation
