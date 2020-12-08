@@ -8,9 +8,12 @@
         "modern-extreact": "node ./genIt.js blank modern extreact",
         "classic-extwebcomponents": "node ./genIt.js blank classic extwebcomponents",
         "classic-extangular": "node ./genIt.js blank classic extangular",
-        "classic-extreact": "node ./genIt.js blank classic extreact"
+		"classic-extreact": "node ./genIt.js blank classic extreact",
+		"modern-json-descriptors" : "node ./json",
+        "modern-ewc-jsondescriptors": "node ./ewcJsonDescriptorsGenerator.js modern",
+        "classic-ewc-jsondescriptors": "node ./ewcJsonDescriptorsGenerator.js classic"
     },
-    "author": "Marc Gusmano",
+    "author": "Marc Gusmano",	
     "license": "MIT",
     "devDependencies": {
         "fs-copy-file-sync": "~1.1.1",

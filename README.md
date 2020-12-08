@@ -270,8 +270,16 @@ For both of these packages, a new version of Ext JS requires changing the versio
 * template.json
 
 
+## Generating JSON Descriptors for the Web Components.
+Gen It can be used to generate the JSON Descriptor file for each of the Ext Web Component which contains the information such as Properties, method and events etc about the Web Component. Follow the following steps -
 
+1) Generate the doxi JSON files as explained in first 3 steps at the start of this ReadMe file and place them in their respective folders.
 
+2) - Classic EWC Descriptors
+- run: npm run classic-ewc-jsondescriptors
+
+3) - Modern EWC Descriptors
+- run: npm run modern-ewc-jsondescriptors
 
 
 
