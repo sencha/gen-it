@@ -14,8 +14,14 @@ const generateJSONDescriptorForElement = (doxiObj) => {
 	const events = [];
 	const methods = [];
 	let superClass = [];
+
+	let uniquePropertiesMap = {};
+	let mixins = [];
 	if (doxiObj.extends) {
 		superClass = doxiObj.extends.split(',');
+	}
+	if (doxiObj.mixed) {
+		mixins = doxiObj.mixed.split(',');
 	}
 	if (doxiObj.items) {
 		const doxiPropertiesItems = doxiObj.items.filter(item => item[`$type`] == 'properties');
@@ -23,17 +29,21 @@ const generateJSONDescriptorForElement = (doxiObj) => {
 			const doxiProperties = doxiPropertiesItems[0].items;
 
 			doxiProperties.forEach(doxiProp => {
-
-				properties.push({
-					"name": doxiProp.name,
-					"type": doxiProp.type ? doxiProp.type.toLowerCase() : '',
-					"value": doxiProp.value,
-					"allowedValues": [],
-					"description": doxiProp.text,
-					"demoValues": []
-				})
+				if (!uniquePropertiesMap.hasOwnProperty(doxiProp.name)) {
+					uniquePropertiesMap[doxiProp.name] = 1;
+					properties.push({
+						"name": doxiProp.name,
+						"privacy": doxiProp.access,
+						"type": doxiProp.type ? doxiProp.type.toLowerCase() : '',
+						"value": doxiProp.value,
+						"allowedValues": [],
+						"description": doxiProp.text,
+						"demoValues": []
+					})
+				}
 			})
 		}
+
 
 		//Using Configs
 		const doxiConfigItems = doxiObj.items.filter(item => item[`$type`] == 'configs');
@@ -41,18 +51,23 @@ const generateJSONDescriptorForElement = (doxiObj) => {
 			const doxiProperties = doxiConfigItems[0].items.filter(x => x[`$type`] == "property");
 
 			doxiProperties.forEach(doxiProp => {
-
-				properties.push({
-					"name": doxiProp.name,
-					"type": doxiProp.type ? doxiProp.type.toLowerCase() : '',
-					"value": doxiProp.value,
-					"allowedValues": [],
-					"description": doxiProp.text,
-					"demoValues": []
-				})
+				if (!uniquePropertiesMap.hasOwnProperty(doxiProp.name)) {
+					uniquePropertiesMap[doxiProp.name] = 1;
+					properties.push({
+						"name": doxiProp.name,
+						"privacy": doxiProp.access,
+						"type": doxiProp.type ? doxiProp.type.toLowerCase() : '',
+						"value": doxiProp.value,
+						"allowedValues": [],
+						"description": doxiProp.text,
+						"demoValues": []
+					})
+				}
 			})
+
 		}
 
+		uniquePropertiesMap = {};
 		//Create Events
 
 		const doxiEventsItems = doxiObj.items.filter(item => item[`$type`] == 'events');
@@ -60,25 +75,30 @@ const generateJSONDescriptorForElement = (doxiObj) => {
 			const doxiEvents = doxiEventsItems[0].items;
 
 			doxiEvents.forEach(doxiEvent => {
-				const event = {
-					"name": doxiEvent.name,
-					"description": doxiEvent.text,
-					"demo": "events"
-				}
-				if (doxiEvent.items && doxiEvent.items.length > 0) {
-					event.detail = [];
-					doxiEvent.items.forEach(doxiEventParam => {
-						event.detail.push({
-							"name": doxiEventParam.name,
-							"description": doxiEventParam.text
+				if (!uniquePropertiesMap.hasOwnProperty(doxiEvent.name)) {
+					uniquePropertiesMap[doxiEvent.name] = 1;
+					const event = {
+						"name": doxiEvent.name,
+						"description": doxiEvent.text,
+						"demo": "events"
+					}
+					if (doxiEvent.items && doxiEvent.items.length > 0) {
+						event.detail = [];
+						doxiEvent.items.forEach(doxiEventParam => {
+							event.detail.push({
+								"name": doxiEventParam.name,
+								"description": doxiEventParam.text
+							})
 						})
-					})
+					}
+
+					events.push(event);
 				}
 
-				events.push(event);
 			})
 		}
 
+		uniquePropertiesMap = {};
 		//create Methods
 
 		const doxiMethodsItems = doxiObj.items.filter(item => item[`$type`] == 'methods');
@@ -86,37 +106,41 @@ const generateJSONDescriptorForElement = (doxiObj) => {
 			const doxiMethods = doxiMethodsItems[0].items;
 
 			doxiMethods.forEach(doxiMethod => {
-				const method = {
-					"name": doxiMethod.name,
-					"description": doxiMethod.text ? doxiMethod.name : "",
-					"demoValues": [],
-					"returnDataType": null,
-					"demo": "methods"
-				}
-
-				if (doxiMethod.items && doxiMethod.items.length > 0) {
-					method.arguments = [];
-					const returnArgument = doxiMethod.items.filter(x => x['$type'] == 'return');
-					const params = doxiMethod.items.filter(x => x['$type'] != 'return');
-					if (returnArgument.length > 0) {
-						method.returnDataType = returnArgument[0].type;
+				if (!uniquePropertiesMap.hasOwnProperty(doxiMethod.name)) {
+					uniquePropertiesMap[doxiMethod.name] = 1;
+					const method = {
+						"name": doxiMethod.name,
+						"description": doxiMethod.text ? doxiMethod.name : "",
+						"demoValues": [],
+						"returnDataType": null,
+						"demo": "methods"
 					}
-					params.forEach(param => {
-						method.arguments.push({
-							"name": param.name,
-							"type": param.type ? param.type : "",
-							"description": param.text ? param.text : "",
-							"optional": false
+
+					if (doxiMethod.items && doxiMethod.items.length > 0) {
+						method.arguments = [];
+						const returnArgument = doxiMethod.items.filter(x => x['$type'] == 'return');
+						const params = doxiMethod.items.filter(x => x['$type'] != 'return');
+						if (returnArgument.length > 0) {
+							method.returnDataType = returnArgument[0].type;
+						}
+						params.forEach(param => {
+							method.arguments.push({
+								"name": param.name,
+								"type": param.type ? param.type : "",
+								"description": param.text ? param.text : "",
+								"optional": false
+							})
 						})
-					})
+					}
+
+					methods.push(method);
 				}
 
-				methods.push(method);
 			})
 		}
 	}
 
-	const jsonDescriptor = { superClass, widget, properties, events, methods };
+	const jsonDescriptor = { superClass, mixins, widget, properties, events, methods };
 	//console.log(jsonDescriptor)
 	return jsonDescriptor;
 
