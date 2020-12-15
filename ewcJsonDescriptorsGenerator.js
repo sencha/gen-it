@@ -33,6 +33,7 @@ const generateJSONDescriptorForElement = (doxiObj) => {
 					uniquePropertiesMap[doxiProp.name] = 1;
 					properties.push({
 						"name": doxiProp.name,
+						"readOnly" : true,
 						"privacy": doxiProp.access,
 						"type": doxiProp.type ? doxiProp.type.toLowerCase() : '',
 						"value": doxiProp.value,
@@ -55,6 +56,7 @@ const generateJSONDescriptorForElement = (doxiObj) => {
 					uniquePropertiesMap[doxiProp.name] = 1;
 					properties.push({
 						"name": doxiProp.name,
+						"readOnly" : false,
 						"privacy": doxiProp.access,
 						"type": doxiProp.type ? doxiProp.type.toLowerCase() : '',
 						"value": doxiProp.value,
