@@ -237,8 +237,8 @@ This tool will generate npm packages for all 6 components (above), which are the
 
 ## theme-and-engine.js tool
 
-There is also a second tool: theme-and-engine.js available at the following link:https://github.com/sencha/theme-and-engine
-Documentation on using this tool is available here: https://github.com/sencha/theme-and-engine/blob/master/README.md
+There is also a second tool: themes-and-engine.js available at the following link:https://github.com/sencha/themes-and-engine
+Documentation on using this tool is available here: https://github.com/sencha/themes-and-engine/blob/master/README.md
 
 This tool will generate 2 npm packages with the following engine and theme files
 
