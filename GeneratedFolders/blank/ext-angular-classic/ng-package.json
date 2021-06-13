@@ -1,0 +1,20 @@
+{
+    "$schema": "./node_modules/ng-packagr/package.schema.json",
+    "dest": "./dist",
+    "lib": {
+      "entryFile": "./public_api.ts",
+      "umdModuleIds": {
+        "@sencha/ext-web-components-classic": "@sencha/ext-web-components-classic",
+        "@sencha/ext-web-components-modern": "@sencha/ext-web-components-modern"
+      }
+    },
+    "whitelistedNonPeerDependencies": [
+      "angular",
+      "zone",
+      "comment-json",
+      "script-loader",
+      "@sencha/ext-web-components-modern",
+      "@sencha/ext-web-components-classic",
+      "fs-extra"
+    ]
+  }
