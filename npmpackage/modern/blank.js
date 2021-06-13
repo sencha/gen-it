@@ -234,6 +234,7 @@ var xtypes = [
   'video',
   'viewport',
   'widget',
+  'treegroupedgrid'
 ]
 var classes = [
     'Ext.data.virtual.Store',

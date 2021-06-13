@@ -12,7 +12,7 @@ The limited 30-day free trial offers full access to the ExtReact components and 
 ```
 $ npm install -g @sencha/ext-react-classic
 ```
-* Follow the [ExtReact Quick Start Guide](https://docs.sencha.com/extreact/7.3.0/guides/getting_started/adding_ext_react_classic.html#getting_started-_-adding_ext_react_classic_-_step_3__install__sencha_ext_react_classic) to update the component and explore other options.
+* Follow the [ExtReact Quick Start Guide](https://docs.sencha.com/extreact/7.4.0/guides/getting_started/adding_ext_react_classic.html#getting_started-_-adding_ext_react_classic_-_step_3__install__sencha_ext_react_classic) to update the component and explore other options.
 
 Alternately, 
 ### Create a New React app
@@ -25,7 +25,7 @@ $ npx create-react-app --template @sencha/ext-react-classic ext-react-classic-de
 $ cd ext-react-classic-demo
 $ npm start
 ```
- * Follow the [ExtReact Getting Started Guide](https://docs-devel.sencha.com/extreact/7.3.0/guides/getting_started/creating_ext_react_app_classic.html#getting_started-_-creating_ext_react_app_classic_-_step_3__optional__changing_the_theme_for_a__sencha_ext_react_classic_app) to change the app theme and explore other options
+ * Follow the [ExtReact Getting Started Guide](https://docs-devel.sencha.com/extreact/7.4.0/guides/getting_started/creating_ext_react_app_classic.html#getting_started-_-creating_ext_react_app_classic_-_step_3__optional__changing_the_theme_for_a__sencha_ext_react_classic_app) to change the app theme and explore other options
 
 ### Interested in trying out the additional tools included in your trial?
 Fill out the [zip trial form](https://sencha.com/products/extreact/evaluate/) to get the zip downloads of add-on premium components: 
@@ -44,7 +44,7 @@ The ExtReact Trial version is valid for 30-days. If you need any help with the p
 ## Guides and Helpful Resources
 ExtReact has extensive documentation and getting started guides. 
 * [Documentation](https://docs.sencha.com/extreact/)
-* [Understanding the App](https://docs.sencha.com/extreact/7.3.0/guides/getting_started/understanding_app_classic.html)
+* [Understanding the App](https://docs.sencha.com/extreact/7.4.0/guides/getting_started/understanding_app_classic.html)
 * [Learn about the Data Grid Features](https://www.sencha.com/grid)
 
 Check out our resources page to get quick access to videos, tutorials, webinars and more.

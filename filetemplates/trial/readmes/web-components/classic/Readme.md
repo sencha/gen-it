@@ -18,14 +18,14 @@ cd ext-web-components-classic-demo
 ```
 {
   "name": "ext-web-components-classic-demo",
-  "version": "7.3.0",
+  "version": "7.4.0",
   "description": "ext-web-components-classic-demo",
   "scripts": {
     "start": "npx servor . index.html 8080 --reload --browse"
   },
   "devDependencies": {
-    "@sencha/ext-web-components-classic": "~7.3.0",
-    "@sencha/ext-classic-runtime": "~7.3.0",
+    "@sencha/ext-web-components-classic": "~7.4.0",
+    "@sencha/ext-classic-runtime": "~7.4.0",
     "servor": "~3.2.0"
   },
   "author": "",
@@ -73,9 +73,9 @@ npm start
 ```
  
 ## Explore our detailed Getting Started Guides to use ExtWebComponents (EWC) in other popular frameworks.
-* [EWC with React](https://docs.sencha.com/extreact/7.3.0/guides/getting_started/getting_started.html)  	
-* [EWC with Angular](https://docs.sencha.com/extangular/7.3.0/guides/getting_started/getting_started.html)   	
-* [EWC with Vue](https://docs.sencha.com/extwebcomponents/7.3.0/guides/getting_started/getting_started_vue.html)                                
+* [EWC with React](https://docs.sencha.com/extreact/7.4.0/guides/getting_started/getting_started.html)  	
+* [EWC with Angular](https://docs.sencha.com/extangular/7.4.0/guides/getting_started/getting_started.html)   	
+* [EWC with Vue](https://docs.sencha.com/extwebcomponents/7.4.0/guides/getting_started/getting_started_vue.html)                                
  
 ## Interested in trying out the additional tools included in your trial?
 Fill out the [zip trial form](https://sencha.com/products/extwebcomponents/evaluate/) to get the zip downloads of add-on premium components: 
@@ -95,9 +95,9 @@ The ExtWebComponents trial version is valid for 30-days. If you need any help wi
 ## Guides and Helpful Resources
 Check out the documentation and our [resource center](https://www.sencha.com/resources/) to get quick access to examples, webinars, whitepapers and more.  
 
-* [Getting Started Guides](https://docs.sencha.com/extwebcomponents/7.3.0/guides/getting_started/getting_started_options.html)
-* [Sample Apps with ExtWebComponents](https://examples.sencha.com/ExtWebComponents/7.3.0/)
-* [Building WebComponents](https://docs.sencha.com/extwebcomponents/7.3.0/guides/application_architecture/components.html)
+* [Getting Started Guides](https://docs.sencha.com/extwebcomponents/7.4.0/guides/getting_started/getting_started_options.html)
+* [Sample Apps with ExtWebComponents](https://examples.sencha.com/ExtWebComponents/7.4.0/)
+* [Building WebComponents](https://docs.sencha.com/extwebcomponents/7.4.0/guides/application_architecture/components.html)
 * [Learn about the Data Grid Features](https://www.sencha.com/grid)
 
 ### Additional Resources
