@@ -36,7 +36,7 @@
     "react-dom": "~16.13.1"
   },
   "dependencies": {
-    "@sencha/ext-web-components{toolkitshown}{bundle}": "~7.3.0"
+    "@sencha/ext-web-components{toolkitshown}{bundle}": "~7.4.0"
   },
   "devDependencies": {
     "fs-extra": "~9.0.1",
