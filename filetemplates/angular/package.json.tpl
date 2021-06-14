@@ -1,7 +1,7 @@
 {
   "name": "@sencha/ext-angular-{toolkit}{bundle}",
   "description": "ext-angular-{toolkit}{bundle}",
-  "version": "7.3.0",
+  "version": "7.4.0",
   "scripts": {
     "packagr": "ng-packagr -p ng-package.json"
   },
