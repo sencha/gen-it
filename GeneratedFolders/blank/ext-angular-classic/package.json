@@ -11,7 +11,7 @@
   "main": "index.js",
   "private": false,
   "peerDependencies": {
-    "@sencha/ext-web-components-classic": "~7.3.0",
+    "@sencha/ext-web-components-classic": "~7.4.0",
     "@angular/compiler": "9.1.7",
     "@angular/core": "9.1.7",
     "tslib": "1.10.0"
@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "9.1.7",
     "zone.js": "~0.10.3",
     "fs-extra": "~9.0.0",
-    "@sencha/ext-web-components-classic": "~7.3.0",
+    "@sencha/ext-web-components-classic": "~7.4.0",
     "script-loader": "^0.7.2",
     "tslib": "1.10.0"
   },
