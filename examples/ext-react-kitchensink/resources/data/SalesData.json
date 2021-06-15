@@ -1,0 +1,4937 @@
+[{
+    "company": "",
+    "country": "Belgium",
+    "person": "",
+    "date": "2012-03-29T18:30:00.000Z",
+    "value": 837.92,
+    "quantity": 15,
+    "year": 2012,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "",
+    "date": "2012-12-23T18:30:00.000Z",
+    "value": 555.87,
+    "quantity": 8,
+    "year": 2012,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "",
+    "date": "2012-12-03T18:30:00.000Z",
+    "value": 539.55,
+    "quantity": 25,
+    "year": 2012,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "",
+    "date": "2012-11-05T18:30:00.000Z",
+    "value": 893.32,
+    "quantity": 1,
+    "year": 2012,
+    "month": 10,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "",
+    "date": "2012-06-21T18:30:00.000Z",
+    "value": 360.2,
+    "quantity": 13,
+    "year": 2012,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2012-08-03T18:30:00.000Z",
+    "value": 797.36,
+    "quantity": 22,
+    "year": 2012,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "",
+    "date": "2012-02-23T18:30:00.000Z",
+    "value": 724.89,
+    "quantity": 16,
+    "year": 2012,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "",
+    "date": "2012-11-29T18:30:00.000Z",
+    "value": 805.3,
+    "quantity": 19,
+    "year": 2012,
+    "month": 10
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "",
+    "date": "2012-03-12T18:30:00.000Z",
+    "value": 650.27,
+    "quantity": 27,
+    "year": 2012,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2012-02-23T18:30:00.000Z",
+    "value": 447.45,
+    "quantity": 2,
+    "year": 2012,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2012-05-27T18:30:00.000Z",
+    "value": 25.95,
+    "quantity": 14,
+    "year": 2012,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2012-08-10T18:30:00.000Z",
+    "value": 294.79,
+    "quantity": 24,
+    "year": 2012,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2012-07-16T18:30:00.000Z",
+    "value": 108.88,
+    "quantity": 19,
+    "year": 2012,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2012-02-03T18:30:00.000Z",
+    "value": 680.37,
+    "quantity": 4,
+    "year": 2012,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2012-11-01T18:30:00.000Z",
+    "value": 648.82,
+    "quantity": 11,
+    "year": 2012,
+    "month": 10,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2012-04-26T18:30:00.000Z",
+    "value": 125.13,
+    "quantity": 28,
+    "year": 2012,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2012-01-19T18:30:00.000Z",
+    "value": 563.47,
+    "quantity": 22,
+    "year": 2012,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Anne",
+    "date": "2012-07-11T18:30:00.000Z",
+    "value": 992,
+    "quantity": 10,
+    "year": 2012,
+    "month": 6
+}, {
+    "company": "",
+    "country": "",
+    "person": "John",
+    "date": "2012-11-08T18:30:00.000Z",
+    "value": 473.52,
+    "quantity": 18,
+    "year": 2012,
+    "month": 10
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "John",
+    "date": "2012-04-04T18:30:00.000Z",
+    "value": 504.47,
+    "quantity": 1,
+    "year": 2012,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "",
+    "person": "John",
+    "date": "2012-01-15T18:30:00.000Z",
+    "value": 436.97,
+    "quantity": 11,
+    "year": 2012,
+    "month": 0
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2012-10-04T18:30:00.000Z",
+    "value": 769.88,
+    "quantity": 7,
+    "year": 2012,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "John",
+    "date": "2012-01-10T18:30:00.000Z",
+    "value": 109.07,
+    "quantity": 6,
+    "year": 2012,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2012-07-29T18:30:00.000Z",
+    "value": 334.33,
+    "quantity": 12,
+    "year": 2012,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "John",
+    "date": "2012-07-26T18:30:00.000Z",
+    "value": 741.75,
+    "quantity": 23,
+    "year": 2012,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "John",
+    "date": "2012-08-04T18:30:00.000Z",
+    "value": 638.26,
+    "quantity": 30,
+    "year": 2012,
+    "month": 7
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "John",
+    "date": "2012-01-07T18:30:00.000Z",
+    "value": 757.89,
+    "quantity": 28,
+    "year": 2012,
+    "month": 0
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2012-06-29T18:30:00.000Z",
+    "value": 171.56,
+    "quantity": 20,
+    "year": 2012,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "John",
+    "date": "2012-09-11T18:30:00.000Z",
+    "value": 297.49,
+    "quantity": 23,
+    "year": 2012,
+    "month": 8,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2012-03-06T18:30:00.000Z",
+    "value": 318.52,
+    "quantity": 29,
+    "year": 2012,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "John",
+    "date": "2012-06-25T18:30:00.000Z",
+    "value": 894.51,
+    "quantity": 29,
+    "year": 2012,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "Australia",
+    "person": "John",
+    "date": "2012-12-30T18:30:00.000Z",
+    "value": 585.28,
+    "quantity": 30,
+    "year": 2012,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2012-11-30T18:30:00.000Z",
+    "value": 775.48,
+    "quantity": 5,
+    "year": 2012,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2012-08-25T18:30:00.000Z",
+    "value": 879.08,
+    "quantity": 16,
+    "year": 2012,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2012-06-13T18:30:00.000Z",
+    "value": 964.6,
+    "quantity": 22,
+    "year": 2012,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2012-09-15T18:30:00.000Z",
+    "value": 633.24,
+    "quantity": 6,
+    "year": 2012,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2012-04-28T18:30:00.000Z",
+    "value": 926.8,
+    "quantity": 1,
+    "year": 2012,
+    "month": 3,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2012-08-19T18:30:00.000Z",
+    "value": 250.51,
+    "quantity": 17,
+    "year": 2012,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2012-06-27T18:30:00.000Z",
+    "value": 643.49,
+    "quantity": 17,
+    "year": 2012,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2012-03-22T18:30:00.000Z",
+    "value": 650.24,
+    "quantity": 24,
+    "year": 2012,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Mary",
+    "date": "2012-06-28T18:30:00.000Z",
+    "value": 907.45,
+    "quantity": 6,
+    "year": 2012,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2012-10-27T18:30:00.000Z",
+    "value": 538.16,
+    "quantity": 30,
+    "year": 2012,
+    "month": 9,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Mary",
+    "date": "2012-10-14T18:30:00.000Z",
+    "value": 390.76,
+    "quantity": 30,
+    "year": 2012,
+    "month": 9
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2012-09-11T18:30:00.000Z",
+    "value": 494.36,
+    "quantity": 10,
+    "year": 2012,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2012-10-13T18:30:00.000Z",
+    "value": 243.52,
+    "quantity": 13,
+    "year": 2012,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Michael",
+    "date": "2012-04-26T18:30:00.000Z",
+    "value": 736,
+    "quantity": 4,
+    "year": 2012,
+    "month": 3
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2012-09-04T18:30:00.000Z",
+    "value": 977.63,
+    "quantity": 17,
+    "year": 2012,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2012-07-02T18:30:00.000Z",
+    "value": 825.32,
+    "quantity": 24,
+    "year": 2012,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2012-06-25T18:30:00.000Z",
+    "value": 660.19,
+    "quantity": 4,
+    "year": 2012,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2012-12-19T18:30:00.000Z",
+    "value": 790.93,
+    "quantity": 17,
+    "year": 2012,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2012-08-27T18:30:00.000Z",
+    "value": 300.08,
+    "quantity": 3,
+    "year": 2012,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2012-03-02T18:30:00.000Z",
+    "value": 364.62,
+    "quantity": 15,
+    "year": 2012,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2012-01-29T18:30:00.000Z",
+    "value": 910.26,
+    "quantity": 2,
+    "year": 2012,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "Michael",
+    "date": "2012-04-12T18:30:00.000Z",
+    "value": 796.88,
+    "quantity": 28,
+    "year": 2012,
+    "month": 3
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2012-11-09T18:30:00.000Z",
+    "value": 224.96,
+    "quantity": 19,
+    "year": 2012,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2012-10-22T18:30:00.000Z",
+    "value": 681.1,
+    "quantity": 29,
+    "year": 2012,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2012-11-20T18:30:00.000Z",
+    "value": 640.06,
+    "quantity": 7,
+    "year": 2012,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2012-03-26T18:30:00.000Z",
+    "value": 214.9,
+    "quantity": 13,
+    "year": 2012,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2012-03-23T18:30:00.000Z",
+    "value": 679.24,
+    "quantity": 14,
+    "year": 2012,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2012-01-28T18:30:00.000Z",
+    "value": 912.04,
+    "quantity": 15,
+    "year": 2012,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2012-09-03T18:30:00.000Z",
+    "value": 261.2,
+    "quantity": 22,
+    "year": 2012,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Canada",
+    "person": "Müller",
+    "date": "2012-12-08T18:30:00.000Z",
+    "value": 984.11,
+    "quantity": 17,
+    "year": 2012,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2012-02-18T18:30:00.000Z",
+    "value": 634.95,
+    "quantity": 18,
+    "year": 2012,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2012-12-28T18:30:00.000Z",
+    "value": 598.1,
+    "quantity": 11,
+    "year": 2012,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2012-07-15T18:30:00.000Z",
+    "value": 241.45,
+    "quantity": 7,
+    "year": 2012,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Müller",
+    "date": "2012-11-13T18:30:00.000Z",
+    "value": 928.31,
+    "quantity": 11,
+    "year": 2012,
+    "month": 10,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2012-04-14T18:30:00.000Z",
+    "value": 503.76,
+    "quantity": 26,
+    "year": 2012,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Müller",
+    "date": "2012-06-02T18:30:00.000Z",
+    "value": 129.12,
+    "quantity": 24,
+    "year": 2012,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2012-11-08T18:30:00.000Z",
+    "value": 600.62,
+    "quantity": 21,
+    "year": 2012,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2012-05-25T18:30:00.000Z",
+    "value": 132.71,
+    "quantity": 13,
+    "year": 2012,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Müller",
+    "date": "2012-02-28T18:30:00.000Z",
+    "value": 20.94,
+    "quantity": 15,
+    "year": 2012,
+    "month": 1
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2012-09-19T18:30:00.000Z",
+    "value": 479.1,
+    "quantity": 1,
+    "year": 2012,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2012-03-24T18:30:00.000Z",
+    "value": 956.32,
+    "quantity": 28,
+    "year": 2012,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Robert",
+    "date": "2012-06-22T18:30:00.000Z",
+    "value": 270.01,
+    "quantity": 8,
+    "year": 2012,
+    "month": 5
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2012-03-30T18:30:00.000Z",
+    "value": 840.92,
+    "quantity": 19,
+    "year": 2012,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2012-03-14T18:30:00.000Z",
+    "value": 545.46,
+    "quantity": 11,
+    "year": 2012,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2012-12-16T18:30:00.000Z",
+    "value": 947.85,
+    "quantity": 12,
+    "year": 2012,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2012-10-01T18:30:00.000Z",
+    "value": 297.86,
+    "quantity": 16,
+    "year": 2012,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Robert",
+    "date": "2012-01-28T18:30:00.000Z",
+    "value": 956.46,
+    "quantity": 2,
+    "year": 2012,
+    "month": 0
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2012-10-05T18:30:00.000Z",
+    "value": 470.42,
+    "quantity": 19,
+    "year": 2012,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2012-03-06T18:30:00.000Z",
+    "value": 228.07,
+    "quantity": 17,
+    "year": 2012,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2012-10-24T18:30:00.000Z",
+    "value": 364.19,
+    "quantity": 25,
+    "year": 2012,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2012-04-10T18:30:00.000Z",
+    "value": 939.21,
+    "quantity": 23,
+    "year": 2012,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2012-08-22T18:30:00.000Z",
+    "value": 861.04,
+    "quantity": 29,
+    "year": 2012,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2012-01-29T18:30:00.000Z",
+    "value": 259.76,
+    "quantity": 30,
+    "year": 2012,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2012-04-07T18:30:00.000Z",
+    "value": 391.03,
+    "quantity": 25,
+    "year": 2012,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2012-05-06T18:30:00.000Z",
+    "value": 405.49,
+    "quantity": 7,
+    "year": 2012,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2012-03-10T18:30:00.000Z",
+    "value": 176.82,
+    "quantity": 23,
+    "year": 2012,
+    "month": 2,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2012-06-01T18:30:00.000Z",
+    "value": 559.33,
+    "quantity": 29,
+    "year": 2012,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2012-04-02T18:30:00.000Z",
+    "value": 330.08,
+    "quantity": 22,
+    "year": 2012,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2012-12-07T18:30:00.000Z",
+    "value": 809.42,
+    "quantity": 20,
+    "year": 2012,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2012-11-10T18:30:00.000Z",
+    "value": 867.97,
+    "quantity": 22,
+    "year": 2012,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "",
+    "date": "2013-07-21T18:30:00.000Z",
+    "value": 908.76,
+    "quantity": 21,
+    "year": 2013,
+    "month": 6
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "",
+    "date": "2013-08-26T18:30:00.000Z",
+    "value": 461.65,
+    "quantity": 19,
+    "year": 2013,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2013-06-27T18:30:00.000Z",
+    "value": 707.28,
+    "quantity": 7,
+    "year": 2013,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "",
+    "date": "2013-09-15T18:30:00.000Z",
+    "value": 611.15,
+    "quantity": 14,
+    "year": 2013,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "",
+    "date": "2013-06-20T18:30:00.000Z",
+    "value": 279.78,
+    "quantity": 28,
+    "year": 2013,
+    "month": 5
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "",
+    "date": "2013-04-08T18:30:00.000Z",
+    "value": 213.86,
+    "quantity": 26,
+    "year": 2013,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "",
+    "date": "2013-11-11T18:30:00.000Z",
+    "value": 158.33,
+    "quantity": 18,
+    "year": 2013,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "",
+    "date": "2013-05-08T18:30:00.000Z",
+    "value": 650,
+    "quantity": 8,
+    "year": 2013,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2013-03-24T18:30:00.000Z",
+    "value": 691.08,
+    "quantity": 23,
+    "year": 2013,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2013-11-07T18:30:00.000Z",
+    "value": 790.27,
+    "quantity": 30,
+    "year": 2013,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Anne",
+    "date": "2013-04-25T18:30:00.000Z",
+    "value": 123.02,
+    "quantity": 15,
+    "year": 2013,
+    "month": 3
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2013-06-14T18:30:00.000Z",
+    "value": 878.14,
+    "quantity": 28,
+    "year": 2013,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2013-03-22T18:30:00.000Z",
+    "value": 241.38,
+    "quantity": 29,
+    "year": 2013,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "Anne",
+    "date": "2013-02-01T18:30:00.000Z",
+    "value": 809.22,
+    "quantity": 21,
+    "year": 2013,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2013-03-27T18:30:00.000Z",
+    "value": 801.45,
+    "quantity": 17,
+    "year": 2013,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "Anne",
+    "date": "2013-08-27T18:30:00.000Z",
+    "value": 834.87,
+    "quantity": 10,
+    "year": 2013,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2013-08-11T18:30:00.000Z",
+    "value": 143.19,
+    "quantity": 17,
+    "year": 2013,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2013-09-27T18:30:00.000Z",
+    "value": 250.29,
+    "quantity": 9,
+    "year": 2013,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2013-01-24T18:30:00.000Z",
+    "value": 145.5,
+    "quantity": 24,
+    "year": 2013,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2013-10-25T18:30:00.000Z",
+    "value": 661.56,
+    "quantity": 22,
+    "year": 2013,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2013-10-25T18:30:00.000Z",
+    "value": 68.32,
+    "quantity": 3,
+    "year": 2013,
+    "month": 9,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2013-01-12T18:30:00.000Z",
+    "value": 550.84,
+    "quantity": 25,
+    "year": 2013,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "Anne",
+    "date": "2013-08-28T18:30:00.000Z",
+    "value": 130.28,
+    "quantity": 14,
+    "year": 2013,
+    "month": 7
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2013-11-10T18:30:00.000Z",
+    "value": 522.92,
+    "quantity": 11,
+    "year": 2013,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2013-10-11T18:30:00.000Z",
+    "value": 287.14,
+    "quantity": 25,
+    "year": 2013,
+    "month": 9,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2013-01-27T18:30:00.000Z",
+    "value": 747.79,
+    "quantity": 24,
+    "year": 2013,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "John",
+    "date": "2012-12-31T18:30:00.000Z",
+    "value": 207.67,
+    "quantity": 27,
+    "year": 2013,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "John",
+    "date": "2013-04-03T18:30:00.000Z",
+    "value": 692.7,
+    "quantity": 24,
+    "year": 2013,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2013-01-09T18:30:00.000Z",
+    "value": 537.04,
+    "quantity": 6,
+    "year": 2013,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "John",
+    "date": "2013-10-02T18:30:00.000Z",
+    "value": 712.34,
+    "quantity": 18,
+    "year": 2013,
+    "month": 9
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "John",
+    "date": "2013-09-22T18:30:00.000Z",
+    "value": 705.19,
+    "quantity": 4,
+    "year": 2013,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "John",
+    "date": "2013-05-05T18:30:00.000Z",
+    "value": 656,
+    "quantity": 6,
+    "year": 2013,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2012-12-31T18:30:00.000Z",
+    "value": 46.25,
+    "quantity": 19,
+    "year": 2013,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "John",
+    "date": "2013-08-15T18:30:00.000Z",
+    "value": 930.94,
+    "quantity": 28,
+    "year": 2013,
+    "month": 7,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "John",
+    "date": "2013-12-10T18:30:00.000Z",
+    "value": 260.13,
+    "quantity": 17,
+    "year": 2013,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "John",
+    "date": "2013-01-09T18:30:00.000Z",
+    "value": 453.2,
+    "quantity": 13,
+    "year": 2013,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "John",
+    "date": "2013-01-08T18:30:00.000Z",
+    "value": 242.55,
+    "quantity": 1,
+    "year": 2013,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "John",
+    "date": "2013-06-24T18:30:00.000Z",
+    "value": 400.88,
+    "quantity": 22,
+    "year": 2013,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2012-12-31T18:30:00.000Z",
+    "value": 883.53,
+    "quantity": 27,
+    "year": 2013,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "John",
+    "date": "2013-07-12T18:30:00.000Z",
+    "value": 640.91,
+    "quantity": 8,
+    "year": 2013,
+    "month": 6
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2013-05-27T18:30:00.000Z",
+    "value": 954.16,
+    "quantity": 16,
+    "year": 2013,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "John",
+    "date": "2013-04-05T18:30:00.000Z",
+    "value": 148.03,
+    "quantity": 9,
+    "year": 2013,
+    "month": 3,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "John",
+    "date": "2013-08-17T18:30:00.000Z",
+    "value": 159.51,
+    "quantity": 24,
+    "year": 2013,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2013-02-01T18:30:00.000Z",
+    "value": 651.84,
+    "quantity": 1,
+    "year": 2013,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2013-03-27T18:30:00.000Z",
+    "value": 749.14,
+    "quantity": 12,
+    "year": 2013,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2013-08-10T18:30:00.000Z",
+    "value": 153.03,
+    "quantity": 16,
+    "year": 2013,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "John",
+    "date": "2013-08-16T18:30:00.000Z",
+    "value": 421,
+    "quantity": 23,
+    "year": 2013,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "",
+    "person": "Mary",
+    "date": "2013-06-14T18:30:00.000Z",
+    "value": 725.1,
+    "quantity": 7,
+    "year": 2013,
+    "month": 5
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2013-07-13T18:30:00.000Z",
+    "value": 269.79,
+    "quantity": 28,
+    "year": 2013,
+    "month": 6,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "",
+    "person": "Mary",
+    "date": "2013-01-16T18:30:00.000Z",
+    "value": 339.2,
+    "quantity": 1,
+    "year": 2013,
+    "month": 0
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2013-02-14T18:30:00.000Z",
+    "value": 170.99,
+    "quantity": 19,
+    "year": 2013,
+    "month": 1,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2013-09-30T18:30:00.000Z",
+    "value": 672.07,
+    "quantity": 14,
+    "year": 2013,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2013-02-28T18:30:00.000Z",
+    "value": 873.5,
+    "quantity": 9,
+    "year": 2013,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2013-07-07T18:30:00.000Z",
+    "value": 436.98,
+    "quantity": 27,
+    "year": 2013,
+    "month": 6,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2013-05-09T18:30:00.000Z",
+    "value": 617.96,
+    "quantity": 10,
+    "year": 2013,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2013-08-08T18:30:00.000Z",
+    "value": 294.39,
+    "quantity": 12,
+    "year": 2013,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2013-04-16T18:30:00.000Z",
+    "value": 949.28,
+    "quantity": 20,
+    "year": 2013,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Michael",
+    "date": "2013-08-20T18:30:00.000Z",
+    "value": 882.27,
+    "quantity": 21,
+    "year": 2013,
+    "month": 7
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2013-06-02T18:30:00.000Z",
+    "value": 447.92,
+    "quantity": 11,
+    "year": 2013,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2013-04-24T18:30:00.000Z",
+    "value": 866.04,
+    "quantity": 17,
+    "year": 2013,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2013-12-29T18:30:00.000Z",
+    "value": 67.78,
+    "quantity": 1,
+    "year": 2013,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2013-04-28T18:30:00.000Z",
+    "value": 924.56,
+    "quantity": 9,
+    "year": 2013,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2013-09-09T18:30:00.000Z",
+    "value": 998.86,
+    "quantity": 10,
+    "year": 2013,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Michael",
+    "date": "2013-04-28T18:30:00.000Z",
+    "value": 471.67,
+    "quantity": 24,
+    "year": 2013,
+    "month": 3
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2013-07-22T18:30:00.000Z",
+    "value": 790.05,
+    "quantity": 1,
+    "year": 2013,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2013-01-30T18:30:00.000Z",
+    "value": 646.67,
+    "quantity": 23,
+    "year": 2013,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2013-05-16T18:30:00.000Z",
+    "value": 365.69,
+    "quantity": 16,
+    "year": 2013,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2013-08-02T18:30:00.000Z",
+    "value": 452.93,
+    "quantity": 13,
+    "year": 2013,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2013-12-11T18:30:00.000Z",
+    "value": 369.46,
+    "quantity": 28,
+    "year": 2013,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2013-12-05T18:30:00.000Z",
+    "value": 967.36,
+    "quantity": 18,
+    "year": 2013,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2013-04-28T18:30:00.000Z",
+    "value": 226.71,
+    "quantity": 22,
+    "year": 2013,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2013-02-15T18:30:00.000Z",
+    "value": 88.26,
+    "quantity": 15,
+    "year": 2013,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2013-12-15T18:30:00.000Z",
+    "value": 748.88,
+    "quantity": 18,
+    "year": 2013,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2013-11-13T18:30:00.000Z",
+    "value": 19.17,
+    "quantity": 15,
+    "year": 2013,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2013-08-04T18:30:00.000Z",
+    "value": 750.4,
+    "quantity": 21,
+    "year": 2013,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2013-08-26T18:30:00.000Z",
+    "value": 44.03,
+    "quantity": 6,
+    "year": 2013,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2013-01-30T18:30:00.000Z",
+    "value": 17.69,
+    "quantity": 28,
+    "year": 2013,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2013-07-11T18:30:00.000Z",
+    "value": 439.1,
+    "quantity": 3,
+    "year": 2013,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2013-06-30T18:30:00.000Z",
+    "value": 223.13,
+    "quantity": 12,
+    "year": 2013,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2013-10-31T18:30:00.000Z",
+    "value": 479.09,
+    "quantity": 3,
+    "year": 2013,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2013-01-31T18:30:00.000Z",
+    "value": 854.08,
+    "quantity": 22,
+    "year": 2013,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2013-06-24T18:30:00.000Z",
+    "value": 78.47,
+    "quantity": 11,
+    "year": 2013,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2013-03-27T18:30:00.000Z",
+    "value": 399.95,
+    "quantity": 22,
+    "year": 2013,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2013-06-05T18:30:00.000Z",
+    "value": 949.01,
+    "quantity": 7,
+    "year": 2013,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2013-10-12T18:30:00.000Z",
+    "value": 746.15,
+    "quantity": 6,
+    "year": 2013,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2013-11-19T18:30:00.000Z",
+    "value": 763.64,
+    "quantity": 25,
+    "year": 2013,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2013-01-17T18:30:00.000Z",
+    "value": 867.2,
+    "quantity": 28,
+    "year": 2013,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Müller",
+    "date": "2013-01-17T18:30:00.000Z",
+    "value": 645.39,
+    "quantity": 23,
+    "year": 2013,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2013-01-31T18:30:00.000Z",
+    "value": 867.24,
+    "quantity": 14,
+    "year": 2013,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2013-10-12T18:30:00.000Z",
+    "value": 581.85,
+    "quantity": 28,
+    "year": 2013,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Robert",
+    "date": "2013-03-30T18:30:00.000Z",
+    "value": 774.13,
+    "quantity": 18,
+    "year": 2013,
+    "month": 2
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2013-03-11T18:30:00.000Z",
+    "value": 328.29,
+    "quantity": 2,
+    "year": 2013,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2013-05-30T18:30:00.000Z",
+    "value": 725.43,
+    "quantity": 25,
+    "year": 2013,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2013-09-15T18:30:00.000Z",
+    "value": 323.57,
+    "quantity": 5,
+    "year": 2013,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2013-12-12T18:30:00.000Z",
+    "value": 141.78,
+    "quantity": 8,
+    "year": 2013,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2013-03-26T18:30:00.000Z",
+    "value": 50.69,
+    "quantity": 1,
+    "year": 2013,
+    "month": 2,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2013-09-29T18:30:00.000Z",
+    "value": 708.75,
+    "quantity": 10,
+    "year": 2013,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2013-12-18T18:30:00.000Z",
+    "value": 384.01,
+    "quantity": 27,
+    "year": 2013,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2013-12-30T18:30:00.000Z",
+    "value": 941.67,
+    "quantity": 9,
+    "year": 2013,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2013-04-06T18:30:00.000Z",
+    "value": 102.87,
+    "quantity": 19,
+    "year": 2013,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2013-06-06T18:30:00.000Z",
+    "value": 868.85,
+    "quantity": 30,
+    "year": 2013,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2013-05-17T18:30:00.000Z",
+    "value": 269.81,
+    "quantity": 20,
+    "year": 2013,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2013-06-29T18:30:00.000Z",
+    "value": 236.14,
+    "quantity": 18,
+    "year": 2013,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2013-05-24T18:30:00.000Z",
+    "value": 680.6,
+    "quantity": 17,
+    "year": 2013,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "Robert",
+    "date": "2013-06-03T18:30:00.000Z",
+    "value": 48.99,
+    "quantity": 3,
+    "year": 2013,
+    "month": 5
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "Robert",
+    "date": "2013-08-02T18:30:00.000Z",
+    "value": 713.16,
+    "quantity": 16,
+    "year": 2013,
+    "month": 7
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2013-12-14T18:30:00.000Z",
+    "value": 906.36,
+    "quantity": 25,
+    "year": 2013,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2013-10-23T18:30:00.000Z",
+    "value": 553.21,
+    "quantity": 9,
+    "year": 2013,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Robert",
+    "date": "2013-02-15T18:30:00.000Z",
+    "value": 480.64,
+    "quantity": 27,
+    "year": 2013,
+    "month": 1
+}, {
+    "company": "",
+    "country": "",
+    "person": "",
+    "date": "2014-07-03T18:30:00.000Z",
+    "value": 908.71,
+    "quantity": 20,
+    "year": 2014,
+    "month": 6
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "",
+    "date": "2014-01-17T18:30:00.000Z",
+    "value": 233.97,
+    "quantity": 23,
+    "year": 2014,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "",
+    "date": "2014-10-26T18:30:00.000Z",
+    "value": 116.29,
+    "quantity": 30,
+    "year": 2014,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "",
+    "date": "2014-05-07T18:30:00.000Z",
+    "value": 135.51,
+    "quantity": 9,
+    "year": 2014,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "",
+    "date": "2014-05-03T18:30:00.000Z",
+    "value": 501.95,
+    "quantity": 26,
+    "year": 2014,
+    "month": 4
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "",
+    "date": "2014-06-01T18:30:00.000Z",
+    "value": 576.58,
+    "quantity": 27,
+    "year": 2014,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "",
+    "date": "2014-12-03T18:30:00.000Z",
+    "value": 846.38,
+    "quantity": 24,
+    "year": 2014,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2014-01-04T18:30:00.000Z",
+    "value": 130.41,
+    "quantity": 15,
+    "year": 2014,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2014-07-10T18:30:00.000Z",
+    "value": 218.14,
+    "quantity": 19,
+    "year": 2014,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2014-08-09T18:30:00.000Z",
+    "value": 955.2,
+    "quantity": 15,
+    "year": 2014,
+    "month": 7,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2014-02-08T18:30:00.000Z",
+    "value": 584.13,
+    "quantity": 21,
+    "year": 2014,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2014-03-21T18:30:00.000Z",
+    "value": 604.61,
+    "quantity": 27,
+    "year": 2014,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2014-04-15T18:30:00.000Z",
+    "value": 75.71,
+    "quantity": 7,
+    "year": 2014,
+    "month": 3,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2014-04-29T18:30:00.000Z",
+    "value": 776.43,
+    "quantity": 15,
+    "year": 2014,
+    "month": 3,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2014-09-30T18:30:00.000Z",
+    "value": 380.17,
+    "quantity": 4,
+    "year": 2014,
+    "month": 9,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2014-03-02T18:30:00.000Z",
+    "value": 6.78,
+    "quantity": 29,
+    "year": 2014,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2014-07-06T18:30:00.000Z",
+    "value": 782.6,
+    "quantity": 23,
+    "year": 2014,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2014-08-14T18:30:00.000Z",
+    "value": 770.41,
+    "quantity": 29,
+    "year": 2014,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2014-10-11T18:30:00.000Z",
+    "value": 240.69,
+    "quantity": 18,
+    "year": 2014,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2014-11-11T18:30:00.000Z",
+    "value": 230.55,
+    "quantity": 8,
+    "year": 2014,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2014-07-10T18:30:00.000Z",
+    "value": 75.5,
+    "quantity": 4,
+    "year": 2014,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2014-08-23T18:30:00.000Z",
+    "value": 27.19,
+    "quantity": 27,
+    "year": 2014,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2014-08-28T18:30:00.000Z",
+    "value": 40.89,
+    "quantity": 11,
+    "year": 2014,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "John",
+    "date": "2014-07-26T18:30:00.000Z",
+    "value": 803.27,
+    "quantity": 21,
+    "year": 2014,
+    "month": 6,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2014-05-31T18:30:00.000Z",
+    "value": 245.39,
+    "quantity": 5,
+    "year": 2014,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2014-06-11T18:30:00.000Z",
+    "value": 441.39,
+    "quantity": 5,
+    "year": 2014,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "John",
+    "date": "2014-12-08T18:30:00.000Z",
+    "value": 352.29,
+    "quantity": 25,
+    "year": 2014,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2014-02-22T18:30:00.000Z",
+    "value": 495.51,
+    "quantity": 27,
+    "year": 2014,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "John",
+    "date": "2014-10-06T18:30:00.000Z",
+    "value": 346.08,
+    "quantity": 27,
+    "year": 2014,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2014-01-29T18:30:00.000Z",
+    "value": 660.15,
+    "quantity": 8,
+    "year": 2014,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2014-07-14T18:30:00.000Z",
+    "value": 821.61,
+    "quantity": 27,
+    "year": 2014,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2014-04-21T18:30:00.000Z",
+    "value": 871.24,
+    "quantity": 5,
+    "year": 2014,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Mary",
+    "date": "2014-06-05T18:30:00.000Z",
+    "value": 957.21,
+    "quantity": 19,
+    "year": 2014,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2014-06-04T18:30:00.000Z",
+    "value": 262.32,
+    "quantity": 11,
+    "year": 2014,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2014-04-14T18:30:00.000Z",
+    "value": 459.13,
+    "quantity": 17,
+    "year": 2014,
+    "month": 3,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2014-01-10T18:30:00.000Z",
+    "value": 281.47,
+    "quantity": 4,
+    "year": 2014,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2014-05-01T18:30:00.000Z",
+    "value": 114.28,
+    "quantity": 9,
+    "year": 2014,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2014-10-04T18:30:00.000Z",
+    "value": 942.51,
+    "quantity": 4,
+    "year": 2014,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2014-01-07T18:30:00.000Z",
+    "value": 195.47,
+    "quantity": 13,
+    "year": 2014,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2014-04-13T18:30:00.000Z",
+    "value": 944.78,
+    "quantity": 14,
+    "year": 2014,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "Mary",
+    "date": "2014-11-18T18:30:00.000Z",
+    "value": 442.89,
+    "quantity": 28,
+    "year": 2014,
+    "month": 10
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2014-12-11T18:30:00.000Z",
+    "value": 195.03,
+    "quantity": 7,
+    "year": 2014,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "Mary",
+    "date": "2014-05-22T18:30:00.000Z",
+    "value": 625.9,
+    "quantity": 26,
+    "year": 2014,
+    "month": 4
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2014-03-15T18:30:00.000Z",
+    "value": 798.83,
+    "quantity": 9,
+    "year": 2014,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Mary",
+    "date": "2014-12-10T18:30:00.000Z",
+    "value": 238.3,
+    "quantity": 18,
+    "year": 2014,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2014-09-06T18:30:00.000Z",
+    "value": 924.5,
+    "quantity": 5,
+    "year": 2014,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2014-05-19T18:30:00.000Z",
+    "value": 749.84,
+    "quantity": 25,
+    "year": 2014,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2014-12-12T18:30:00.000Z",
+    "value": 352.36,
+    "quantity": 23,
+    "year": 2014,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2014-10-24T18:30:00.000Z",
+    "value": 722.03,
+    "quantity": 25,
+    "year": 2014,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2014-03-02T18:30:00.000Z",
+    "value": 980.04,
+    "quantity": 19,
+    "year": 2014,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Michael",
+    "date": "2014-08-15T18:30:00.000Z",
+    "value": 975.15,
+    "quantity": 25,
+    "year": 2014,
+    "month": 7
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2014-04-12T18:30:00.000Z",
+    "value": 880.99,
+    "quantity": 25,
+    "year": 2014,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2014-07-20T18:30:00.000Z",
+    "value": 68.75,
+    "quantity": 18,
+    "year": 2014,
+    "month": 6,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2014-10-04T18:30:00.000Z",
+    "value": 184.51,
+    "quantity": 3,
+    "year": 2014,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2014-06-25T18:30:00.000Z",
+    "value": 67.89,
+    "quantity": 14,
+    "year": 2014,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Michael",
+    "date": "2014-10-08T18:30:00.000Z",
+    "value": 850.48,
+    "quantity": 14,
+    "year": 2014,
+    "month": 9
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Michael",
+    "date": "2014-01-20T18:30:00.000Z",
+    "value": 501.53,
+    "quantity": 18,
+    "year": 2014,
+    "month": 0
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2014-12-13T18:30:00.000Z",
+    "value": 879.49,
+    "quantity": 25,
+    "year": 2014,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "Michael",
+    "date": "2014-07-02T18:30:00.000Z",
+    "value": 896.18,
+    "quantity": 5,
+    "year": 2014,
+    "month": 6
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2014-06-17T18:30:00.000Z",
+    "value": 90.97,
+    "quantity": 14,
+    "year": 2014,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2014-09-02T18:30:00.000Z",
+    "value": 622,
+    "quantity": 17,
+    "year": 2014,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2014-04-09T18:30:00.000Z",
+    "value": 568.73,
+    "quantity": 27,
+    "year": 2014,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Michael",
+    "date": "2014-07-10T18:30:00.000Z",
+    "value": 876.39,
+    "quantity": 18,
+    "year": 2014,
+    "month": 6
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Michael",
+    "date": "2014-06-18T18:30:00.000Z",
+    "value": 693.53,
+    "quantity": 16,
+    "year": 2014,
+    "month": 5
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2014-12-10T18:30:00.000Z",
+    "value": 110.47,
+    "quantity": 13,
+    "year": 2014,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2014-03-21T18:30:00.000Z",
+    "value": 186.35,
+    "quantity": 16,
+    "year": 2014,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Müller",
+    "date": "2014-03-31T18:30:00.000Z",
+    "value": 366.57,
+    "quantity": 19,
+    "year": 2014,
+    "month": 3,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Müller",
+    "date": "2014-11-12T18:30:00.000Z",
+    "value": 360.26,
+    "quantity": 13,
+    "year": 2014,
+    "month": 10,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2014-05-25T18:30:00.000Z",
+    "value": 157.44,
+    "quantity": 16,
+    "year": 2014,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2014-10-03T18:30:00.000Z",
+    "value": 581.57,
+    "quantity": 28,
+    "year": 2014,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Müller",
+    "date": "2014-09-23T18:30:00.000Z",
+    "value": 976.08,
+    "quantity": 24,
+    "year": 2014,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2014-10-30T18:30:00.000Z",
+    "value": 197.09,
+    "quantity": 5,
+    "year": 2014,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2014-03-28T18:30:00.000Z",
+    "value": 646.91,
+    "quantity": 13,
+    "year": 2014,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2014-11-12T18:30:00.000Z",
+    "value": 484.64,
+    "quantity": 14,
+    "year": 2014,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2014-10-20T18:30:00.000Z",
+    "value": 398.5,
+    "quantity": 3,
+    "year": 2014,
+    "month": 9,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2014-02-22T18:30:00.000Z",
+    "value": 904.76,
+    "quantity": 21,
+    "year": 2014,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2014-11-19T18:30:00.000Z",
+    "value": 55.82,
+    "quantity": 23,
+    "year": 2014,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2014-11-22T18:30:00.000Z",
+    "value": 707.32,
+    "quantity": 19,
+    "year": 2014,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2014-12-03T18:30:00.000Z",
+    "value": 301.02,
+    "quantity": 22,
+    "year": 2014,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2014-10-30T18:30:00.000Z",
+    "value": 194.92,
+    "quantity": 18,
+    "year": 2014,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2014-01-20T18:30:00.000Z",
+    "value": 949.89,
+    "quantity": 6,
+    "year": 2014,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2014-07-08T18:30:00.000Z",
+    "value": 331.99,
+    "quantity": 23,
+    "year": 2014,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2014-01-16T18:30:00.000Z",
+    "value": 497.91,
+    "quantity": 21,
+    "year": 2014,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "Robert",
+    "date": "2014-10-08T18:30:00.000Z",
+    "value": 375.64,
+    "quantity": 22,
+    "year": 2014,
+    "month": 9
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "Robert",
+    "date": "2014-01-02T18:30:00.000Z",
+    "value": 537.69,
+    "quantity": 12,
+    "year": 2014,
+    "month": 0
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2014-06-06T18:30:00.000Z",
+    "value": 360.57,
+    "quantity": 25,
+    "year": 2014,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2014-04-16T18:30:00.000Z",
+    "value": 698.81,
+    "quantity": 22,
+    "year": 2014,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2014-05-24T18:30:00.000Z",
+    "value": 372.25,
+    "quantity": 30,
+    "year": 2014,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2014-03-11T18:30:00.000Z",
+    "value": 668.52,
+    "quantity": 5,
+    "year": 2014,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2014-10-05T18:30:00.000Z",
+    "value": 642.22,
+    "quantity": 9,
+    "year": 2014,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2014-08-29T18:30:00.000Z",
+    "value": 641.47,
+    "quantity": 11,
+    "year": 2014,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2014-03-24T18:30:00.000Z",
+    "value": 363.98,
+    "quantity": 2,
+    "year": 2014,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2014-08-03T18:30:00.000Z",
+    "value": 706.81,
+    "quantity": 13,
+    "year": 2014,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "",
+    "date": "2015-09-20T18:30:00.000Z",
+    "value": 779.28,
+    "quantity": 24,
+    "year": 2015,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "",
+    "date": "2015-03-25T18:30:00.000Z",
+    "value": 779.37,
+    "quantity": 16,
+    "year": 2015,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "",
+    "date": "2015-09-14T18:30:00.000Z",
+    "value": 972.37,
+    "quantity": 6,
+    "year": 2015,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2015-06-18T18:30:00.000Z",
+    "value": 151.93,
+    "quantity": 24,
+    "year": 2015,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "",
+    "date": "2015-02-13T18:30:00.000Z",
+    "value": 931.32,
+    "quantity": 4,
+    "year": 2015,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "",
+    "date": "2015-07-02T18:30:00.000Z",
+    "value": 567.1,
+    "quantity": 20,
+    "year": 2015,
+    "month": 6
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2015-02-10T18:30:00.000Z",
+    "value": 122.07,
+    "quantity": 24,
+    "year": 2015,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "",
+    "date": "2015-01-31T18:30:00.000Z",
+    "value": 31.72,
+    "quantity": 4,
+    "year": 2015,
+    "month": 1,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "",
+    "date": "2015-07-08T18:30:00.000Z",
+    "value": 260.56,
+    "quantity": 17,
+    "year": 2015,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "",
+    "date": "2015-06-11T18:30:00.000Z",
+    "value": 120.31,
+    "quantity": 17,
+    "year": 2015,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "",
+    "date": "2015-02-21T18:30:00.000Z",
+    "value": 495.54,
+    "quantity": 13,
+    "year": 2015,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "",
+    "date": "2015-05-28T18:30:00.000Z",
+    "value": 248.66,
+    "quantity": 24,
+    "year": 2015,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "",
+    "date": "2015-06-04T18:30:00.000Z",
+    "value": 459.18,
+    "quantity": 21,
+    "year": 2015,
+    "month": 5
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "",
+    "date": "2015-11-30T18:30:00.000Z",
+    "value": 185.73,
+    "quantity": 10,
+    "year": 2015,
+    "month": 11
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "",
+    "date": "2015-02-08T18:30:00.000Z",
+    "value": 413.21,
+    "quantity": 12,
+    "year": 2015,
+    "month": 1
+}, {
+    "company": "",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2015-11-19T18:30:00.000Z",
+    "value": 207.3,
+    "quantity": 2,
+    "year": 2015,
+    "month": 10,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2015-09-30T18:30:00.000Z",
+    "value": 422.05,
+    "quantity": 15,
+    "year": 2015,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2015-06-03T18:30:00.000Z",
+    "value": 901.27,
+    "quantity": 6,
+    "year": 2015,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2015-02-20T18:30:00.000Z",
+    "value": 606.93,
+    "quantity": 9,
+    "year": 2015,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2015-04-27T18:30:00.000Z",
+    "value": 849.02,
+    "quantity": 26,
+    "year": 2015,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2015-03-30T18:30:00.000Z",
+    "value": 78.33,
+    "quantity": 28,
+    "year": 2015,
+    "month": 2,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2015-02-25T18:30:00.000Z",
+    "value": 549.54,
+    "quantity": 15,
+    "year": 2015,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2015-04-16T18:30:00.000Z",
+    "value": 325.13,
+    "quantity": 22,
+    "year": 2015,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "Anne",
+    "date": "2015-01-27T18:30:00.000Z",
+    "value": 156.17,
+    "quantity": 10,
+    "year": 2015,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Anne",
+    "date": "2015-12-20T18:30:00.000Z",
+    "value": 126.18,
+    "quantity": 3,
+    "year": 2015,
+    "month": 11
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Anne",
+    "date": "2015-01-14T18:30:00.000Z",
+    "value": 42.92,
+    "quantity": 25,
+    "year": 2015,
+    "month": 0
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2015-02-19T18:30:00.000Z",
+    "value": 991.42,
+    "quantity": 24,
+    "year": 2015,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2015-05-24T18:30:00.000Z",
+    "value": 807.72,
+    "quantity": 21,
+    "year": 2015,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2015-03-02T18:30:00.000Z",
+    "value": 745.69,
+    "quantity": 2,
+    "year": 2015,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2015-03-07T18:30:00.000Z",
+    "value": 680.41,
+    "quantity": 22,
+    "year": 2015,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Mary",
+    "date": "2015-10-20T18:30:00.000Z",
+    "value": 120.09,
+    "quantity": 16,
+    "year": 2015,
+    "month": 9
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2015-11-13T18:30:00.000Z",
+    "value": 884.7,
+    "quantity": 25,
+    "year": 2015,
+    "month": 10,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Mary",
+    "date": "2015-04-03T18:30:00.000Z",
+    "value": 549.29,
+    "quantity": 3,
+    "year": 2015,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2015-03-22T18:30:00.000Z",
+    "value": 244.44,
+    "quantity": 3,
+    "year": 2015,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Mary",
+    "date": "2015-08-19T18:30:00.000Z",
+    "value": 413.71,
+    "quantity": 13,
+    "year": 2015,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2015-03-19T18:30:00.000Z",
+    "value": 211.08,
+    "quantity": 9,
+    "year": 2015,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Mary",
+    "date": "2015-08-31T18:30:00.000Z",
+    "value": 724.79,
+    "quantity": 11,
+    "year": 2015,
+    "month": 8
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2015-02-20T18:30:00.000Z",
+    "value": 263.13,
+    "quantity": 23,
+    "year": 2015,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2015-01-13T18:30:00.000Z",
+    "value": 763.94,
+    "quantity": 4,
+    "year": 2015,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2015-01-18T18:30:00.000Z",
+    "value": 334.74,
+    "quantity": 7,
+    "year": 2015,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2015-02-13T18:30:00.000Z",
+    "value": 199.14,
+    "quantity": 28,
+    "year": 2015,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2015-06-13T18:30:00.000Z",
+    "value": 845.42,
+    "quantity": 23,
+    "year": 2015,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "Mary",
+    "date": "2015-10-09T18:30:00.000Z",
+    "value": 460.96,
+    "quantity": 26,
+    "year": 2015,
+    "month": 9
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2015-10-16T18:30:00.000Z",
+    "value": 88.11,
+    "quantity": 1,
+    "year": 2015,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2015-11-01T18:30:00.000Z",
+    "value": 475.09,
+    "quantity": 22,
+    "year": 2015,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2015-08-23T18:30:00.000Z",
+    "value": 644.34,
+    "quantity": 5,
+    "year": 2015,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2015-01-23T18:30:00.000Z",
+    "value": 651.11,
+    "quantity": 14,
+    "year": 2015,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2015-05-17T18:30:00.000Z",
+    "value": 29.99,
+    "quantity": 27,
+    "year": 2015,
+    "month": 4,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2015-10-24T18:30:00.000Z",
+    "value": 751.74,
+    "quantity": 2,
+    "year": 2015,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2015-06-29T18:30:00.000Z",
+    "value": 879.19,
+    "quantity": 1,
+    "year": 2015,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Michael",
+    "date": "2015-10-03T18:30:00.000Z",
+    "value": 562.35,
+    "quantity": 3,
+    "year": 2015,
+    "month": 9
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2015-01-24T18:30:00.000Z",
+    "value": 704.56,
+    "quantity": 17,
+    "year": 2015,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "",
+    "person": "Michael",
+    "date": "2015-10-26T18:30:00.000Z",
+    "value": 489.08,
+    "quantity": 16,
+    "year": 2015,
+    "month": 9
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2015-09-17T18:30:00.000Z",
+    "value": 519.83,
+    "quantity": 26,
+    "year": 2015,
+    "month": 8,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2015-06-15T18:30:00.000Z",
+    "value": 199.02,
+    "quantity": 19,
+    "year": 2015,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2015-03-15T18:30:00.000Z",
+    "value": 223.97,
+    "quantity": 8,
+    "year": 2015,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2015-02-16T18:30:00.000Z",
+    "value": 132.54,
+    "quantity": 28,
+    "year": 2015,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2015-06-14T18:30:00.000Z",
+    "value": 659.79,
+    "quantity": 14,
+    "year": 2015,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Michael",
+    "date": "2015-08-29T18:30:00.000Z",
+    "value": 810.19,
+    "quantity": 9,
+    "year": 2015,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Michael",
+    "date": "2015-05-24T18:30:00.000Z",
+    "value": 62.82,
+    "quantity": 12,
+    "year": 2015,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2015-12-01T18:30:00.000Z",
+    "value": 573.3,
+    "quantity": 6,
+    "year": 2015,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2015-08-12T18:30:00.000Z",
+    "value": 970.51,
+    "quantity": 28,
+    "year": 2015,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Müller",
+    "date": "2015-12-04T18:30:00.000Z",
+    "value": 563.87,
+    "quantity": 29,
+    "year": 2015,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2015-04-14T18:30:00.000Z",
+    "value": 979.32,
+    "quantity": 4,
+    "year": 2015,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2015-10-11T18:30:00.000Z",
+    "value": 280.58,
+    "quantity": 19,
+    "year": 2015,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2015-05-22T18:30:00.000Z",
+    "value": 922.48,
+    "quantity": 7,
+    "year": 2015,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2015-08-15T18:30:00.000Z",
+    "value": 810.08,
+    "quantity": 9,
+    "year": 2015,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2015-06-21T18:30:00.000Z",
+    "value": 592.5,
+    "quantity": 30,
+    "year": 2015,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2015-06-01T18:30:00.000Z",
+    "value": 444.89,
+    "quantity": 8,
+    "year": 2015,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "Müller",
+    "date": "2015-03-29T18:30:00.000Z",
+    "value": 848.09,
+    "quantity": 14,
+    "year": 2015,
+    "month": 2
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2015-10-28T18:30:00.000Z",
+    "value": 998.04,
+    "quantity": 3,
+    "year": 2015,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Müller",
+    "date": "2015-11-14T18:30:00.000Z",
+    "value": 538.3,
+    "quantity": 3,
+    "year": 2015,
+    "month": 10,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2015-12-26T18:30:00.000Z",
+    "value": 208.88,
+    "quantity": 24,
+    "year": 2015,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Müller",
+    "date": "2015-12-23T18:30:00.000Z",
+    "value": 586.28,
+    "quantity": 10,
+    "year": 2015,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2015-01-14T18:30:00.000Z",
+    "value": 723.78,
+    "quantity": 20,
+    "year": 2015,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2015-02-18T18:30:00.000Z",
+    "value": 59.43,
+    "quantity": 28,
+    "year": 2015,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2015-02-04T18:30:00.000Z",
+    "value": 401.68,
+    "quantity": 25,
+    "year": 2015,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "",
+    "person": "Robert",
+    "date": "2015-07-27T18:30:00.000Z",
+    "value": 16.01,
+    "quantity": 22,
+    "year": 2015,
+    "month": 6
+}, {
+    "company": "",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2015-08-12T18:30:00.000Z",
+    "value": 769.2,
+    "quantity": 16,
+    "year": 2015,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2015-08-29T18:30:00.000Z",
+    "value": 646.76,
+    "quantity": 5,
+    "year": 2015,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2015-01-06T18:30:00.000Z",
+    "value": 729.77,
+    "quantity": 3,
+    "year": 2015,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2015-11-14T18:30:00.000Z",
+    "value": 733.23,
+    "quantity": 12,
+    "year": 2015,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2015-02-14T18:30:00.000Z",
+    "value": 653.02,
+    "quantity": 7,
+    "year": 2015,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2015-06-27T18:30:00.000Z",
+    "value": 642.19,
+    "quantity": 7,
+    "year": 2015,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2015-08-06T18:30:00.000Z",
+    "value": 846.69,
+    "quantity": 11,
+    "year": 2015,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2015-07-23T18:30:00.000Z",
+    "value": 677.03,
+    "quantity": 6,
+    "year": 2015,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2015-04-13T18:30:00.000Z",
+    "value": 490.12,
+    "quantity": 2,
+    "year": 2015,
+    "month": 3,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2015-12-15T18:30:00.000Z",
+    "value": 866.88,
+    "quantity": 25,
+    "year": 2015,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2015-03-22T18:30:00.000Z",
+    "value": 230.21,
+    "quantity": 1,
+    "year": 2015,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2015-04-10T18:30:00.000Z",
+    "value": 854.88,
+    "quantity": 13,
+    "year": 2015,
+    "month": 3,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2015-01-21T18:30:00.000Z",
+    "value": 540.01,
+    "quantity": 28,
+    "year": 2015,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2015-11-26T18:30:00.000Z",
+    "value": 233.85,
+    "quantity": 10,
+    "year": 2015,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "",
+    "date": "2016-06-21T18:30:00.000Z",
+    "value": 699.6,
+    "quantity": 16,
+    "year": 2016,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "",
+    "date": "2016-12-15T18:30:00.000Z",
+    "value": 525.11,
+    "quantity": 19,
+    "year": 2016,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "",
+    "person": "",
+    "date": "2016-02-26T18:30:00.000Z",
+    "value": 614.55,
+    "quantity": 25,
+    "year": 2016,
+    "month": 1
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2016-06-12T18:30:00.000Z",
+    "value": 16.21,
+    "quantity": 23,
+    "year": 2016,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "",
+    "date": "2016-07-24T18:30:00.000Z",
+    "value": 183.88,
+    "quantity": 11,
+    "year": 2016,
+    "month": 6,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "",
+    "date": "2016-12-13T18:30:00.000Z",
+    "value": 932.36,
+    "quantity": 2,
+    "year": 2016,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "",
+    "date": "2016-08-14T18:30:00.000Z",
+    "value": 918.74,
+    "quantity": 28,
+    "year": 2016,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "",
+    "date": "2016-07-08T18:30:00.000Z",
+    "value": 952.26,
+    "quantity": 18,
+    "year": 2016,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "",
+    "date": "2016-12-15T18:30:00.000Z",
+    "value": 892.74,
+    "quantity": 27,
+    "year": 2016,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "",
+    "date": "2016-08-09T18:30:00.000Z",
+    "value": 316.93,
+    "quantity": 27,
+    "year": 2016,
+    "month": 7,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2016-02-07T18:30:00.000Z",
+    "value": 469.69,
+    "quantity": 18,
+    "year": 2016,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "",
+    "date": "2016-10-06T18:30:00.000Z",
+    "value": 449.65,
+    "quantity": 22,
+    "year": 2016,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "",
+    "date": "2016-01-19T18:30:00.000Z",
+    "value": 854.87,
+    "quantity": 5,
+    "year": 2016,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United Kingdom",
+    "person": "",
+    "date": "2016-10-24T18:30:00.000Z",
+    "value": 173.66,
+    "quantity": 15,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Australia",
+    "person": "",
+    "date": "2016-01-21T18:30:00.000Z",
+    "value": 936.69,
+    "quantity": 12,
+    "year": 2016,
+    "month": 0,
+    "continent": "Australia"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "",
+    "date": "2016-11-30T18:30:00.000Z",
+    "value": 243.14,
+    "quantity": 24,
+    "year": 2016,
+    "month": 11
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "",
+    "date": "2016-10-04T18:30:00.000Z",
+    "value": 495.15,
+    "quantity": 11,
+    "year": 2016,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "",
+    "date": "2016-11-01T18:30:00.000Z",
+    "value": 185.03,
+    "quantity": 28,
+    "year": 2016,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "",
+    "person": "",
+    "date": "2016-09-08T18:30:00.000Z",
+    "value": 217.89,
+    "quantity": 22,
+    "year": 2016,
+    "month": 8
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "",
+    "date": "2016-03-07T18:30:00.000Z",
+    "value": 99.42,
+    "quantity": 5,
+    "year": 2016,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "United States",
+    "person": "",
+    "date": "2016-07-03T18:30:00.000Z",
+    "value": 486.1,
+    "quantity": 17,
+    "year": 2016,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2016-03-29T18:30:00.000Z",
+    "value": 446.39,
+    "quantity": 16,
+    "year": 2016,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2016-02-15T18:30:00.000Z",
+    "value": 486.69,
+    "quantity": 13,
+    "year": 2016,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2016-05-25T18:30:00.000Z",
+    "value": 516.31,
+    "quantity": 17,
+    "year": 2016,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2016-10-17T18:30:00.000Z",
+    "value": 512.21,
+    "quantity": 2,
+    "year": 2016,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2016-08-12T18:30:00.000Z",
+    "value": 448.31,
+    "quantity": 26,
+    "year": 2016,
+    "month": 7,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2016-04-10T18:30:00.000Z",
+    "value": 407.9,
+    "quantity": 27,
+    "year": 2016,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2016-06-23T18:30:00.000Z",
+    "value": 198.93,
+    "quantity": 1,
+    "year": 2016,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2016-05-12T18:30:00.000Z",
+    "value": 37.17,
+    "quantity": 1,
+    "year": 2016,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Anne",
+    "date": "2016-02-12T18:30:00.000Z",
+    "value": 71.1,
+    "quantity": 14,
+    "year": 2016,
+    "month": 1,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Anne",
+    "date": "2016-01-22T18:30:00.000Z",
+    "value": 166.1,
+    "quantity": 6,
+    "year": 2016,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Anne",
+    "date": "2016-02-06T18:30:00.000Z",
+    "value": 437.23,
+    "quantity": 12,
+    "year": 2016,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Anne",
+    "date": "2016-02-21T18:30:00.000Z",
+    "value": 816.55,
+    "quantity": 13,
+    "year": 2016,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United Kingdom",
+    "person": "Anne",
+    "date": "2016-10-19T18:30:00.000Z",
+    "value": 179.8,
+    "quantity": 19,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "Anne",
+    "date": "2016-12-13T18:30:00.000Z",
+    "value": 565.88,
+    "quantity": 14,
+    "year": 2016,
+    "month": 11
+}, {
+    "company": "Google",
+    "country": "Belgium",
+    "person": "Anne",
+    "date": "2016-12-03T18:30:00.000Z",
+    "value": 876.41,
+    "quantity": 28,
+    "year": 2016,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "Anne",
+    "date": "2016-04-04T18:30:00.000Z",
+    "value": 545.07,
+    "quantity": 18,
+    "year": 2016,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "Anne",
+    "date": "2016-11-07T18:30:00.000Z",
+    "value": 75.36,
+    "quantity": 20,
+    "year": 2016,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2016-10-29T18:30:00.000Z",
+    "value": 463.72,
+    "quantity": 20,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2016-06-23T18:30:00.000Z",
+    "value": 942.15,
+    "quantity": 7,
+    "year": 2016,
+    "month": 5,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2016-11-14T18:30:00.000Z",
+    "value": 552.16,
+    "quantity": 6,
+    "year": 2016,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2016-09-07T18:30:00.000Z",
+    "value": 557.36,
+    "quantity": 8,
+    "year": 2016,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "John",
+    "date": "2016-07-16T18:30:00.000Z",
+    "value": 799.13,
+    "quantity": 7,
+    "year": 2016,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "John",
+    "date": "2016-10-26T18:30:00.000Z",
+    "value": 318.11,
+    "quantity": 15,
+    "year": 2016,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "",
+    "person": "John",
+    "date": "2016-06-01T18:30:00.000Z",
+    "value": 331.88,
+    "quantity": 16,
+    "year": 2016,
+    "month": 5
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "John",
+    "date": "2016-02-25T18:30:00.000Z",
+    "value": 809.92,
+    "quantity": 12,
+    "year": 2016,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "John",
+    "date": "2016-02-28T18:30:00.000Z",
+    "value": 647.77,
+    "quantity": 12,
+    "year": 2016,
+    "month": 1,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "John",
+    "date": "2016-04-09T18:30:00.000Z",
+    "value": 353.88,
+    "quantity": 30,
+    "year": 2016,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United States",
+    "person": "John",
+    "date": "2016-07-14T18:30:00.000Z",
+    "value": 59.95,
+    "quantity": 14,
+    "year": 2016,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "John",
+    "date": "2016-05-12T18:30:00.000Z",
+    "value": 507.89,
+    "quantity": 27,
+    "year": 2016,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "Canada",
+    "person": "John",
+    "date": "2016-05-22T18:30:00.000Z",
+    "value": 683.42,
+    "quantity": 10,
+    "year": 2016,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United States",
+    "person": "John",
+    "date": "2016-03-19T18:30:00.000Z",
+    "value": 663.04,
+    "quantity": 30,
+    "year": 2016,
+    "month": 2,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "John",
+    "date": "2016-09-06T18:30:00.000Z",
+    "value": 569.38,
+    "quantity": 26,
+    "year": 2016,
+    "month": 8,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2016-03-04T18:30:00.000Z",
+    "value": 370.08,
+    "quantity": 26,
+    "year": 2016,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "John",
+    "date": "2016-05-10T18:30:00.000Z",
+    "value": 371.47,
+    "quantity": 27,
+    "year": 2016,
+    "month": 4
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2016-08-31T18:30:00.000Z",
+    "value": 449.92,
+    "quantity": 14,
+    "year": 2016,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2016-10-10T18:30:00.000Z",
+    "value": 297.46,
+    "quantity": 28,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "United Kingdom",
+    "person": "John",
+    "date": "2016-03-18T18:30:00.000Z",
+    "value": 917.38,
+    "quantity": 14,
+    "year": 2016,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2016-01-30T18:30:00.000Z",
+    "value": 751.88,
+    "quantity": 24,
+    "year": 2016,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2016-03-30T18:30:00.000Z",
+    "value": 974.43,
+    "quantity": 17,
+    "year": 2016,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2016-06-09T18:30:00.000Z",
+    "value": 798.62,
+    "quantity": 19,
+    "year": 2016,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2016-10-05T18:30:00.000Z",
+    "value": 159.74,
+    "quantity": 30,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2016-10-30T18:30:00.000Z",
+    "value": 496.12,
+    "quantity": 12,
+    "year": 2016,
+    "month": 9,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "United Kingdom",
+    "person": "Mary",
+    "date": "2016-10-08T18:30:00.000Z",
+    "value": 733.7,
+    "quantity": 17,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Mary",
+    "date": "2016-08-24T18:30:00.000Z",
+    "value": 971.47,
+    "quantity": 10,
+    "year": 2016,
+    "month": 7
+}, {
+    "company": "Dell",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2016-10-26T18:30:00.000Z",
+    "value": 90.44,
+    "quantity": 3,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Mary",
+    "date": "2016-04-23T18:30:00.000Z",
+    "value": 172.01,
+    "quantity": 18,
+    "year": 2016,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2016-04-21T18:30:00.000Z",
+    "value": 721.12,
+    "quantity": 12,
+    "year": 2016,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Mary",
+    "date": "2016-07-13T18:30:00.000Z",
+    "value": 41.77,
+    "quantity": 25,
+    "year": 2016,
+    "month": 6,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "Mary",
+    "date": "2016-02-20T18:30:00.000Z",
+    "value": 410.68,
+    "quantity": 18,
+    "year": 2016,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Mary",
+    "date": "2016-11-12T18:30:00.000Z",
+    "value": 847.27,
+    "quantity": 23,
+    "year": 2016,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Mary",
+    "date": "2016-06-20T18:30:00.000Z",
+    "value": 78.42,
+    "quantity": 22,
+    "year": 2016,
+    "month": 5,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2016-12-03T18:30:00.000Z",
+    "value": 464.76,
+    "quantity": 6,
+    "year": 2016,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2016-10-19T18:30:00.000Z",
+    "value": 428.07,
+    "quantity": 27,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Michael",
+    "date": "2016-11-27T18:30:00.000Z",
+    "value": 269.22,
+    "quantity": 23,
+    "year": 2016,
+    "month": 10,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Michael",
+    "date": "2016-02-26T18:30:00.000Z",
+    "value": 684.29,
+    "quantity": 17,
+    "year": 2016,
+    "month": 1
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2016-07-22T18:30:00.000Z",
+    "value": 700.48,
+    "quantity": 10,
+    "year": 2016,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2016-02-17T18:30:00.000Z",
+    "value": 404.35,
+    "quantity": 2,
+    "year": 2016,
+    "month": 1,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Netherlands",
+    "person": "Michael",
+    "date": "2016-02-10T18:30:00.000Z",
+    "value": 336.16,
+    "quantity": 19,
+    "year": 2016,
+    "month": 1,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Michael",
+    "date": "2016-03-12T18:30:00.000Z",
+    "value": 336.96,
+    "quantity": 12,
+    "year": 2016,
+    "month": 2
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Michael",
+    "date": "2016-01-11T18:30:00.000Z",
+    "value": 231.32,
+    "quantity": 22,
+    "year": 2016,
+    "month": 0,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Michael",
+    "date": "2016-02-23T18:30:00.000Z",
+    "value": 52.28,
+    "quantity": 16,
+    "year": 2016,
+    "month": 1,
+    "continent": "Australia"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Michael",
+    "date": "2016-10-29T18:30:00.000Z",
+    "value": 15.44,
+    "quantity": 11,
+    "year": 2016,
+    "month": 9
+}, {
+    "company": "",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2016-09-02T18:30:00.000Z",
+    "value": 150.17,
+    "quantity": 18,
+    "year": 2016,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "Müller",
+    "date": "2016-06-11T18:30:00.000Z",
+    "value": 988.64,
+    "quantity": 26,
+    "year": 2016,
+    "month": 5,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2016-09-09T18:30:00.000Z",
+    "value": 859.61,
+    "quantity": 22,
+    "year": 2016,
+    "month": 8,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Müller",
+    "date": "2016-05-21T18:30:00.000Z",
+    "value": 480.44,
+    "quantity": 2,
+    "year": 2016,
+    "month": 4,
+    "continent": "North America"
+}, {
+    "company": "Apple",
+    "country": "Australia",
+    "person": "Müller",
+    "date": "2016-05-13T18:30:00.000Z",
+    "value": 571.76,
+    "quantity": 7,
+    "year": 2016,
+    "month": 4,
+    "continent": "Australia"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2016-01-08T18:30:00.000Z",
+    "value": 509.17,
+    "quantity": 14,
+    "year": 2016,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Dell",
+    "country": "",
+    "person": "Müller",
+    "date": "2016-12-25T18:30:00.000Z",
+    "value": 587.11,
+    "quantity": 13,
+    "year": 2016,
+    "month": 11
+}, {
+    "company": "Dell",
+    "country": "Netherlands",
+    "person": "Müller",
+    "date": "2016-03-17T18:30:00.000Z",
+    "value": 609.57,
+    "quantity": 9,
+    "year": 2016,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Australia",
+    "person": "Müller",
+    "date": "2016-03-04T18:30:00.000Z",
+    "value": 824.3,
+    "quantity": 20,
+    "year": 2016,
+    "month": 2,
+    "continent": "Australia"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Müller",
+    "date": "2016-05-26T18:30:00.000Z",
+    "value": 149.89,
+    "quantity": 8,
+    "year": 2016,
+    "month": 4,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Müller",
+    "date": "2016-03-08T18:30:00.000Z",
+    "value": 377.78,
+    "quantity": 29,
+    "year": 2016,
+    "month": 2,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "",
+    "person": "Müller",
+    "date": "2016-01-18T18:30:00.000Z",
+    "value": 863.22,
+    "quantity": 6,
+    "year": 2016,
+    "month": 0
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2016-12-28T18:30:00.000Z",
+    "value": 53.6,
+    "quantity": 10,
+    "year": 2016,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "",
+    "country": "Australia",
+    "person": "Robert",
+    "date": "2016-12-04T18:30:00.000Z",
+    "value": 988.13,
+    "quantity": 17,
+    "year": 2016,
+    "month": 11,
+    "continent": "Australia"
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2016-07-23T18:30:00.000Z",
+    "value": 883.6,
+    "quantity": 19,
+    "year": 2016,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2016-10-23T18:30:00.000Z",
+    "value": 56.62,
+    "quantity": 9,
+    "year": 2016,
+    "month": 9,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "",
+    "person": "Robert",
+    "date": "2016-06-22T18:30:00.000Z",
+    "value": 430.04,
+    "quantity": 30,
+    "year": 2016,
+    "month": 5
+}, {
+    "company": "Adobe",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2016-08-17T18:30:00.000Z",
+    "value": 540.95,
+    "quantity": 24,
+    "year": 2016,
+    "month": 7,
+    "continent": "Europe"
+}, {
+    "company": "Adobe",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2016-11-15T18:30:00.000Z",
+    "value": 332.33,
+    "quantity": 18,
+    "year": 2016,
+    "month": 10,
+    "continent": "North America"
+}, {
+    "company": "Adobe",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2016-07-15T18:30:00.000Z",
+    "value": 188.28,
+    "quantity": 30,
+    "year": 2016,
+    "month": 6,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2016-01-05T18:30:00.000Z",
+    "value": 802.31,
+    "quantity": 19,
+    "year": 2016,
+    "month": 0,
+    "continent": "Europe"
+}, {
+    "company": "Apple",
+    "country": "",
+    "person": "Robert",
+    "date": "2016-09-24T18:30:00.000Z",
+    "value": 657.81,
+    "quantity": 14,
+    "year": 2016,
+    "month": 8
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2016-07-10T18:30:00.000Z",
+    "value": 618.33,
+    "quantity": 4,
+    "year": 2016,
+    "month": 6,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2016-04-26T18:30:00.000Z",
+    "value": 449.25,
+    "quantity": 13,
+    "year": 2016,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Dell",
+    "country": "United States",
+    "person": "Robert",
+    "date": "2016-09-26T18:30:00.000Z",
+    "value": 973.93,
+    "quantity": 29,
+    "year": 2016,
+    "month": 8,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "United Kingdom",
+    "person": "Robert",
+    "date": "2016-11-14T18:30:00.000Z",
+    "value": 694.25,
+    "quantity": 17,
+    "year": 2016,
+    "month": 10,
+    "continent": "Europe"
+}, {
+    "company": "Google",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2016-04-04T18:30:00.000Z",
+    "value": 698.51,
+    "quantity": 20,
+    "year": 2016,
+    "month": 3,
+    "continent": "North America"
+}, {
+    "company": "Google",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2016-12-15T18:30:00.000Z",
+    "value": 945.39,
+    "quantity": 15,
+    "year": 2016,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Canada",
+    "person": "Robert",
+    "date": "2016-12-19T18:30:00.000Z",
+    "value": 267.98,
+    "quantity": 11,
+    "year": 2016,
+    "month": 11,
+    "continent": "North America"
+}, {
+    "company": "Microsoft",
+    "country": "Netherlands",
+    "person": "Robert",
+    "date": "2016-12-09T18:30:00.000Z",
+    "value": 856.42,
+    "quantity": 13,
+    "year": 2016,
+    "month": 11,
+    "continent": "Europe"
+}, {
+    "company": "Microsoft",
+    "country": "Belgium",
+    "person": "Robert",
+    "date": "2016-09-26T18:30:00.000Z",
+    "value": 559.33,
+    "quantity": 19,
+    "year": 2016,
+    "month": 8,
+    "continent": "Europe"
+}
+]
