@@ -1,0 +1,36 @@
+<ExtContainer padding="10" layout="fit" fitToParent="true">
+    <ExtActionsheet [displayed]="showGroupSumMenu">
+        <ExtButton (tap)="this.setGroupSummaryPosition({sum:'top'})" text="Top"></ExtButton>
+        <ExtButton (tap)="this.setGroupSummaryPosition({sum:'bottom'})" text="Bottom"></ExtButton>
+        <ExtButton (tap)="this.setGroupSummaryPosition({sum:'hidden'})" text="Hidden"></ExtButton>
+        <ExtButton [handler]="this.onCancelGroupSumMenu" text="Cancel"></ExtButton>
+    </ExtActionsheet>
+
+    <ExtActionsheet [displayed]="showSumMenu">
+        <ExtButton (tap)="this.setSummaryPosition({sum:'docked'})" text="Docked"></ExtButton>
+        <ExtButton (tap)="this.setSummaryPosition({sum:'top'})" text="Top"></ExtButton>
+        <ExtButton (tap)="this.setSummaryPosition({sum:'bottom'})" text="Bottom"></ExtButton>
+        <ExtButton (tap)="this.setSummaryPosition({sum:'hidden'})" text="Hidden"></ExtButton>
+        <ExtButton [handler]="this.onCancelSumMenu" text="Cancel"></ExtButton>
+    </ExtActionsheet>
+
+    <ExtActionsheet [displayed]="showVisibilityMenu">
+        <ExtButton (tap)="this.expandAll($event)" text="Expand all"></ExtButton>
+        <ExtButton (tap)="this.collapseAll($event)" text="Collapse all"></ExtButton>
+        <ExtButton [handler]="this.onCancelVisibilityMenu" text="Cancel"></ExtButton>
+    </ExtActionsheet>
+      
+
+    <ExtTreegroupedgrid
+        title="Tree Grouped Grid"
+        [plugins]="{ groupingpanel: true, gridsummaries: true }"
+        [store]="this.store"
+        columnLines="true"
+        shadow="true"
+        summaryPosition="docked"
+        [columns]="this.gridColumns"
+        [titleBar]="this.gridTitleBar"
+        (ready) = "this.onGridReady($event)"
+    >
+    </ExtTreegroupedgrid>
+</ExtContainer>

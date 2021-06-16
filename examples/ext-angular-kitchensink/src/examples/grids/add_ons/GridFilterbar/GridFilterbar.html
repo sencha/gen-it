@@ -1,0 +1,55 @@
+<ExtContainer padding="10" layout="fit" fitToParent="true">
+  <ExtActionsheet [displayed]="showVisibilityMenu">
+    <ExtButton (tap)="this.showFilterBar($event)" text="Show"></ExtButton>
+    <ExtButton (tap)="this.hideFilterBar($event)" text="Hide"></ExtButton>
+    <ExtButton [handler]="this.onCancelVisibility" text="Cancel"></ExtButton>
+  </ExtActionsheet>
+  <ExtActionsheet [displayed]="showReconfigureMenu" (show)="this.configureMenuReady($event)">
+    <ExtButton (tap)="this.doReconfigure($event.sender)" reference="sales" text="Sales data"></ExtButton>
+    <ExtButton (tap)="this.doReconfigure($event.sender)" reference="employee" text="Employees data"></ExtButton>
+    <ExtButton [handler]="this.onCancelReconfigureMenu" text="Cancel"></ExtButton>
+  </ExtActionsheet>
+  
+  <ExtGrid
+    title="Grid Filterbar"
+    [store]="this.store"
+    columnLines="true"
+    grouped="true"
+    shadow="true"
+    rowNumbers="true"
+    [titleBar]="gridTitleBar"
+    [plugins]="{ gridfilterbar: true }"
+    (ready)="gridReady($event)"
+  >
+    <ExtGridcolumn
+      text="Company"
+      dataIndex="company"
+      flex="1"
+      groupable="true"
+      filterType="string"
+    ></ExtGridcolumn>
+    <ExtGridcolumn
+      text="Country"
+      dataIndex="country"
+      flex="1"
+      filterType="list"
+    ></ExtGridcolumn>
+    <ExtGridcolumn text="Person" dataIndex="person"></ExtGridcolumn>
+    <ExtDatecolumn
+      text="Date"
+      dataIndex="date"
+      filterType="date"
+    ></ExtDatecolumn>
+    <ExtGridcolumn
+      text="Value"
+      dataIndex="value"
+      align="right"
+      filterType="number"
+    ></ExtGridcolumn>
+    <ExtNumbercolumn
+      text="Quantity"
+      dataIndex="quantity"
+      align="right"
+    ></ExtNumbercolumn>
+  </ExtGrid>
+</ExtContainer>
