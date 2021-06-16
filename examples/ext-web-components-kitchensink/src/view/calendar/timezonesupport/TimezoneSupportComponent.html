@@ -1,0 +1,33 @@
+<ext-container padding="10" layout="fit" fitToParent="true" height="100%" width="">
+  <ext-panel
+    shadow="true"
+    fitToParent="true"
+    onready="timezonesupport.panelReady"
+  >
+    <ext-panelheader
+      layout="hbox"
+      onready="timezonesupport.panelheaderReady"
+    >
+      <ext-selectfield
+        id="selector"
+        width="150"
+        value="0"
+        onready="timezonesupport.selectFieldReady"
+        onchange="timezonesupport.changeOptions"
+      >
+      </ext-selectfield>
+    </ext-panelheader>
+    <ext-calendar-day
+        height="100%"
+        startTime= "6"
+        endTime= "22"
+        visibleDays= "2"
+        timezoneOffset= "timezoneOffset"
+        gestureNavigation= "false"
+        showNowMarker= "false"
+        onready="timezonesupport.calendarDayReady"
+    >
+    </ext-calendar-day>
+  </ext-panel>
+</ext-container>
+

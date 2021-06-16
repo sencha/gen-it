@@ -1,0 +1,66 @@
+<ext-panel
+	layout='{
+		"type": "box"
+	}'
+	padding="10"
+	cls="form-to-grid-dd"
+	maxWidth="800"
+	onready="dragformtogrid.parentPanelReady"
+	responsiveConfig='{
+		"width < 565": {
+			"layout": {
+				"vertical": true
+			}
+		},
+		"width >= 565": {
+			"layout": {
+				"vertical": false
+			}
+		}
+	  }'
+>
+	<ext-panel
+		title="Patients"
+        flex="0.4"
+        border="true"
+		scrollable="y"
+		onready="dragformtogrid.dataPanelReady"
+	>
+		<ext-dataview
+			reference="patientView"
+			onready="dragformtogrid.patientDataViewReady"
+		>
+		</ext-dataview>
+	</ext-panel>
+	<ext-spacer
+		maxHeight="20"
+		maxWidth="20"
+	>
+	</ext-spacer>
+	<ext-grid
+		title="Hospitals"
+		flex="0.6"
+        cls="dd-hospital-grid"
+        reference="hospitalView"
+        onready="dragformtogrid.hospitalGridReady"
+	>
+		<ext-gridcolumn
+			dataIndex="name"
+			text="Name"
+			flex="1"
+		>
+		</ext-gridcolumn>
+		<ext-gridcolumn
+			dataIndex="address"
+			text="Address"
+			flex="1"
+		>
+		</ext-gridcolumn>
+		<ext-gridcolumn
+			dataIndex="telephone"
+			text="Telephone"
+			flex="1"
+		>
+		</ext-gridcolumn>
+	</ext-grid>
+</ext-panel>

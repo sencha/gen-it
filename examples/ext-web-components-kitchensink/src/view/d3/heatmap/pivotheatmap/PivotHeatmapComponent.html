@@ -1,0 +1,49 @@
+<ext-container padding="10" layout="fit" fitToParent="true" height="100%">
+  <ext-panel layout="fit" height="100%">
+    <ext-toolbar docked="top" onready="pivotheatmap.onToolBarReady">
+      <ext-spacer></ext-spacer>
+      <ext-button
+        iconCls="x-fa fa-refresh"
+        onready="pivotheatmap.onRefreshButtonReady"
+        text="Refresh Data"
+      >
+      </ext-button>
+    </ext-toolbar>
+    <ext-pivotheatmap
+      onready="pivotheatmap.onPivotReady"
+      xAxis='{
+        "title": {
+          "attr": {
+            "font-size": "12px"
+          }
+        }
+      }'
+      yAxis='{
+        "title": {
+          "attr": {
+            "font-size": "12px"
+          }
+        }
+      }'
+      colorAxis='{
+        "scale": {
+          "type": "linear",
+          "range": ["#ffffd9", "#49b6c4", "#225ea8"]
+        }
+      }'
+      platformConfig='{
+        "phone": {
+          "tiles": {
+            "cls": "phone-tiles"
+          }
+        },
+        "tablet": {
+          "tiles": {
+            "cls": "tablet-tiles"
+          }
+        }
+      }'
+    >
+    </ext-pivotheatmap>
+  </ext-panel>
+</ext-container>

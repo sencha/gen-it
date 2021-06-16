@@ -1,0 +1,73 @@
+<ext-container
+    padding="10"
+    layout="fit"
+    fitToParent="true"
+    height="100%"
+    width="100%"
+>
+<ext-treegroupedgrid title="Grid Tools"
+  columnLines="true"
+  grouped="true"
+  shadow="true"
+  height="100%"
+  onready="treegroupedgrid.onGridReady"
+  summaryPosition="docked"
+  titleBar = '{
+    "shadow": "false",
+    "items": [{
+        "xtype": "button",
+        "align": "right",
+        "text": "Group sum",
+        "id" : "groupSumMenu",
+        "menu": {
+            "indented": "false",
+            "items": [{
+                "text": "Top",
+                "sum": "top"
+            }, {
+                "text": "Bottom",
+                "sum": "bottom"
+            }, {
+                "text": "Hidden",
+                "sum": "hidden"
+            }]
+        }
+    }, {
+        "xtype": "button",
+        "align": "right",
+        "text": "Sum",
+        "id":"sumMenu",
+        "menu": {
+            "items": [{
+                "text": "Docked",
+                "sum": "docked"
+            }, {
+                "text": "Top",
+                "sum": "top"
+            }, {
+                "text": "Bottom",
+                "sum": "bottom"
+            }, {
+                "text": "Hidden",
+                "sum": "hidden"
+            }]
+        }
+    }, {
+        "xtype": "button",
+        "align": "right",
+        "text": "Visibility",
+        "id":"visibilityMenu",
+        "menu": {
+            "items": [{
+                "text": "Expand all",
+                "id":"expandBtn"
+            }, {
+                "text": "Collapse all",
+                "id":"collapseBtn"
+            }]
+        }
+    }]
+}'
+
+>
+</ext-container>
