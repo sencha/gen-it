@@ -1,0 +1,51 @@
+<ext-container
+    padding="10"
+    layout="fit"
+    fitToParent="true"
+    height="100%"
+    width="100%"
+>
+  <ext-grid
+    extname="grid"
+    multiColumnSort="true"
+    shadow="true"
+    title="Stock Prices"
+    grouped="true"
+    enableColumnMove="true"
+    onready="basicgrid.onPageReady"
+  >
+    <ext-column
+      text="Company"
+      flex="1"
+      dataIndex="name"
+    >
+    </ext-column>
+    <ext-column
+      text="Price"
+      width="85"
+      dataIndex="price"
+      formatter="usMoney"
+    >
+    </ext-column>
+    <ext-column
+      text="Change"
+      width="100"
+      dataIndex="priceChange"
+      onready="basicgrid.changeColumnReady"
+    >
+    </ext-column>
+    <ext-column
+      text="% Change"
+      dataIndex="priceChangePct"
+      onready="basicgrid.percentChangeColumnReady"
+    >
+    </ext-column>
+    <ext-column
+      text="Last Updated"
+      width="125"
+      dataIndex="lastChange"
+      formatter='date("m/d/Y")'
+    >
+    </ext-column>
+  </ext-grid>
+</ext-container>

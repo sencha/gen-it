@@ -1,0 +1,41 @@
+<ext-grid
+  title="Row Expander Grid"
+  plugins='{"rowexpander": "true"}'
+  shadow="true"
+  height="100%"
+  onready="rowexpander.gridReady"
+>
+  <ext-gridcolumn
+    text="Company"
+    dataIndex="name"
+    width="150"
+  >
+  </ext-gridcolumn>
+  <ext-gridcolumn
+    text="Price"
+    dataIndex="price"
+    width="75"
+    formatter="usMoney"
+  >
+  </ext-gridcolumn>
+  <ext-gridcolumn
+    text="Change"
+    width="100"
+    dataIndex="priceChange"
+    onready="rowexpander.changeColumnReady"
+  >
+  </ext-gridcolumn>
+  <ext-gridcolumn
+    text="% Change"
+    dataIndex="priceChangePct"
+    onready="rowexpander.percentChangeColumnReady"
+  >
+  </ext-gridcolumn>
+  <ext-gridcolumn
+    text="Last Updated"
+    dataIndex="priceLastChange"
+    width="125"
+    formatter="date('m/d/Y')"
+  >
+  </ext-gridcolumn>
+</ext-grid>

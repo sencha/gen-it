@@ -1,0 +1,81 @@
+<ext-container height="100%">
+<ext-grid
+  rowNumbers="true"
+  shadow="true"
+  title="Grid Filter Toolbar"
+  onready="gridfilterbar.gridReady"
+  height="100%"
+  
+  titleBar = '{
+    "shadow": "false",
+    "items": [{
+      "align": "right",
+      "xtype": "button",
+      "text": "Visibility",
+      "id" : "visibilityMenu",
+      "menu": {
+        "items": [
+          { "text": "Show","id":"showBtn" },
+          { "text": "Hide","id":"hideBtn" }
+        ]
+      }
+    },{
+      "align": "right",
+      "xtype": "button",
+      "text": "Reconfigure",
+      "id":"reconfigureMenu",
+      "menu": {
+        "items": [
+          { "text": "Sales Data","id":"salesDataBtn"},
+          { "text": "Employees Data","id":"employeesDataBtn" }
+        ]
+      }
+    },{
+      "align": "right",
+      "xtype": "button",
+      "id":"clearFilterBtn",
+      "text": "Clear filters"
+    }]
+  }'
+>
+  <ext-gridcolumn
+  text="Company"
+  flex="1"
+  dataIndex="company"
+  groupable="true"
+  filterType="string"
+  >
+  </ext-gridcolumn>
+  <ext-gridcolumn
+  text="Country"
+  flex="1"
+  dataIndex="country"
+  filterType="list"
+  >
+  </ext-gridcolumn>
+  <ext-gridcolumn
+  text="Person" 
+  dataIndex="person"
+  >
+  </ext-gridcolumn>
+  <ext-datecolumn
+  text="Date"
+  dataIndex="date"
+  filterType="date"
+  />
+  </ext-datecolumn>
+  <ext-gridcolumn
+  text="Value"
+  dataIndex="value"
+  align="right"
+  filterType="number"
+  >
+  </ext-gridcolumn>
+  <ext-numbercolumn
+  text="Quantity"
+  dataIndex="quantity"
+  align="right"
+  >
+  </ext-numbercolumn>
+</ext-grid>
+</ext-container>
