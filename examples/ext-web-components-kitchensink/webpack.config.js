@@ -35,26 +35,26 @@ module.exports = function(env) {
         const plugins = [
             new HtmlWebpackPlugin({template: 'index.html', hash: false, inject: 'body'}),
             new BaseHrefWebpackPlugin({ baseHref: basehref }),
-            new ExtWebpackPlugin({
+            /*new ExtWebpackPlugin({
                 framework: 'web-components',
                 toolkit: 'modern',
                 theme: 'theme-kitchensink',
                 emit: emit,
                 script: './extract-code.js',
                 port: port,
-                packages: [
-                    'font-ext',
-                    'ux',
-                    'd3',
-                    'pivot-d3',
-                    'font-awesome',
-                    'exporter',
-                    'pivot',
-                    'calendar',
-                    'charts',
-                    'treegrid',
-                    'froala-editor'
-                ],
+                // packages: [
+                //     'font-ext',
+                //     'ux',
+                //     'd3',
+                //     'pivot-d3',
+                //     'font-awesome',
+                //     'exporter',
+                //     'pivot',
+                //     'calendar',
+                //     'charts',
+                //     'treegrid',
+                //     'froala-editor'
+                // ],
                 profile: profile,
                 environment: environment,
                 treeshake: treeshake,
@@ -64,13 +64,29 @@ module.exports = function(env) {
                 inject: 'yes',
                 intellishake: 'no'
             }),
+            // new CopyWebpackPlugin([{
+            //     from: '../node_modules/@sencha/ext-ux/modern/resources',
+            //     to: './ext/ux'
+            // }]),*/
             new CopyWebpackPlugin([{
-                from: '../node_modules/@sencha/ext-ux/modern/resources',
-                to: './ext/ux'
+                from: '../code.js',
+                to: 'code.js'
             }]),
             new CopyWebpackPlugin([{
-                from: '../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js',
-                to: './webcomponents-bundle.js'
+                from: '../node_modules/@sencha/ext-modern-runtime/modern.engine.enterprise.js',
+                to: './modern.engine.enterprise.js'
+            }]),
+            new CopyWebpackPlugin([{
+                from: '../resources',
+                to: './resources'
+            }]),
+            new CopyWebpackPlugin([{
+                from: '../kitchensink-theme',
+                to: './kitchensink-theme'
+            }]),
+            new CopyWebpackPlugin([{
+                from: '../node_modules/@sencha/ext-web-components-modern/ext-web-components-modern.js',
+                to: './ext-web-components-modern.js'
             }]),
             // Debug purposes only, injected via script: npm run-script buildexample -- --env.build_v=<full version here in format maj.min.patch.build>
             new webpack.DefinePlugin({

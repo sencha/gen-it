@@ -26,7 +26,7 @@ export default function NavView({ node }) {
 
   function onClick(e, path) {
     Ext.get(e.target).ripple(e, {});
-    requestAnimationFrame(() => location.hash = path, 50)
+    requestAnimationFrame(() => window.location.hash = path, 50)
   }
 
   return (

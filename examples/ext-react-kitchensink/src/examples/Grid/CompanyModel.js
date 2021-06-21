@@ -80,7 +80,7 @@ export default Ext.define('KitchenSink.model.Company', {
             type: 'date',
             calculate: function(data) {
                 // Signal that we are dependent upon price so we get recaulculated when price changes
-                data.price;
+             //   data.price;
 
                 return new Date();
             }

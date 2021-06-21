@@ -48,7 +48,7 @@ class Layout extends Component {
     console.log('onNavChange')
     var nodeId = node.getId()
     console.log(nodeId)
-    location.hash = nodeId;
+    window.location.hash = nodeId;
     if (this.breadcrumbCmp != undefined) {
       this.breadcrumbCmp.setSelection(node)
     }
@@ -89,7 +89,7 @@ class Layout extends Component {
     console.log(this.oldhash)
     //location.hash = this.oldhash;
 
-    location.hash = '/';
+    window.location.hash = '/';
     this.phoneNav.cmp.setHidden(false)
     this.phonedetail.cmp.setHidden(true)
   }
@@ -97,13 +97,13 @@ class Layout extends Component {
   nav(node) {
     console.log('nav')
     var nodeId = node.getId();
-    location.hash = nodeId;
+    window.location.hash = nodeId;
   }
 
   componentDidMount() {
     console.log('componentDidMount')
     if (this.rightContainer != undefined) {
-      this.rightContainer.cmp.updateHtml('Build: ' + BUILD_VERSION);
+      this.rightContainer.cmp.updateHtml('Build: ' + '7.4.0.0');
     }
     if (Ext.os.is.Phone == 't') {
       const node = this.props.selectedNavNode;
@@ -155,7 +155,7 @@ class Layout extends Component {
   }
 
   onTitleClick = () => {
-    location.hash = '/';
+    window.location.hash = '/';
   }
 
   isPremium(node) {

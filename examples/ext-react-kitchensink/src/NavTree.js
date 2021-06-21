@@ -5,7 +5,7 @@ export default class NavTree extends Component {
 
   filterNav = (field, value) => {
     const { store } = this.props;
-    this.filterRegex = new RegExp(`(${Ext.String.escapeRegex(value)})`, 'i');
+    this.filterRegex = new RegExp(`(${Ext.String.escapeRegex(field.newValue)})`, 'i');
     store.filterBy(record => this.containsMatches(record));
   }
 

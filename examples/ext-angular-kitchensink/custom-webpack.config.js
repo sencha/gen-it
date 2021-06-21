@@ -1,5 +1,6 @@
-const webpack = require("webpack")
-const ExtWebpackPlugin = require('@sencha/ext-webpack-plugin');
+const webpack = require("webpack");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+//const ExtWebpackPlugin = require('@sencha/ext-webpack-plugin');
 
 //console.log(process)
 var build_v
@@ -69,7 +70,7 @@ module.exports = function(config, options) {
     //   //hash: true,
     //   //inject: "body"
     // }),
-    new ExtWebpackPlugin({
+    /*new ExtWebpackPlugin({
       framework: framework,
       toolkit: toolkit,
       theme: theme,
@@ -85,11 +86,23 @@ module.exports = function(config, options) {
       verbose: verbose,
       inject: 'yes',
       intellishake: 'no'
-    }),
-    // new CopyWebpackPlugin([{
-    //   from: './resources/code.js',
-    //   to: './src/app/assets/resources/code.js'
-    // }]),
+    }),*/
+    new CopyWebpackPlugin([{
+      from: './ext-modern-runtime/modern.engine.enterprise.js',
+      to: './modern.engine.enterprise.js'
+    }]),
+    new CopyWebpackPlugin([{
+      from: './resources',
+      to: './resources'
+    }]),
+    new CopyWebpackPlugin([{
+      from: './kitchensink-theme',
+      to: './kitchensink-theme'
+    }]),
+    new CopyWebpackPlugin([{
+      from: './src/assets/resources/code.js',
+      to: './code.js'
+    }]),
     new webpack.DefinePlugin({
       BUILD_VERSION: JSON.stringify(build_v)
     })

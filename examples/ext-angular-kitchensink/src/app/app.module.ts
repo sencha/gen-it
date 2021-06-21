@@ -2,7 +2,7 @@ declare var Ext: any;
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Route, RouterModule } from '@angular/router';
-import { ExtAngularModernModule } from '@sencha/ext-angular-modern'
+import { ExtAngularModernModule } from '@sencha/ext-angular-modern';
 
 import * as d3 from 'd3';
 window['d3'] = d3;
@@ -561,7 +561,7 @@ var treeRoot = {
       { text: 'Froala Editor', component: FroalaEditorComponent, layout: 'center', navIcon: 'icon-editor' },
     ]},
 
-    { text: 'Grids',  premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', navIcon: 'icon-grids', children: [
+    { text: 'Grids', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', navIcon: 'icon-grids', children: [
       { text: 'Core Features', navIcon: 'icon-grids', children: [
           { text: 'Basic Grid', component: BasicGridComponent, navIcon: 'icon-grids'},
           { text: 'Grouped Grid', component: GroupedGridComponent, navIcon: 'icon-grouped-grid'},
@@ -571,8 +571,8 @@ var treeRoot = {
           { text: 'Editable Row', component: EditableRowComponent, navIcon: 'icon-row-editing'},
           { text: 'Infinite Grid', component: InfiniteGridComponent, navIcon: 'icon-buffer-grid'}
       ]},
-      { text: 'Add-ons', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', navIcon: 'icon-framing-buttons', children: [
-          { text: 'Tree Grouped Grid', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: TreeGroupedGridComponent, navIcon: 'icon-tree-grouped-grid' },
+      { text: 'Add-ons', premiumClass: 'x-fa fa-star app-premium-indicator', navIcon: 'icon-framing-buttons', children: [
+        { text: 'Tree Grouped Grid',premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: TreeGroupedGridComponent, navIcon: 'icon-tree-grouped-grid' },
           { text: 'Grid Tools', component: GridToolsComponent, navIcon: 'icon-grid-tools'},
           { text: 'Row Expander', component: RowExpanderComponent, navIcon: 'icon-row-expander-grid'},
           { text: 'Row Body', component: RowBodyComponent, navIcon: 'icon-row-body-grid'},
@@ -580,8 +580,8 @@ var treeRoot = {
           { text: 'Grid Filtering', component: GridFilteringComponent, navIcon: 'icon-grid-filtering'},
           { text: 'Grid Filterbar', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: GridFilterbarComponent, navIcon: 'icon-grid-filterbar'},
           { text: 'View Options', component: ViewOptionsComponent, navIcon: 'icon-view-options-grid'},
-          { text: 'Row Drag And Drop', component: RowDragAndDropComponent, navIcon: 'icon-dd-grid-row'},
-          { text: 'Drag Form To Grid', component: DragFormToGridComponent, navIcon: 'icon-dd-form-to-grid'}
+          { text: 'Row Drag And Drop', component: RowDragAndDropComponent, navIcon: 'icon-dd-grid-to-form'},
+          { text: 'Drag Form To Grid', component: DragFormToGridComponent, navIcon: 'icon-dd-field-to-grid'}
       ]},
       { text: 'Advanced Features', navIcon: 'icon-grid-plugins', children:[
           { text: 'Big Data', component: BigDataComponent, navIcon: 'icon-big-data-grid' },
