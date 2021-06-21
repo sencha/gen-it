@@ -5,8 +5,8 @@
     <ExtButton [handler]="this.onCancelVisibility" text="Cancel"></ExtButton>
   </ExtActionsheet>
   <ExtActionsheet [displayed]="showReconfigureMenu" (show)="this.configureMenuReady($event)">
-    <ExtButton (tap)="this.doReconfigure($event.sender)" reference="sales" text="Sales data"></ExtButton>
-    <ExtButton (tap)="this.doReconfigure($event.sender)" reference="employee" text="Employees data"></ExtButton>
+    <ExtButton (tap)="this.doReconfigure($event)" reference="sales" text="Sales Data"></ExtButton>
+    <ExtButton (tap)="this.doReconfigure($event)" reference="employee" text="Employees Data"></ExtButton>
     <ExtButton [handler]="this.onCancelReconfigureMenu" text="Cancel"></ExtButton>
   </ExtActionsheet>
   

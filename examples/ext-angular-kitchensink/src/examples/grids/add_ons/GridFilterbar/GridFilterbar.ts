@@ -13,13 +13,14 @@ Ext.require(["Ext.grid.plugin.filterbar.FilterBar"]);
 
 export class GridFilterbarComponent {
   grid: any;
-  showVisibilityMenu: boolean = false;
+  showVisibilityMenu: boolean =  false;
   showReconfigureMenu: boolean = false;
 
   gridReady = (event) => {
     this.grid = event.cmp;
     this.setupStoreListeners(this.grid.getStore());
   };
+  
 
   constructor(gridfilterbarService: GridFilterbarService) { }
 
@@ -28,27 +29,34 @@ export class GridFilterbarComponent {
     this.onCancelVisibility();
   };
 
-  hideFilterBar(btn: any) {
+  hideFilterBar(btn: any)  {
     this.grid.hideFilterBar();
     this.onCancelVisibility();
   };
 
   setupStoreListeners = (store: any) => {
-    store.on("filterchange", function (store, filters) {
-      this.grid.getTitleBar().down("button[reference=clearFilterButton]").setDisabled(filters.length == 0);
-    }, this);
+    store.on( "filterchange", function (store, filters) {
+        this.grid
+          .getTitleBar()
+          .down("button[reference=clearFilterButton]")
+          .setDisabled(filters.length == 0);
+      },this);
   };
 
-  configureMenuReady(menu): void {
+  configureMenuReady(menu):void {
     menu.sender.grid = this.grid;
+    menu.sender.down('button[reference=sales]').grid = this.salesGridConfig;
+    menu.sender.down('button[reference=employee]').grid = this.employeesGridConfig;
   }
 
-  doReconfigure(menu: any): void {
-    var gridConfig = menu.getText() === "Employees data" ? this.employeesGridConfig : this.salesGridConfig,
-      grid = this.grid;
+  doReconfigure(menu:any) :void {
+    menu = Ext.os.is.Desktop ? menu : menu.sender;
+    var config = menu.grid,
+      grid = this.grid,
+      store = grid.getStore();
 
-    grid.setStore(gridConfig.store);
-    grid.setColumns(gridConfig.columns);
+    grid.setStore(config.store);
+    grid.setColumns(config.columns);
 
     grid.getTitleBar().down("button[reference=clearFilterButton]").enable();
     this.onCancelReconfigureMenu();
@@ -69,11 +77,11 @@ export class GridFilterbarComponent {
     if (filters) filters.removeAll();
   };
 
-  onVisibilityClick = (btn: any) => {
+  onVisibilityClick= (btn:any) => {
     this.showVisibilityMenu = true;
   };
 
-  onCancelVisibility = () => {
+  onCancelVisibility= () => {
     this.showVisibilityMenu = false;
   };
 
@@ -81,17 +89,17 @@ export class GridFilterbarComponent {
     this.showReconfigureMenu = false;
   };
 
-  onReconfigureMenuClick = (btn: any) => {
+  onReconfigureMenuClick = (btn:any) => {
     this.showReconfigureMenu = true;
   };
 
   regions = {
-    "Belgium": "Europe",
-    "Netherlands": "Europe",
+    Belgium: "Europe",
+    Netherlands: "Europe",
     "United Kingdom": "Europe",
-    "Canada": "North America",
+    Canada: "North America",
     "United States": "North America",
-    "Australia": "Australia",
+    Australia: "Australia",
   };
 
   //Sales Data
@@ -156,9 +164,9 @@ export class GridFilterbarComponent {
   salesGridConfig = {
     store: this.store,
     columns: [
-      { text: "Company", dataIndex: "company", flex: 1, filterType: "string", groupable: true },
-      { text: "Country", dataIndex: "country", flex: 1, filterType: "list", groupable: true },
-      { text: "Person", dataIndex: "person", groupable: true },
+      { text: "Company", dataIndex: "company", flex: 1, filterType: "string", groupable:true },
+      { text: "Country", dataIndex: "country", flex: 1, filterType: "list", groupable:true },
+      { text: "Person", dataIndex: "person",  groupable:true },
       { text: "Date", dataIndex: "date", xtype: "datecolumn", format: "d.m.Y", filterType: "date" },
       { text: "Value", dataIndex: "value", xtype: "numbercolumn", align: "right", filterType: "number" },
       { text: "Quantity", dataIndex: "quantity", xtype: "numbercolumn", align: "right" }
@@ -185,21 +193,18 @@ export class GridFilterbarComponent {
       },
     },
     columns: [
-      {
-        text: "Name", dataIndex: "fullName", renderer: this.concatNames, groupable: true, flex: 1,
+      { text: "Name", dataIndex: "fullName", renderer: this.concatNames, groupable: true, flex: 1, 
         filterType: { type: "string", value: "danni" },
       },
       { text: "Date of birth", dataIndex: "dob", xtype: "datecolumn", filterType: "date" },
       { text: "Join date", dataIndex: "joinDate", xtype: "datecolumn", filterType: "date" },
       { text: "Notice<br>period", dataIndex: "noticePeriod", groupable: true, filterType: "list" },
-      {
-        text: "Email address", dataIndex: "email", flex: 1, renderer: this.renderMailto,
+      { text: "Email address", dataIndex: "email", flex: 1, renderer: this.renderMailto, 
         cell: { encodeHtml: false },
         filterType: "string",
       },
       { text: "Department", dataIndex: "department", filterType: "list" },
-      {
-        text: "Salary", dataIndex: "salary", xtype: "numbercolumn", align: "right",
+      { text: "Salary", dataIndex: "salary", xtype: "numbercolumn", align: "right", 
         filterType: { type: "number", operator: ">=" }
       }
     ]
@@ -215,11 +220,11 @@ export class GridFilterbarComponent {
         menu: Ext.os.is.Desktop && [
           {
             text: "Show",
-            listeners: { click: this.showFilterBar, scope: this }
+            listeners: { click : this.showFilterBar, scope:this}
           },
           {
             text: "Hide",
-            listeners: { click: this.hideFilterBar, scope: this }
+            listeners: { click : this.hideFilterBar, scope:this}
           },
         ],
         handler: !Ext.os.is.Desktop && this.onVisibilityClick
@@ -228,15 +233,15 @@ export class GridFilterbarComponent {
         xtype: "button",
         align: "right",
         text: "Reconfigure",
-        menu: Ext.os.is.Desktop && [
+        menu:  Ext.os.is.Desktop && [
           {
             text: "Sales data",
-            listeners: { click: this.doReconfigure, scope: this },
+            listeners:{click: this.doReconfigure, scope:this },
             grid: this.salesGridConfig
           },
           {
             text: "Employees data",
-            listeners: { click: this.doReconfigure, scope: this },
+            listeners:{click: this.doReconfigure, scope:this },
             grid: this.employeesGridConfig
           }
         ],

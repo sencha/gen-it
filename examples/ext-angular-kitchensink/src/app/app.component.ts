@@ -120,6 +120,7 @@ export class AppComponent {
     this.leftContainerCmp.updateHtml(title);
     this.rightContainerCmp.updateHtml("Build: " + BUILD_VERSION);
 
+
     if (Ext.os.is.Phone) {
       this.navTreePanelCmp.setWidth("100%");
     }
