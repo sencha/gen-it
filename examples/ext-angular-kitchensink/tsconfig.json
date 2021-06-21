@@ -11,10 +11,6 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -24,10 +20,13 @@
     },
     "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": true,
-    "preserveSymlinks": true
+    "preserveSymlinks": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ]
   },
   "angularCompilerOptions": {
-    "enableIvy": true,
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   },
