@@ -49,6 +49,7 @@ import ReactDOMServer from 'react-dom/server';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ExtReactDOM from '@sencha/ext-react-modern';
 import './index.css';
 import App from './App';
 //import { launch } from '@sencha/ext-react-modern'
@@ -56,12 +57,12 @@ import App from './App';
 
 import * as d3 from 'd3'
 import * as FroalaEditor from 'froala-editor/js/froala_editor.pkgd.min.js';
-
+import './Data'
 const Ext = window.Ext;
 
 window.d3 = d3
 require('./index.css')
-import './Data'
+
 window.FroalaEditor = FroalaEditor;
 
 Ext.require([
@@ -91,7 +92,7 @@ Ext.onReady(function () {
    *
    *  const html = tpl.apply({ firstName: 'Joe', lastName: 'Smith', title: 'CEO' });
    */
-  var Template = Ext.define(null, {
+   var Template = Ext.define(null, {
       extend: 'Ext.Template',
 
       /**
@@ -144,7 +145,7 @@ Ext.onReady(function () {
        */
       doRender(values, target) {
           const reactElement = this.fn(values);
-          ReactDOM.render(reactElement, target);
+          ExtReactDOM.render(reactElement, target);
           return target.firstChild;
       },
 
@@ -167,7 +168,7 @@ Ext.onReady(function () {
                           let node = removedNodes[i];
 
                           if (node[targetKey]) {
-                              ReactDOM.unmountComponentAtNode(node); // Unmount the React tree when the target dom node is removed.
+                              ExtReactDOM.unmountComponentAtNode(node); // Unmount the React tree when the target dom node is removed.
                           }
                       }
                   })
@@ -187,7 +188,7 @@ Ext.onReady(function () {
 
 
 
-  ReactDOM.render(<App />, document.getElementById('root'));
+  ExtReactDOM.render(<App />, document.getElementById('root'));
 });
 
 

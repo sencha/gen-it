@@ -59,10 +59,10 @@ export default class GridFilterBarExample extends Component {
       }
     },
     columns: [
-      {text: 'Company', dataIndex: 'company', editor: 'textfield', width: 150, groupable: true, filterType: 'string'},
-      {text: 'Country', dataIndex: 'country', editor: 'textfield', width: 150, groupable: true, filterType: 'list'},
+      {text: 'Company', dataIndex: 'company', editor: 'textfield',flex:1, width: 150, groupable: true, filterType: 'string'},
+      {text: 'Country', dataIndex: 'country', editor: 'textfield',flex:1, width: 150, groupable: true, filterType: 'list'},
       {text: 'Person', dataIndex: 'person', editor: 'textfield', groupable: true},
-      {text: 'Date', dataIndex: 'date', xtype: 'datecolumn', format: 'd.m.Y', filterType: 'date'},
+      {text: 'Date', dataIndex: 'date', xtype: 'datecolumn',flex:1, format: 'd.m.Y', filterType: 'date'},
       {text: 'Value', dataIndex: 'value', xtype: 'numbercolumn', editor: 'numberfield', align: 'right', filterType: 'number'},
       {text: 'Quantity', dataIndex: 'quantity', xtype: 'numbercolumn', editor: 'numberfield', align: 'right'}
     ]
@@ -78,9 +78,9 @@ export default class GridFilterBarExample extends Component {
       }
     },
     columns: [
-      {text: 'Name', dataIndex: 'fullName', renderer: this.concatNames, groupable: true, width: 200, filterType: {type: 'string', value: 'danni'}},
-      {text: 'Date of birth', dataIndex: 'dob', xtype: 'datecolumn', format: 'm-d-Y', filterType: 'date'},
-      {text: 'Join date', dataIndex: 'joinDate', xtype: 'datecolumn', filterType: 'date'},
+      {text: 'Name', dataIndex: 'fullName', renderer: this.concatNames, groupable: true,flex:1, width: 200, filterType: {type: 'string', value: 'danni'}},
+      {text: 'Date of birth', dataIndex: 'dob', xtype: 'datecolumn',flex:1, format: 'm-d-Y', filterType: 'date'},
+      {text: 'Join date', dataIndex: 'joinDate', xtype: 'datecolumn',flex:1, filterType: 'date'},
       {text: 'Notice<br>period', dataIndex: 'noticePeriod', groupable: true, filterType: 'list'},
       {text: 'Email address', dataIndex: 'email', renderer: this.renderMailto, cell: {encodeHtml: false}, filterType: 'string'},
       {text: 'Department', dataIndex: 'department', filterType: 'list'},

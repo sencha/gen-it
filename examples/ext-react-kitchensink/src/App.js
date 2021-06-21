@@ -6,12 +6,12 @@ import { Router, Route } from 'react-router-dom'
 
 //import createHistory from 'history'
 //import createHistory from 'history/createHashHistory'
-const createHistory = require("history").createHashHistory
+
 import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import reducer from './reducer';
 import { routeDidChange } from './actions';
-
+const createHistory = require("history").createHashHistory
 const store = createStore(
     reducer,
     undefined,

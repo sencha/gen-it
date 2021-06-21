@@ -21,7 +21,7 @@ npm install
 npm start
 ```
 
-You can view the app by pointing your browser to [http://localhost:1962](http://localhost:1962)
+You can view the app by pointing your browser to [http://localhost:3000](http://localhost:3000)
 
 # Running against a local copy of the SDK repo
 

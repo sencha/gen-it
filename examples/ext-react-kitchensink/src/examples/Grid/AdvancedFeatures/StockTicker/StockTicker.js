@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Toolbar, Label, SliderField, CheckBoxField, Column, WidgetCell, SparkLine , Container, SPark } from '@sencha/ext-react-modern';
+import { Grid, Toolbar, Label, SliderField, CheckBoxField, Column, WidgetCell, SparkLine ,SparkLineLine, Container, SPark } from '@sencha/ext-react-modern';
 import model from '../../CompanyModel';
 import './Ticker.css';
 

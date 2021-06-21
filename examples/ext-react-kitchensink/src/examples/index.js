@@ -402,7 +402,7 @@ const root = {
                 { text: 'Grid Filtering', component: GridFiltering, navIcon: 'icon-grid-filtering'},
 				{ text: 'Grid Filter Bar',premium: true, component: GridFilterBar, navIcon: 'icon-grid-filterbar'},
                 { text: 'View Options', component: ViewOptionsGrid, navIcon: 'icon-view-options-grid'},
-                { text: 'Row Drag & Drop', component: RowDragAndDrop, navIcon: 'icon-dd-grid-row', hidden: Ext.os.is.Phone },
+                { text: 'Row Drag & Drop', component: RowDragAndDrop, navIcon: 'icon-dd-grid-to-form', hidden: Ext.os.is.Phone },
                 { text: 'Drag Form To Grid', component: DragFormToGrid, navIcon: 'icon-dd-form-to-grid'}
             ]},
             { text: 'Advanced Features', navIcon: 'icon-grid-plugins', children:[

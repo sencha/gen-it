@@ -1,0 +1,46 @@
+{
+  "_from": "@sencha/ext-modern-runtime@^7.4.0",
+  "_id": "@sencha/ext-modern-runtime@7.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-UFpGxnke2XJ0bXKQ7eJj9IAMs/KLVSmbbolBMewinXtu1JlESTDA/QgJLUtKvMeq1Y/E15gX20jIH6dlxECXSw==",
+  "_location": "/@sencha/ext-modern-runtime",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@sencha/ext-modern-runtime@^7.4.0",
+    "name": "@sencha/ext-modern-runtime",
+    "escapedName": "@sencha%2fext-modern-runtime",
+    "scope": "@sencha",
+    "rawSpec": "^7.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^7.4.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://test.npm.sencha.com/@sencha%2fext-modern-runtime/-/ext-modern-runtime-7.4.0.tgz",
+  "_shasum": "92e68a4f5b5b13b986682c24fe6db5b4fccb21c7",
+  "_spec": "@sencha/ext-modern-runtime@^7.4.0",
+  "_where": "C:\\Users\\dhande\\Desktop\\ExtReactKS\\ext-react-kitchensink-app6",
+  "author": {
+    "name": "Sencha"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "devDependencies": {},
+  "homepage": "https://github.com/sencha/",
+  "keywords": [],
+  "license": "ISC",
+  "name": "@sencha/ext-modern-runtime",
+  "peerDependencies": {},
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sencha/"
+  },
+  "scripts": {},
+  "version": "7.4.0"
+}
