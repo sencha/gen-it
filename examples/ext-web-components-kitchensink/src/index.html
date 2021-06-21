@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
   <title>ExtWebComponents 7.4 Kitchen Sink</title>
+  <script src="modern.engine.enterprise.js"></script>
+
   <script>
     function isIE11() {
       return !!window.MSInputMethodContext && !!document.documentMode;
@@ -12,7 +14,7 @@
 
     function addWebComponents() {
       var scriptTemp2 = document.createElement( 'script' );
-      scriptTemp2.setAttribute( 'src', 'webcomponents-bundle.js' );
+      scriptTemp2.setAttribute( 'src','ext-web-components-modern.js' );//'webcomponents-bundle.js' );
       document.head.appendChild(scriptTemp2);
     }
 
@@ -25,9 +27,10 @@
       addWebComponents();
     }
   </script>
-  <script src="resources/code.js"></script>
-  <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
-  <link href="resources/loader.css" rel='stylesheet'/>
+  <link href="./kitchensink-theme/resources/Theme.kitchensink-all.css" rel="stylesheet" /> 
+  <script src="./resources/code.js"></script>
+  <link rel="icon" type="image/x-icon" href="./resources/favicon.ico">
+  <link href="./resources/loader.css" rel='stylesheet'/>
 </head>
 <body>
   <div id="loadingSplash">
