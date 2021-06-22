@@ -1,3 +1,84 @@
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1127 */
+.x-splitButton-confirm.x-arrow-align-right .x-splitArrow-el.x-hovered {
+    border-left: 1px solid #7cb342;
+    border-left: 1px solid var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1132 */
+.x-splitButton-confirm.x-arrow-align-right .x-splitArrow-el.x-focused {
+    color: #fff;
+    border-left: 1px solid #7cb342;
+    border-left: 1px solid var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1137 */
+.x-splitButton-confirm.x-arrow-align-right .x-splitArrow-el.x-pressing,
+.x-splitButton-confirm.x-arrow-align-right .x-splitArrow-el.x-pressed {
+    color: #fff;
+    color: var(--base-foreground-color);
+    border-left: 1px solid #7cb342;
+    border-left: 1px solid var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1143 */
+.x-splitButton-confirm.x-arrow-align-bottom .x-splitInner-el {
+    padding: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1158 */
+.x-splitButton-confirm.x-arrow-align-bottom .x-splitArrow-el {
+    padding: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-top: 1px solid #7cb342;
+    border-top: 1px solid var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1174 */
+.x-splitButton-confirm.x-arrow-align-bottom .x-splitArrow-el.x-hovered {
+    border-top: 1px solid #7cb342;
+    border-top: 1px solid var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1179 */
+.x-splitButton-confirm.x-arrow-align-bottom .x-splitArrow-el.x-focused {
+    color: #fff;
+    border-top: 1px solid #7cb342;
+    border-top: 1px solid var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1184 */
+.x-splitButton-confirm.x-arrow-align-bottom .x-splitArrow-el.x-pressing,
+.x-splitButton-confirm.x-arrow-align-bottom .x-splitArrow-el.x-pressed {
+    color: #fff;
+    color: var(--base-foreground-color);
+    border-top: 1px solid #7cb342;
+    border-top: 1px solid var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1190 */
+.x-splitButton-confirm.x-arrow-align-bottom .x-arrow-el {
+    margin: auto;
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1194 */
+.x-splitButton-confirm .x-icon-el {
+    color: #7cb342;
+    color: var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1244 */
+.x-splitButton-confirm .x-arrow-el {
+    color: #7cb342;
+    color: var(--confirm-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1327 */
+.x-splitButton-confirm .x-pressing,
+.x-splitButton-confirm .x-pressed {
+    color: #fff;
+    color: var(--base-foreground-color);
+}
+/* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1330 */
+.x-splitButton-confirm .x-pressing.x-splitBody-el,
+.x-splitButton-confirm .x-pressed.x-splitBody-el {
+    border-color: #679537;
+    background-color: #7cb342;
+    background-color: var(--confirm-color);
+    background-image: none;
+}
 /* D:/Projects/SenchaBridgeProducts7.4/examples/Ext-Angular-KS/ext-angular-kitchensink/themes/ext/modern/theme-neptune/sass/var/SplitButton.scss:1335 */
 .x-splitButton-confirm .x-pressing .x-icon-el,
 .x-splitButton-confirm .x-pressed .x-icon-el {

@@ -33,7 +33,7 @@ export default class GridFilterbarComponent {
             { text: 'Company', dataIndex: 'company', flex: 1, filterType: 'string', groupable:true },
             { text: 'Country', dataIndex: 'country', flex: 1, filterType: {type :'list', value:'Belgium'}, groupable:true },
             { text: 'Person', dataIndex: 'person', groupable:true },
-            { text: 'Date', dataIndex: 'date', xtype: 'datecolumn', format: 'd.m.Y', filterType: 'date' },
+            { text: 'Date', dataIndex: 'date', formatter:'date("m/d/Y")', filterType: 'date' },
             { text: 'Value', dataIndex: 'value', xtype: 'numbercolumn', align: 'right', filterType: 'number' },
             { text: 'Quantity', dataIndex: 'quantity', xtype: 'numbercolumn', align: 'right' }
         ]
@@ -58,12 +58,17 @@ export default class GridFilterbarComponent {
             { text: 'Name', dataIndex: 'fullName', renderer: this.concatNames, groupable: true, flex: 1, 
                 filterType: { type: 'string', value: 'danni' },
             },
-            { text: 'Date of birth', dataIndex: 'dob', xtype: 'datecolumn', filterType: 'date' },
-            { text: 'Join date', dataIndex: 'joinDate', xtype: 'datecolumn', filterType: 'date' },
+            { text: 'Date of birth', dataIndex: 'dob', formatter:'date("m/d/Y")', filterType: 'date' },
+            { text: 'Join date', dataIndex: 'joinDate', renderer : function(val){
+                if(val)
+                    return val.slice(4, 6)+'/'+val.slice(6, 8) +'/'+ val.slice(0, 4);
+            }, filterType: 'date' },
             { text: 'Notice<br>period', dataIndex: 'noticePeriod', groupable: true, filterType: 'list' },
-            { text: 'Email address', dataIndex: 'email', flex: 1, renderer: this.renderMailto, 
-                cell: { encodeHtml: false },
-                filterType: 'string',
+            { text: 'Email address', dataIndex: 'email', flex: 1, renderer: function(v){
+                return '<a href="mailto:' + v + '">' + Ext.htmlEncode(v) + '</a>';
+            }, 
+            cell: { encodeHtml: false },
+            filterType: 'string',
             },
             { text: 'Department', dataIndex: 'department', filterType: 'list' },
             { text: 'Salary', dataIndex: 'salary', xtype: 'numbercolumn', align: 'right', 
