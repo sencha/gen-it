@@ -5,9 +5,9 @@
     "scripts": {
         "start": "npm run dev",
         "dev": "npm run extract && webpack-dev-server --env.browser=yes --env.verbose=no",
-        "build": "npm run clean && npm run extract && npm run webpackprod && npm run http",
+        "build": "npm run clean && npm run extract && npm run buildexample && npm run http",
         "xbuildexample2": "npm run clean && npm run webpackprodexample",
-        "buildexample": "cross-env webpack --env.environment=production --env.treeshake=yes --env.basehref=/ExtWebComponents/7.4.0/kitchensink/",
+        "buildexample": "npm run clean && npm run extract && cross-env webpack --env.environment=production --env.treeshake=yes --env.basehref=/ExtWebComponents/7.4.0/kitchensink/",
         "buildexamplelocal": "cross-env webpack --env.environment=production --env.treeshake=yes --env.basehref=/",
         "buildexamplegzip": "cross-env webpack --env.environment=production --env.treeshake=yes --env.basehref=/ExtWebComponents/7.4.0/kitchensink/ && npm run gzip",
         "clean": "rimraf build",
