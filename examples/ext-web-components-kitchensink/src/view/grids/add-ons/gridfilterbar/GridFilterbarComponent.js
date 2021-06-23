@@ -1,5 +1,4 @@
 import './GridFilterbarComponent.html';
-import model from '../../data/CompanyModel';
 import '../../data/BigData';
 import '../../data/SalesData';
 
@@ -7,7 +6,16 @@ Ext.require(['Ext.grid.plugin.filterbar.FilterBar']);
 
 export default class GridFilterbarComponent {
     salesStore = Ext.create('Ext.data.Store', {
-        model,
+        fields:['company', 'country', 'person', {
+            name:'date',
+            convert:function(v){
+                if(v)
+                    v=Ext.util.Format.date(new Date(v), 'm/d/Y');
+                return v;
+            }
+        },
+        'value', 'quantity'
+        ],
         autoLoad: true,
         pageSize: 0,
         proxy: {
@@ -41,6 +49,21 @@ export default class GridFilterbarComponent {
     
     employeesGridConfig = {
         store: {
+            fields:[{name:'fullName'}, {
+                name:'dob',
+                convert:function(v){
+                    if(v){
+                        var val = v.split('/');
+                        return [val[1], val[2], val[0]].join('/');
+                    }
+                }
+            }, {
+                name:'joinDate',
+                convert:function(v){
+                    if(v)
+                        return v.slice(4, 6)+'/'+v.slice(6, 8) +'/'+ v.slice(0, 4);
+                }
+            }, 'noticePeriod', 'email', 'department', 'salary'],
             autoLoad: true,
             pageSize: 0,
             proxy: {
@@ -58,17 +81,12 @@ export default class GridFilterbarComponent {
             { text: 'Name', dataIndex: 'fullName', renderer: this.concatNames, groupable: true, flex: 1, 
                 filterType: { type: 'string', value: 'danni' },
             },
-            { text: 'Date of birth', dataIndex: 'dob', formatter:'date("m/d/Y")', filterType: 'date' },
-            { text: 'Join date', dataIndex: 'joinDate', renderer : function(val){
-                if(val)
-                    return val.slice(4, 6)+'/'+val.slice(6, 8) +'/'+ val.slice(0, 4);
-            }, filterType: 'date' },
+            {text: 'Date of birth', dataIndex: 'dob', xtype:'datecolumn', format:'m/d/Y', filterType: 'date'},
+            {text: 'Join date', xtype:'datecolumn', dataIndex: 'joinDate', format:'m/d/Y', filterType: 'date'},
             { text: 'Notice<br>period', dataIndex: 'noticePeriod', groupable: true, filterType: 'list' },
-            { text: 'Email address', dataIndex: 'email', flex: 1, renderer: function(v){
-                return '<a href="mailto:' + v + '">' + Ext.htmlEncode(v) + '</a>';
-            }, 
-            cell: { encodeHtml: false },
-            filterType: 'string',
+            { text: 'Email address', dataIndex: 'email', flex: 1, renderer: (v) => ('<a href="mailto:' + v + '">' + Ext.htmlEncode(v) + '</a>'), 
+                cell: { encodeHtml: false },
+                filterType: 'string',
             },
             { text: 'Department', dataIndex: 'department', filterType: 'list' },
             { text: 'Salary', dataIndex: 'salary', xtype: 'numbercolumn', align: 'right', 
