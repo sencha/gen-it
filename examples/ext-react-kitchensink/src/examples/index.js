@@ -416,11 +416,11 @@ const root = {
         ] },
         { text: 'Trees', navIcon: 'icon-trees', children: [
             { text: 'TreeList', component: TreeList, layout: Ext.os.is.Phone ? 'fit': 'center', navIcon: 'icon-tree-list' },
-            { text: 'Tree', premium: true, component: Tree, navIcon: 'icon-trees' },
-            { text: 'Editable Tree', premium: true, component: EditableTree, navIcon: 'icon-tree-editable'},
-            { text: 'Tree Grid', premium: true, component: TreeGrid, navIcon: 'icon-tree-grid' },
-            { text: 'Tree Decorations', premium: true, component:TreeDecorations, navIcon: 'icon-tree-decorations'},
-            { text: 'Heterogeneous Tree', premium: true, component: HeterogeneousTree, navIcon: 'icon-heterogeneous-tree'},
+            { text: 'Tree', component: Tree, navIcon: 'icon-trees' },
+            { text: 'Editable Tree', component: EditableTree, navIcon: 'icon-tree-editable'},
+            { text: 'Tree Grid', component: TreeGrid, navIcon: 'icon-tree-grid' },
+            { text: 'Tree Decorations', component:TreeDecorations, navIcon: 'icon-tree-decorations'},
+            { text: 'Heterogeneous Tree', component: HeterogeneousTree, navIcon: 'icon-heterogeneous-tree'},
             { text: 'Tree Reorder', component: TreeReorder, navIcon: 'icon-tree-reorder'}
         ] },
         { text: 'Calendar', premium: false, navIcon: 'icon-calendar', children:[
@@ -431,7 +431,7 @@ const root = {
             { text: 'Timezone Support', component: TimezoneSupport, navIcon: 'icon-calendar-timezone' },
             { text: 'Drag Resize Validation', component: DragResizeValidation, navIcon: 'icon-calendar-validation' }
         ]},
-        { text: 'Charts', premium: true, navIcon: 'icon-charts', children: [
+        { text: 'Charts', navIcon: 'icon-charts', children: [
             { text: 'Area', navIcon: 'icon-area-basic', children: [
                 { text: 'Basic Area', component: BasicArea, navIcon: 'icon-area-basic' },
                 { text: 'Stacked Area', component: StackedArea, navIcon: 'icon-area-stacked'},
@@ -493,7 +493,7 @@ const root = {
                 { text: 'Bubble', component: Bubble, navIcon: 'icon-scatter-bubble' }
             ] }
         ] },
-        { text: 'D3', premium: true, navIcon: 'icon-d3', children: [
+        { text: 'D3', navIcon: 'icon-d3', children: [
             { text: 'Heatmap', navIcon: 'icon-d3-heatmap', children: [
                 { text: 'Purchases By Day', component: PurchasesByDay, navIcon: 'icon-d3-view-heatmap-purchases' },
                 { text: 'Sales Per Employee', component: SalesPerEmployee, navIcon: 'icon-d3-view-heatmap-sales' },
@@ -511,7 +511,7 @@ const root = {
                 { text: 'Configurable Pivot TreeMap', component: ConfigurablePivotTreeMap, navIcon: 'icon-d3-view-treemap-pivot-configurator' }
             ]}
         ] },
-        { text: 'Pivot Grids', premium: true, navIcon: 'icon-pivot-grids', children: [
+        { text: 'Pivot Grids', navIcon: 'icon-pivot-grids', children: [
             { text: 'Outline Layout', component: OutlineLayout, navIcon: 'icon-outline-pivot-grid' },
             { text: 'Compact Layout', component: CompactLayout, navIcon: 'icon-compact-pivot-grid' },
             { text: 'Tabular Layout', component: TabularLayout, navIcon: 'icon-tabular-pivot-grid' },

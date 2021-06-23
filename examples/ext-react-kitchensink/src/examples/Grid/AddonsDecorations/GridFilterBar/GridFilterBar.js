@@ -10,7 +10,7 @@ export default class GridFilterBarExample extends Component {
     {name: 'person', type: 'string'},
     {
       name: 'date', type: 'date', dateFormat: 'c', convert: function (date) {
-        return date ? Ext.Date.format(new Date(date), 'm-d-Y') : ''
+        return date ? Ext.Date.format(new Date(date), 'm/d/Y') : ''
       }
     },
     {name: 'value', type: 'float', allowNull: true},
@@ -69,7 +69,23 @@ export default class GridFilterBarExample extends Component {
   }
 
   employeesGridConfig = {
+    
     store: {
+      fields:[{name:'fullName'}, {
+        name:'dob',
+        convert:function(v){
+          if(v){
+            var val = v.split('/');
+            return [val[1],val[2],val[0]].join('/');
+          }
+        }
+      },{
+        name:'joinDate',
+        convert:function(v){
+          if(v)
+            return v.slice(4, 6)+'/'+v.slice(6, 8) +'/'+ v.slice(0, 4);
+        }
+      },'noticePeriod','email','department','salary'],
       autoLoad: true,
       pageSize: 0,
       proxy: {
@@ -79,13 +95,17 @@ export default class GridFilterBarExample extends Component {
     },
     columns: [
       {text: 'Name', dataIndex: 'fullName', renderer: this.concatNames, groupable: true,flex:1, width: 200, filterType: {type: 'string', value: 'danni'}},
-      {text: 'Date of birth', dataIndex: 'dob', xtype: 'datecolumn',flex:1, format: 'm-d-Y', filterType: 'date'},
-      {text: 'Join date', dataIndex: 'joinDate', xtype: 'datecolumn',flex:1, filterType: 'date'},
+      {text: 'Date of birth', dataIndex: 'dob', xtype:'datecolumn', format:'m/d/Y', filterType: 'date'},
+      {text: 'Join date', xtype:'datecolumn', dataIndex: 'joinDate', format:'m/d/Y', filterType: 'date'},
       {text: 'Notice<br>period', dataIndex: 'noticePeriod', groupable: true, filterType: 'list'},
-      {text: 'Email address', dataIndex: 'email', renderer: this.renderMailto, cell: {encodeHtml: false}, filterType: 'string'},
+      {text: 'Email address', dataIndex: 'email', renderer: (v) => ('<a href="mailto:' + v + '">' + Ext.htmlEncode(v) + '</a>'), cell: {encodeHtml: false}, filterType: 'string'},
       {text: 'Department', dataIndex: 'department', filterType: 'list'},
       {text: 'Salary', dataIndex: 'salary', xtype: 'numbercolumn', align: 'right', filterType: {type: 'number', operator: '>='}}
     ]
+  }
+
+  convertJoinDate = function () {
+debugger;
   }
 
   onGridStoreReady = function (grid) {
@@ -249,8 +269,7 @@ export default class GridFilterBarExample extends Component {
         <Column
           text='Date'
           dataIndex='date'
-          flex={1}
-          format='m-d-Y'
+          format='m/d/Y'
           xtype='datecolumn'
           filterType='date'
         />
