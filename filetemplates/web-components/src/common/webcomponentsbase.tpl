@@ -340,7 +340,7 @@ export default class WebComponentsBaseComponent extends HTMLElement {
       }
 
 
-
+if(window['ExtAngular'] == 'loaded' || window['ExtReact'] == 'loaded'){
       if (me.parentNode.A.ext !== undefined) {
         var totalLength = me.parentNode.A.ITEMS.length;
         var currentLength = me.parentNode.A.ext.items.items.length;
@@ -381,26 +381,24 @@ export default class WebComponentsBaseComponent extends HTMLElement {
         //me.A.parentNode = me.parentNode
         me.parentNode.A.CHILDREN.push(me.A.ext);
       }
-
-
-
-      // if (me.parentNode.A.ext !== undefined) {
-      //   var found = false;
-      //   for (var i = 0; i < me.parentNode.A.ITEMS.length; i++) {
-      //     if (me.parentNode.A.ITEMS[i].child.outerHTML == me.A.ext.childouterHTML) {
-      //       found = true;
-      //       me.addTheChild(me.parentNode.A.ext, me.A.ext, i);
-      //     }
-      //   }
-      //   if (found == false) {
-      //     me.addTheChild(me.parentNode.A.ext, me.A.ext);
-      //   }
-      // }
-      // else {
-      //   me.parentNode.A.CHILDREN.push(me.A.ext);
-      // }
-
-
+}
+else {
+      if (me.parentNode.A.ext !== undefined) {
+        var found = false;
+        for (var i = 0; i < me.parentNode.A.ITEMS.length; i++) {
+          if (me.parentNode.A.ITEMS[i].child.outerHTML == me.A.ext.childouterHTML) {
+            found = true;
+            me.addTheChild(me.parentNode.A.ext, me.A.ext, i);
+          }
+        }
+        if (found == false) {
+          me.addTheChild(me.parentNode.A.ext, me.A.ext);
+        }
+      }
+      else {
+        me.parentNode.A.CHILDREN.push(me.A.ext);
+      }
+}
 
 
     }
