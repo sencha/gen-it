@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "npm run extract && ng serve",
     "build": "npm run clean && npm run extract && ng build --prod",
+    "buildexample": "npm run extract && env verbose=no basehref=/ExtAngular/7.4.0/kitchensink/ ng build --prod",
     "extract": "node ./extract-code.js",
     "webpackprod": "cross-env webpack --env.environment=production --env.verbose=no --env.treeshake=yes --env.basehref=/",
     "test": "ng test",

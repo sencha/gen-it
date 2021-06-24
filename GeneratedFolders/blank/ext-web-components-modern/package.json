@@ -17,16 +17,13 @@
     "prepare": "npm run build"
   },
   "homepage": "https://github.com/sencha/ext-web-components#readme",
-  "peerDependencies": {
-
-  },
+  "peerDependencies": {},
   "dependencies": {
     "object-assign": "~4.1.1",
     "pascal-case": "~3.1.1",
     "script-loader": "^0.7.2",
     "comment-json": "^4.0.2",
     "html-parsed-element": "^0.4.0",
-
     "@babel/cli": "^7.11.5",
     "@babel/core": "^7.11.5",
     "@babel/runtime": "^7.11.2",
@@ -62,4 +59,4 @@
   "keywords": [],
   "author": "Sencha",
   "license": "ISC"
-  }
+}

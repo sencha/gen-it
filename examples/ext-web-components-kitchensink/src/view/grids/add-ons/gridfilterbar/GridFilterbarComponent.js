@@ -1,5 +1,4 @@
 import './GridFilterbarComponent.html';
-import model from '../../data/CompanyModel';
 import '../../data/BigData';
 import '../../data/SalesData';
 
@@ -7,7 +6,16 @@ Ext.require(['Ext.grid.plugin.filterbar.FilterBar']);
 
 export default class GridFilterbarComponent {
     salesStore = Ext.create('Ext.data.Store', {
-        model,
+        fields:['company', 'country', 'person', {
+            name:'date',
+            convert:function(v){
+                if(v)
+                    v=Ext.util.Format.date(new Date(v), 'm/d/Y');
+                return v;
+            }
+        },
+        'value', 'quantity'
+        ],
         autoLoad: true,
         pageSize: 0,
         proxy: {
@@ -33,7 +41,7 @@ export default class GridFilterbarComponent {
             { text: 'Company', dataIndex: 'company', flex: 1, filterType: 'string', groupable:true },
             { text: 'Country', dataIndex: 'country', flex: 1, filterType: {type :'list', value:'Belgium'}, groupable:true },
             { text: 'Person', dataIndex: 'person', groupable:true },
-            { text: 'Date', dataIndex: 'date', xtype: 'datecolumn', format: 'd.m.Y', filterType: 'date' },
+            { text: 'Date', dataIndex: 'date', formatter:'date("m/d/Y")', filterType: 'date' },
             { text: 'Value', dataIndex: 'value', xtype: 'numbercolumn', align: 'right', filterType: 'number' },
             { text: 'Quantity', dataIndex: 'quantity', xtype: 'numbercolumn', align: 'right' }
         ]
@@ -41,6 +49,21 @@ export default class GridFilterbarComponent {
     
     employeesGridConfig = {
         store: {
+            fields:[{name:'fullName'}, {
+                name:'dob',
+                convert:function(v){
+                    if(v){
+                        var val = v.split('/');
+                        return [val[1], val[2], val[0]].join('/');
+                    }
+                }
+            }, {
+                name:'joinDate',
+                convert:function(v){
+                    if(v)
+                        return v.slice(4, 6)+'/'+v.slice(6, 8) +'/'+ v.slice(0, 4);
+                }
+            }, 'noticePeriod', 'email', 'department', 'salary'],
             autoLoad: true,
             pageSize: 0,
             proxy: {
@@ -58,10 +81,10 @@ export default class GridFilterbarComponent {
             { text: 'Name', dataIndex: 'fullName', renderer: this.concatNames, groupable: true, flex: 1, 
                 filterType: { type: 'string', value: 'danni' },
             },
-            { text: 'Date of birth', dataIndex: 'dob', xtype: 'datecolumn', filterType: 'date' },
-            { text: 'Join date', dataIndex: 'joinDate', xtype: 'datecolumn', filterType: 'date' },
+            {text: 'Date of birth', dataIndex: 'dob', xtype:'datecolumn', format:'m/d/Y', filterType: 'date'},
+            {text: 'Join date', xtype:'datecolumn', dataIndex: 'joinDate', format:'m/d/Y', filterType: 'date'},
             { text: 'Notice<br>period', dataIndex: 'noticePeriod', groupable: true, filterType: 'list' },
-            { text: 'Email address', dataIndex: 'email', flex: 1, renderer: this.renderMailto, 
+            { text: 'Email address', dataIndex: 'email', flex: 1, renderer: (v) => ('<a href="mailto:' + v + '">' + Ext.htmlEncode(v) + '</a>'), 
                 cell: { encodeHtml: false },
                 filterType: 'string',
             },

@@ -292,7 +292,7 @@ export default function getMenu() {
             { text: 'Froala Editor', component: FroalaEditorComponent, layout: 'center', iconCls: 'icon-editor' }
         ]},
 
-        { text: 'Grids', iconCls: 'icon-grids', children: [
+        { text: 'Grids', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', iconCls: 'icon-grids', children: [
             { text: 'Core Features', iconCls: 'icon-grids', children: [
                 { text: 'Basic Grid', component: BasicGridComponent, iconCls: 'icon-grids'},
                 { text: 'Grouped Grid', component: GroupedGridComponent, iconCls: 'icon-grouped-grid'},
@@ -302,14 +302,14 @@ export default function getMenu() {
                 { text: 'Editable Row', component:EditableRowComponent, iconCls:'icon-row-editing'},
                 { text: 'Infinite Grid', component: InfiniteGridComponent, iconCls: 'icon-buffer-grid'}
             ]},
-            { text: 'Add-ons', iconCls: 'icon-framing-buttons', children: [
+            { text: 'Add-ons', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', iconCls: 'icon-framing-buttons', children: [
                 { text: 'Tree Grouped Grid', component: TreeGroupedGridComponent, premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', iconCls: 'icon-tree-grouped-grid'},
                 { text: 'Grid Tools', component: GridToolsComponent, iconCls: 'icon-grid-tools'},
                 { text: 'Row Expander', component: RowExpanderComponent, iconCls: 'icon-row-expander-grid'},
                 { text: 'Row Body', component: RowBodyComponent, iconCls: 'icon-row-body-grid'},
                 { text: 'Summary Row', component: SummaryRowComponent, iconCls: 'icon-grid-summary'},
                 { text: 'Grid Filtering', component: GridFilteringComponent, iconCls: 'icon-grid-filtering'},
-                { text: 'Grid Filterbar', component: GridFilterBarComponent, iconCls: 'icon-grid-filterbar'},
+                { text: 'Grid Filterbar', component: GridFilterBarComponent, premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', iconCls: 'icon-grid-filterbar'},
                 { text: 'View Options', component: ViewOptionsComponent, iconCls: 'icon-view-options-grid'},
                 { text: 'Row Drag And Drop', component: RowDragAndDropComponent, iconCls: 'icon-dd-grid-row'},
                 { text: 'Drag Form To Grid', component: DragFormToGrid, iconCls: 'icon-dd-form-to-grid'}

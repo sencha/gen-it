@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { BaseHrefWebpackPlugin } = require('base-href-webpack-plugin');
-const ExtWebpackPlugin = require('@sencha/ext-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 const portfinder = require('portfinder');
@@ -83,6 +82,10 @@ module.exports = function(env) {
             new CopyWebpackPlugin([{
                 from: '../kitchensink-theme',
                 to: './kitchensink-theme'
+            }]),
+            new CopyWebpackPlugin([{
+                from: '../node_modules/@sencha/ext-modern-runtime/material',
+                to: './material'
             }]),
             new CopyWebpackPlugin([{
                 from: '../node_modules/@sencha/ext-web-components-modern/ext-web-components-modern.js',

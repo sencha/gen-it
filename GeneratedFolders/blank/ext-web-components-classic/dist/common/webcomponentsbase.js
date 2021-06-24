@@ -7,7 +7,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-//Fri Jun 11 2021 23:52:49 GMT+0530 (India Standard Time)
+//Thu Jun 24 2021 14:11:03 GMT+0530 (India Standard Time)
 import { doProp, filterProp, isClassicDock, isMenu, isRenderercell, isParentGridAndChildToolbar, isParentGridAndChildColumn, isTooltip, isPlugin } from './util.js';
 
 var WebComponentsBaseComponent = /*#__PURE__*/function (_HTMLElement) {
@@ -323,59 +323,63 @@ var WebComponentsBaseComponent = /*#__PURE__*/function (_HTMLElement) {
         return;
       }
 
-      if (me.parentNode.A.ext !== undefined) {
-        var totalLength = me.parentNode.A.ITEMS.length;
-        var currentLength = me.parentNode.A.ext.items.items.length;
+      if (window['ExtAngular'] == 'loaded' || window['ExtReact'] == 'loaded') {
+        if (me.parentNode.A.ext !== undefined) {
+          var totalLength = me.parentNode.A.ITEMS.length;
+          var currentLength = me.parentNode.A.ext.items.items.length;
 
-        if (totalLength > currentLength) {
-          var filteredresult = WebComponentsBaseComponent.theDeleted.filter(function (obj) {
-            if (obj.parentNode === me.parentNode) {
-              return obj.count;
-            }
-          });
-
-          if (filteredresult.length > 0) {
-            me.addTheChild(me.parentNode.A.ext, me.A.ext, filteredresult[0].count);
-            WebComponentsBaseComponent.theDeleted.shift();
-          } else {
-            me.addTheChild(me.parentNode.A.ext, me.A.ext, 0);
-          }
-        } else {
-          if (me.previousSibling !== null) {
-            var theSibling = me.previousSibling.A.ext.id;
-            var foundIt = false;
-            me.parentNode.A.ext.items.items.forEach(function (item, index) {
-              if (foundIt == false) {
-                if (theSibling == item.id) {
-                  foundIt = true;
-                  me.addTheChild(me.parentNode.A.ext, me.A.ext, index + 1);
-                }
+          if (totalLength > currentLength) {
+            var filteredresult = WebComponentsBaseComponent.theDeleted.filter(function (obj) {
+              if (obj.parentNode === me.parentNode) {
+                return obj.count;
               }
             });
+
+            if (filteredresult.length > 0) {
+              me.addTheChild(me.parentNode.A.ext, me.A.ext, filteredresult[0].count);
+              WebComponentsBaseComponent.theDeleted.shift();
+            } else {
+              me.addTheChild(me.parentNode.A.ext, me.A.ext, 0);
+            }
           } else {
-            me.addTheChild(me.parentNode.A.ext, me.A.ext, 0);
+            if (me.previousSibling !== null) {
+              var theSibling = me.previousSibling.A.ext.id;
+              var foundIt = false;
+              me.parentNode.A.ext.items.items.forEach(function (item, index) {
+                if (foundIt == false) {
+                  if (theSibling == item.id) {
+                    foundIt = true;
+                    me.addTheChild(me.parentNode.A.ext, me.A.ext, index + 1);
+                  }
+                }
+              });
+            } else {
+              me.addTheChild(me.parentNode.A.ext, me.A.ext, 0);
+            }
           }
+        } else {
+          //me.A.count = me.parentNode.A.CHILDREN.length
+          //me.A.parentNode = me.parentNode
+          me.parentNode.A.CHILDREN.push(me.A.ext);
         }
       } else {
-        //me.A.count = me.parentNode.A.CHILDREN.length
-        //me.A.parentNode = me.parentNode
-        me.parentNode.A.CHILDREN.push(me.A.ext);
-      } // if (me.parentNode.A.ext !== undefined) {
-      //   var found = false;
-      //   for (var i = 0; i < me.parentNode.A.ITEMS.length; i++) {
-      //     if (me.parentNode.A.ITEMS[i].child.outerHTML == me.A.ext.childouterHTML) {
-      //       found = true;
-      //       me.addTheChild(me.parentNode.A.ext, me.A.ext, i);
-      //     }
-      //   }
-      //   if (found == false) {
-      //     me.addTheChild(me.parentNode.A.ext, me.A.ext);
-      //   }
-      // }
-      // else {
-      //   me.parentNode.A.CHILDREN.push(me.A.ext);
-      // }
+        if (me.parentNode.A.ext !== undefined) {
+          var found = false;
 
+          for (var i = 0; i < me.parentNode.A.ITEMS.length; i++) {
+            if (me.parentNode.A.ITEMS[i].child.outerHTML == me.A.ext.childouterHTML) {
+              found = true;
+              me.addTheChild(me.parentNode.A.ext, me.A.ext, i);
+            }
+          }
+
+          if (found == false) {
+            me.addTheChild(me.parentNode.A.ext, me.A.ext);
+          }
+        } else {
+          me.parentNode.A.CHILDREN.push(me.A.ext);
+        }
+      }
     }
 
     WebComponentsBaseComponent.elementcount--; //console.log('reduced: ' + me.tagName + ': elementcount reduced to ' + WebComponentsBaseComponent.elementcount)
