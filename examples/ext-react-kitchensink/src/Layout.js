@@ -103,7 +103,7 @@ class Layout extends Component {
   componentDidMount() {
     console.log('componentDidMount')
     if (this.rightContainer != undefined) {
-      this.rightContainer.cmp.updateHtml('Build: ' + '7.4.0.0');
+      this.rightContainer.cmp.updateHtml('Build: ' + process.env.REACT_APP_build_v);
     }
     if (Ext.os.is.Phone == 't') {
       const node = this.props.selectedNavNode;
