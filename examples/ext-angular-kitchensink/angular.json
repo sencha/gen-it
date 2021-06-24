@@ -60,11 +60,9 @@
             ],
             "styles": [
               "src/styles.css",
-              "kitchensink-theme/resources/Theme.kitchensink-all.css",
-              "ext-modern-runtime/material/material-all.css"
+              "kitchensink-theme/resources/Theme.kitchensink-all.css"
             ],
             "scripts": [
-              "ext-modern-runtime/modern.engine.enterprise.js"
             ]
           },
           "configurations": {
