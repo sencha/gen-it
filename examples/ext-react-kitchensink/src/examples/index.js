@@ -394,13 +394,13 @@ const root = {
                 { text: 'Infinite Grid', component: InfiniteGrid, navIcon: 'icon-buffer-grid'}
             ]},
             { text: 'Add-ons',premium: true, navIcon: 'icon-framing-buttons', children: [
+                { text: 'Tree Grouped Grid',premium: true, component: TreeGroupGrid, navIcon: 'icon-tree-grouped-grid'},
                 { text: 'Grid Tools', component: ToolGrid, navIcon: 'icon-grid-tools'},
-                { text: 'Tree Group Grid',premium: true, component: TreeGroupGrid, navIcon: 'icon-tree-grouped-grid'},
                 { text: 'Row Expander', component: RowExpanderGrid, navIcon: 'icon-row-expander-grid'},
                 { text: 'Row Body', component: RowBodyGrid, navIcon: 'icon-row-body-grid'},
                 { text: 'Summary Row', component: SummaryRowGrid, navIcon: 'icon-grid-summary'},
                 { text: 'Grid Filtering', component: GridFiltering, navIcon: 'icon-grid-filtering'},
-				{ text: 'Grid Filter Bar',premium: true, component: GridFilterBar, navIcon: 'icon-grid-filterbar'},
+				{ text: 'Grid Filterbar',premium: true, component: GridFilterBar, navIcon: 'icon-grid-filterbar'},
                 { text: 'View Options', component: ViewOptionsGrid, navIcon: 'icon-view-options-grid'},
                 { text: 'Row Drag & Drop', component: RowDragAndDrop, navIcon: 'icon-dd-grid-to-form', hidden: Ext.os.is.Phone },
                 { text: 'Drag Form To Grid', component: DragFormToGrid, navIcon: 'icon-dd-form-to-grid'}

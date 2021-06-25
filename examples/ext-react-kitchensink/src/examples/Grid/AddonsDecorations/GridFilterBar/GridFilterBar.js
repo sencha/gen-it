@@ -104,10 +104,6 @@ export default class GridFilterBarExample extends Component {
     ]
   }
 
-  convertJoinDate = function () {
-debugger;
-  }
-
   onGridStoreReady = function (grid) {
     this.setupStoreListeners(this.store, grid);
   }
@@ -179,6 +175,8 @@ debugger;
         columnLines
         grouped
         shadow
+        rowNumbers="true"
+        emptyText="No Matching Records"
         viewModel={true}
         listeners={{
           painted: this.onGridStoreReady.bind(this)
