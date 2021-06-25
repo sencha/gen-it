@@ -44,6 +44,7 @@ export default class TreeGroupedGridComponent {
         text: 'Company',
         dataIndex: 'company',
         groupable: true,
+        hidden:true,
         width:100,
         filterType: 'string'
     },
@@ -58,11 +59,13 @@ export default class TreeGroupedGridComponent {
         text: 'Person',
         dataIndex: 'person',
         groupable: true,
+        hidden:true,
         summary: 'count'
     },
     {
         text: 'Date',
         dataIndex: 'date',
+        hidden:true,
         xtype: 'datecolumn',
         filterType: 'date'
     },
@@ -86,9 +89,6 @@ export default class TreeGroupedGridComponent {
         this.gridCmp = event.detail.cmp;
         this.gridCmp.setColumns(this.gridColumns);
         this.gridCmp.setStore(this.store);
-        this.gridCmp.addPlugin({
-            type: 'groupingpanel'
-        });
         this.gridCmp.addPlugin({
             type: 'gridsummaries'
         });

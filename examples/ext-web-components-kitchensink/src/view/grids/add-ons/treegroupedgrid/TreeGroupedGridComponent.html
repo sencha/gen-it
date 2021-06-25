@@ -5,13 +5,15 @@
     height="100%"
     width="100%"
 >
-<ext-treegroupedgrid title="Grid Tools"
+<ext-treegroupedgrid title="Tree grouped grid"
   columnLines="true"
   grouped="true"
   shadow="true"
   height="100%"
+  grouped="true"
   onready="treegroupedgrid.onGridReady"
   summaryPosition="docked"
+  plugins= '{ "groupingpanel":"true"}'
   titleBar = '{
     "shadow": "false",
     "items": [{
@@ -20,7 +22,6 @@
         "text": "Group sum",
         "id" : "groupSumMenu",
         "menu": {
-            "indented": "false",
             "items": [{
                 "text": "Top",
                 "sum": "top"
@@ -68,6 +69,6 @@
         }
     }]
 }'
-
 >
+</ext-treegroupedgrid>
 </ext-container>
