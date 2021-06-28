@@ -180,7 +180,7 @@ export class GridFilterbarComponent {
       pageSize: 0,
       proxy: {
         type: "ajax",
-        url: "/KitchenSink/BigData",
+        url: "/KitchenSink/EmployeeData",
       },
       listeners: {
         scope: this,
