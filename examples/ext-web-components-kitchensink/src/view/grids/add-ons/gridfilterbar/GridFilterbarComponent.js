@@ -1,5 +1,5 @@
 import './GridFilterbarComponent.html';
-import '../../data/BigData';
+import '../../data/EmployeeData';
 import '../../data/SalesData';
 
 Ext.require(['Ext.grid.plugin.filterbar.FilterBar']);
@@ -49,13 +49,14 @@ export default class GridFilterbarComponent {
     
     employeesGridConfig = {
         store: {
-            fields:[{name:'fullName'}, {
+            fields:[{name:'fullName',
+                convert:function(v, rec){
+                    return rec.get('forename') + ' ' + rec.get('surname');
+                }}, {
                 name:'dob',
                 convert:function(v){
-                    if(v){
-                        var val = v.split('/');
-                        return [val[1], val[2], val[0]].join('/');
-                    }
+                    if(v)
+                        return v.slice(4, 6)+'/'+v.slice(6, 8) +'/'+ v.slice(0, 4);
                 }
             }, {
                 name:'joinDate',
@@ -68,7 +69,7 @@ export default class GridFilterbarComponent {
             pageSize: 0,
             proxy: {
                 type: 'ajax',
-                url: '/KitchenSink/BigData',
+                url: '/KitchenSink/EmployeeData',
             },
             listeners: {
                 scope: this,

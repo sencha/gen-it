@@ -1,17 +1,4 @@
-import { Injectable } from '@angular/core';
-
-declare var Ext: any;
-declare var KitchenSink: any;
-
-@Injectable()
-export class GridFilterbarService {
-
-  constructor() {
-    this.init();
-  }
-
-  init = function() {
-    var rndInc = 7,
+var rndInc = 7,
         rndSeed = rndInc,
         rndMax = Math.pow(2, 31),
         thisYear = new Date().getYear() + 1900,
@@ -78,6 +65,8 @@ export class GridFilterbarService {
             'Easton,Jensen,Emery,Foreman,Cohen,Bullock,Salinas,Rasmussen,Singh,Glass,Richards,Salter,' +
             'Workman,Mckay,Velez,Nolan');
 
+
+Ext.define('KitchenSink.data.EmployeeData', {}, function() {
     Ext.ux.ajax.SimManager.register({
         '/KitchenSink/EmployeeData': {
             type: 'json',
@@ -117,6 +106,4 @@ export class GridFilterbarService {
             }())
         }
     });
-
-    }
-}
+});
