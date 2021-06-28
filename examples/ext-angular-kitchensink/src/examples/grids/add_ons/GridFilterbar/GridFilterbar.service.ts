@@ -14,7 +14,7 @@ export class GridFilterbarService {
     var rndInc = 7,
         rndSeed = rndInc,
         rndMax = Math.pow(2, 31),
-        thisYear = new Date().getYear() + 1900,
+        thisYear = (new Date()).getFullYear(),
         rnd = function() {
             // we want "random" but consistent values from run-to-run
             rndSeed = (rndSeed * 1664525 + rndInc) % rndMax;
