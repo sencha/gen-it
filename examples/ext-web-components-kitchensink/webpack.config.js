@@ -68,6 +68,10 @@ module.exports = function(env) {
             //     to: './ext/ux'
             // }]),*/
             new CopyWebpackPlugin([{
+                from: '../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js',
+                to: './webcomponents-bundle.js'
+            }]),
+            new CopyWebpackPlugin([{
                 from: '../code.js',
                 to: 'code.js'
             }]),
