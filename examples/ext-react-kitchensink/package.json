@@ -63,9 +63,9 @@
     "extends": "react-app",
     "globals": {
       "Ext": true,
-      "KitchenSink":true,
-      "BUILD_VERSION":true,
-      "Template":true
+      "KitchenSink": true,
+      "BUILD_VERSION": true,
+      "Template": true
     }
   },
   "browserslist": {

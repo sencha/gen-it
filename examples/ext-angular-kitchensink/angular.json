@@ -42,7 +42,7 @@
           "options": {
             "outputPath": "dist/ext-angular-kitchensink",
             "customWebpackConfig": {
-              "path": "./custom-webpack.config.js",
+              "path": "./webpack.config.js",
               "replaceDuplicatePlugins": false,
               "mergeStrategies": {
                 "externals": "replace"
@@ -63,6 +63,7 @@
               "kitchensink-theme/resources/Theme.kitchensink-all.css"
             ],
             "scripts": [
+              "node_modules/@sencha/ext-modern-runtime/modern.engine.enterprise.js"
             ]
           },
           "configurations": {

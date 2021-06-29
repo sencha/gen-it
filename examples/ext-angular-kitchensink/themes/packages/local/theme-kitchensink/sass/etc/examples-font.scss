@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Sencha-Examples';
-  src:  url('../resources/fonts/Sencha-Examples.eot?ri4lh8');
-  src:  url('../resources/fonts/Sencha-Examples.eot?ri4lh8#iefix') format('embedded-opentype'),
-    url('../resources/fonts/Sencha-Examples.ttf?ri4lh8') format('truetype'),
-    url('../resources/fonts/Sencha-Examples.woff?ri4lh8') format('woff'),
-    url('../resources/fonts/Sencha-Examples.svg?ri4lh8#Sencha-Examples') format('svg');
+  src:  url('../../resources/fonts/Sencha-Examples.eot?rqrtdb');
+  src:  url('../../resources/fonts/Sencha-Examples.eot?rqrtdb#iefix') format('embedded-opentype'),
+    url('../../resources/fonts/Sencha-Examples.ttf?rqrtdb') format('truetype'),
+    url('../../resources/fonts/Sencha-Examples.woff?rqrtdb') format('woff'),
+    url('../../resources/fonts/Sencha-Examples.svg?rqrtdb#Sencha-Examples') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,98 +12,18 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Sencha-Examples' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  line-height: 1;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Closable-Tabs:before {
-  content: "\e900";
-}
-.icon-Desktop-Tabs:before {
-  content: "\e901";
-}
-.icon-Scrolling-Tabs:before {
-  content: "\e902";
-}
-.icon-Tab-Bar:before {
-  content: "\e903";
-}
-.icon-Forms-CheckBoxField:before {
-  content: "\e904";
-}
-.icon-Forms-ComboBoxField:before {
-  content: "\e905";
-}
-.icon-Forms-ContainerField:before {
-  content: "\e906";
-}
-.icon-Forms-DatePickerField:before {
-  content: "\e907";
-}
-.icon-Forms-EmailField:before {
-  content: "\e908";
-}
-.icon-Forms-FieldSet:before {
-  content: "\e909";
-}
-.icon-Forms-FileField:before {
-  content: "\e90a";
-}
-.icon-Forms-Gauge:before {
-  content: "\e90b";
-}
-.icon-Forms-NumberField:before {
-  content: "\e90c";
-}
-.icon-Forms-PasswordField:before {
-  content: "\e90d";
-}
-.icon-Forms-RadioField:before {
-  content: "\e90e";
-}
-.icon-Forms-SearchField:before {
-  content: "\e90f";
-}
-.icon-Forms-SelectField:before {
-  content: "\e910";
-}
-.icon-Forms-SliderField:before {
-  content: "\e911";
-}
-.icon-Forms-SpinnerField:before {
-  content: "\e912";
-}
-.icon-Forms-TextAreaField:before {
-  content: "\e913";
-}
-.icon-Forms-TextField:before {
-  content: "\e914";
-}
-.icon-Forms-ToggleField:before {
-  content: "\e915";
-}
-.icon-Forms-URLField:before {
-  content: "\e916";
-}
-.icon-Redux-Grid:before {
-  content: "\e917";
-}
-.icon-Ripple:before {
-  content: "\e918";
-}
-.icon-Title-Bar:before {
-  content: "\e919";
-}
-.icon-Transition:before {
-  content: "\e91a";
-}
 .icon-ticket:before {
   content: "\e600";
 }
@@ -749,9 +669,6 @@
 .icon-layout-vertical-box:before {
   content: "\e754";
 }
-.icon-dd-grid-row:before {
-content: "\e755";
-}
 .icon-dd-grid-to-form:before {
   content: "\e755";
 }
@@ -1045,6 +962,87 @@ content: "\e755";
 }
 .icon-sprite-events:before {
   content: "\e7bb";
+}
+.icon-Closable-Tabs:before {
+  content: "\e900";
+}
+.icon-Desktop-Tabs:before {
+  content: "\e901";
+}
+.icon-Scrolling-Tabs:before {
+  content: "\e902";
+}
+.icon-Tab-Bar:before {
+  content: "\e903";
+}
+.icon-Forms-CheckBoxField:before {
+  content: "\e904";
+}
+.icon-Forms-ComboBoxField:before {
+  content: "\e905";
+}
+.icon-Forms-ContainerField:before {
+  content: "\e906";
+}
+.icon-Forms-DatePickerField:before {
+  content: "\e907";
+}
+.icon-Forms-EmailField:before {
+  content: "\e908";
+}
+.icon-Forms-FieldSet:before {
+  content: "\e909";
+}
+.icon-Forms-FileField:before {
+  content: "\e90a";
+}
+.icon-Forms-Gauge:before {
+  content: "\e90b";
+}
+.icon-Forms-NumberField:before {
+  content: "\e90c";
+}
+.icon-Forms-PasswordField:before {
+  content: "\e90d";
+}
+.icon-Forms-RadioField:before {
+  content: "\e90e";
+}
+.icon-Forms-SearchField:before {
+  content: "\e90f";
+}
+.icon-Forms-SelectField:before {
+  content: "\e910";
+}
+.icon-Forms-SliderField:before {
+  content: "\e911";
+}
+.icon-Forms-SpinnerField:before {
+  content: "\e912";
+}
+.icon-Forms-TextAreaField:before {
+  content: "\e913";
+}
+.icon-Forms-TextField:before {
+  content: "\e914";
+}
+.icon-Forms-ToggleField:before {
+  content: "\e915";
+}
+.icon-Forms-URLField:before {
+  content: "\e916";
+}
+.icon-Redux-Grid:before {
+  content: "\e917";
+}
+.icon-Ripple:before {
+  content: "\e918";
+}
+.icon-Title-Bar:before {
+  content: "\e919";
+}
+.icon-Transition:before {
+  content: "\e91a";
 }
 .icon-plus-circle:before {
   content: "\e91b";
@@ -1483,4 +1481,10 @@ content: "\e755";
 }
 .icon-line-real-time:before {
   content: "\e9ac";
+}
+.icon-tree-grouped-grid:before {
+  content: "\e9ad";
+}
+.icon-grid-filterbar:before {
+  content: "\e9ae";
 }
