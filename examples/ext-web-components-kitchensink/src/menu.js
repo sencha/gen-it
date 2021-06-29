@@ -311,7 +311,7 @@ export default function getMenu() {
                 { text: 'Grid Filtering', component: GridFilteringComponent, iconCls: 'icon-grid-filtering'},
                 { text: 'Grid Filterbar', component: GridFilterBarComponent, premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', iconCls: 'icon-grid-filterbar'},
                 { text: 'View Options', component: ViewOptionsComponent, iconCls: 'icon-view-options-grid'},
-                { text: 'Row Drag And Drop', component: RowDragAndDropComponent, iconCls: 'icon-dd-grid-row'},
+                { text: 'Row Drag And Drop', component: RowDragAndDropComponent, iconCls: 'icon-dd-grid-to-form'},
                 { text: 'Drag Form To Grid', component: DragFormToGrid, iconCls: 'icon-dd-form-to-grid'}
             ]},
             { text: 'Advanced Features', iconCls: 'icon-grid-plugins', children:[
@@ -325,11 +325,11 @@ export default function getMenu() {
 
         { text: 'Trees', iconCls: 'icon-trees', children: [
             { text: 'TreeList', component: TreeListComponent, layout: Ext.os.is.Phone ? 'fit': 'center', iconCls: 'icon-tree-list' },
-            { text: 'Tree', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: TreeComponent, iconCls: 'icon-trees' },
-            { text: 'Editable Tree', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: EditableTreeComponent, iconCls: 'icon-tree-editable'},
-            { text: 'Tree Grid', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: TreeGridComponent, iconCls: 'icon-tree-grid' },
-            { text: 'Tree Decorations', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component:TreeDecorationsComponent, iconCls: 'icon-tree-decorations'},
-            { text: 'Heterogeneous Tree', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: HeterogeneousTreeComponent, iconCls: 'icon-heterogeneous-tree'},
+            { text: 'Tree', component: TreeComponent, iconCls: 'icon-trees' },
+            { text: 'Editable Tree', component: EditableTreeComponent, iconCls: 'icon-tree-editable'},
+            { text: 'Tree Grid', component: TreeGridComponent, iconCls: 'icon-tree-grid' },
+            { text: 'Tree Decorations', component:TreeDecorationsComponent, iconCls: 'icon-tree-decorations'},
+            { text: 'Heterogeneous Tree', component: HeterogeneousTreeComponent, iconCls: 'icon-heterogeneous-tree'},
             { text: 'Tree Reorder', component: TreeReorderComponent, iconCls: 'icon-tree-reorder'}
         ]},
 
