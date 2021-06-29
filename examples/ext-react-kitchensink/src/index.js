@@ -58,6 +58,7 @@ import App from './App';
 import * as d3 from 'd3'
 import * as FroalaEditor from 'froala-editor/js/froala_editor.pkgd.min.js';
 import './Data'
+import './overrides/HeaderContainer'
 const Ext = window.Ext;
 
 window.d3 = d3
@@ -92,6 +93,7 @@ Ext.onReady(function () {
    *
    *  const html = tpl.apply({ firstName: 'Joe', lastName: 'Smith', title: 'CEO' });
    */
+	
    var Template = Ext.define(null, {
       extend: 'Ext.Template',
 
