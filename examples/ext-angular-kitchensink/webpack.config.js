@@ -86,21 +86,15 @@ module.exports = function(config, options) {
       inject: 'yes',
       intellishake: 'no'
     }),*/
-    new CopyWebpackPlugin([{
-      from: './node_modules/@sencha/ext-modern-runtime/modern.engine.enterprise.js',
-      to: './modern.engine.enterprise.js'
-    }]),
+
+
     new CopyWebpackPlugin([{
       from: './resources',
       to: './resources'
     }]),
-    new CopyWebpackPlugin([{
+   new CopyWebpackPlugin([{
       from: './kitchensink-theme',
       to: './kitchensink-theme'
-    }]),
-    new CopyWebpackPlugin([{
-      from: './src/assets/resources/code.js',
-      to: './code.js'
     }]),
     new webpack.DefinePlugin({
       BUILD_VERSION: JSON.stringify(build_v)

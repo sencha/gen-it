@@ -13,8 +13,8 @@ import ViewOptionsGrid from './Grid/AddonsDecorations/ViewOptions/ViewOptions';
 import RowExpanderGrid from './Grid/AddonsDecorations/RowExpander/RowExpander';
 import RowDragAndDrop from './Grid/AddonsDecorations/RowDragAndDrop/RowDragAndDrop';
 import ToolGrid from './Grid/AddonsDecorations/GridTools/GridTools';
-import TreeGroupGrid from './Grid/AddonsDecorations/TreeGroupGrid/TreeGroupGrid';
-import GridFilterBar from './Grid/AddonsDecorations/GridFilterBar/GridFilterBar'
+import TreeGroupedGrid from './Grid/AddonsDecorations/TreeGroupedGrid/TreeGroupedGrid';
+import GridFilterbar from './Grid/AddonsDecorations/GridFilterbar/GridFilterbar'
 import StockTickerGrid from './Grid/AdvancedFeatures/StockTicker/StockTicker';
 import ReduxGrid from './Grid/ReduxGrid/ReduxGrid';
 import RowBodyGrid from './Grid/AddonsDecorations/RowBody/RowBody';
@@ -394,13 +394,13 @@ const root = {
                 { text: 'Infinite Grid', component: InfiniteGrid, navIcon: 'icon-buffer-grid'}
             ]},
             { text: 'Add-ons',premium: true, navIcon: 'icon-framing-buttons', children: [
-                { text: 'Tree Grouped Grid',premium: true, component: TreeGroupGrid, navIcon: 'icon-tree-grouped-grid'},
+                { text: 'Tree Grouped Grid',premium: true, component: TreeGroupedGrid, navIcon: 'icon-tree-grouped-grid'},
                 { text: 'Grid Tools', component: ToolGrid, navIcon: 'icon-grid-tools'},
                 { text: 'Row Expander', component: RowExpanderGrid, navIcon: 'icon-row-expander-grid'},
                 { text: 'Row Body', component: RowBodyGrid, navIcon: 'icon-row-body-grid'},
                 { text: 'Summary Row', component: SummaryRowGrid, navIcon: 'icon-grid-summary'},
                 { text: 'Grid Filtering', component: GridFiltering, navIcon: 'icon-grid-filtering'},
-				{ text: 'Grid Filterbar',premium: true, component: GridFilterBar, navIcon: 'icon-grid-filterbar'},
+				{ text: 'Grid Filterbar',premium: true, component: GridFilterbar, navIcon: 'icon-grid-filterbar'},
                 { text: 'View Options', component: ViewOptionsGrid, navIcon: 'icon-view-options-grid'},
                 { text: 'Row Drag & Drop', component: RowDragAndDrop, navIcon: 'icon-dd-grid-to-form', hidden: Ext.os.is.Phone },
                 { text: 'Drag Form To Grid', component: DragFormToGrid, navIcon: 'icon-dd-form-to-grid'}
