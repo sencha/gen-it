@@ -284,7 +284,7 @@ export default class GridFilterBarExample extends Component {
               xtype: "button",
               align: "right",
               text: "Visibility",
-              menu: Ext.os.is.Desktop && [
+              menu: [
                 {
                   text: "Show",
                   handler: this.showFilterBar,
@@ -294,13 +294,13 @@ export default class GridFilterBarExample extends Component {
                   handler: this.hideFilterBar,
                 },
               ],
-              handler: !Ext.os.is.Desktop && this.onVisibilityClick, //handler: !Ext.os.is.Desktop && this.onExportClick
+              handler: this.onVisibilityClick,
             },
             {
               xtype: "button",
               align: "right",
               text: "Reconfigure",
-              menu: Ext.os.is.Desktop && [
+              menu: [
                 {
                   text: "Sales data",
                   handler: this.doReconfigure.bind(this),
@@ -312,7 +312,7 @@ export default class GridFilterBarExample extends Component {
                   grid: this.employeesGridConfig,
                 },
               ],
-              handler: !Ext.os.is.Desktop && this.onReconfigureMenuClick,
+              handler: this.onReconfigureMenuClick,
             },
             {
               xtype: "button",
