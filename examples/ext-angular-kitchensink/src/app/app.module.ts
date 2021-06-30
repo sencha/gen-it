@@ -593,12 +593,12 @@ var treeRoot = {
     ]},
     { text: 'Trees', navIcon: 'icon-trees', children: [
         { text: 'TreeList', component: TreeListComponent, layout: Ext.os.is.Phone ? 'fit': 'center', navIcon: 'icon-tree-list' },
-        { text: 'Tree', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: TreeComponent, navIcon: 'icon-trees' },
-        { text: 'Editable Tree', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: EditableTreeComponent, navIcon: 'icon-tree-editable'},
-        { text: 'Tree Grid', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: TreeGridComponent, navIcon: 'icon-tree-grid' },
-        { text: 'Tree Decorations', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component:TreeDecorationsComponent, navIcon: 'icon-tree-decorations'},
+        { text: 'Tree', component: TreeComponent, navIcon: 'icon-trees' },
+        { text: 'Editable Tree', component: EditableTreeComponent, navIcon: 'icon-tree-editable'},
+        { text: 'Tree Grid', component: TreeGridComponent, navIcon: 'icon-tree-grid' },
+        { text: 'Tree Decorations', component:TreeDecorationsComponent, navIcon: 'icon-tree-decorations'},
         { text: 'Tree Reorder', component: TreeReorderComponent, navIcon: 'icon-tree-reorder'},
-        { text: 'Heterogeneous Tree', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: HeterogeneousTreeComponent, navIcon: 'icon-heterogeneous-tree'}
+        { text: 'Heterogeneous Tree', component: HeterogeneousTreeComponent, navIcon: 'icon-heterogeneous-tree'}
     ]},
     { text: 'Calendar', premium: false, navIcon: 'icon-calendar', children:[
         { text: 'Calendar Panel', component: CalendarPanelComponent, navIcon: 'icon-calendar-panel' },
