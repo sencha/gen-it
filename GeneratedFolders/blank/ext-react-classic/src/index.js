@@ -204,7 +204,6 @@ import ExtWidget_ from "./ExtWidget";
 import ExtMessagebox_ from "./ExtMessagebox";
 import ExtToast_ from "./ExtToast";
 import ExtWindow_ from "./ExtWindow";
-import ExtTreegroupedgrid_ from "./ExtTreegroupedgrid";
 
 export const ExtButton = ExtButton_;
 export const ExtCycle = ExtCycle_;
@@ -410,7 +409,6 @@ export const ExtWidget = ExtWidget_;
 export const ExtMessagebox = ExtMessagebox_;
 export const ExtToast = ExtToast_;
 export const ExtWindow = ExtWindow_;
-export const ExtTreegroupedgrid = ExtTreegroupedgrid_;
 
 export const Button = ExtButton_;
 export const Cycle = ExtCycle_;
@@ -616,5 +614,4 @@ export const Widget = ExtWidget_;
 export const Messagebox = ExtMessagebox_;
 export const Toast = ExtToast_;
 export const Window = ExtWindow_;
-export const Treegroupedgrid = ExtTreegroupedgrid_;
 
