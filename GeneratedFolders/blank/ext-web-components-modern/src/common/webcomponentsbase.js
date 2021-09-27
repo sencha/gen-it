@@ -1,4 +1,4 @@
-//Thu Jun 24 2021 14:08:06 GMT+0530 (India Standard Time)
+//Mon Sep 27 2021 12:35:03 GMT+0530 (India Standard Time)
 
 import {
   doProp,
@@ -381,27 +381,25 @@ if(window['ExtAngular'] == 'loaded' || window['ExtReact'] == 'loaded'){
         //me.A.parentNode = me.parentNode
         me.parentNode.A.CHILDREN.push(me.A.ext);
       }
-
 }
 else {
-
-       if (me.parentNode.A.ext !== undefined) {
-         var found = false;
-         for (var i = 0; i < me.parentNode.A.ITEMS.length; i++) {
-           if (me.parentNode.A.ITEMS[i].child.outerHTML == me.A.ext.childouterHTML) {
-             found = true;
-             me.addTheChild(me.parentNode.A.ext, me.A.ext, i);
-           }
-         }
-         if (found == false) {
-           me.addTheChild(me.parentNode.A.ext, me.A.ext);
-         }
-       }
-       else {
-         me.parentNode.A.CHILDREN.push(me.A.ext);
-       }
-
+      if (me.parentNode.A.ext !== undefined) {
+        var found = false;
+        for (var i = 0; i < me.parentNode.A.ITEMS.length; i++) {
+          if (me.parentNode.A.ITEMS[i].child.outerHTML == me.A.ext.childouterHTML) {
+            found = true;
+            me.addTheChild(me.parentNode.A.ext, me.A.ext, i);
+          }
+        }
+        if (found == false) {
+          me.addTheChild(me.parentNode.A.ext, me.A.ext);
+        }
+      }
+      else {
+        me.parentNode.A.CHILDREN.push(me.A.ext);
+      }
 }
+
 
     }
 
