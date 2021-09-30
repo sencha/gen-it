@@ -12,9 +12,9 @@ ExtWebComponents requires the following to be installed before proceeding:
 * [NPM 6+](#getting_started_-_installing_node_and_npm)
 * [Java 8](#getting_started_-_installing_java)
 
-Also you can find the doc related to system configuration [ExtWebComponents](https://docs.sencha.com/extwebcomponents/7.4.0/guides/getting_started.html)
+Also you can find the doc related to system configuration [ExtWebComponents](https://docs.sencha.com/extwebcomponents/7.5.0/guides/getting_started.html)
 
-All the ExtWebComponents Example hosted on [ExtWebComponents Kitchensink Example](https://examples.sencha.com/ExtWebComponents/7.4.0/kitchensink/).
+All the ExtWebComponents Example hosted on [ExtWebComponents Kitchensink Example](https://examples.sencha.com/ExtWebComponents/7.5.0/kitchensink/).
 
 ## Running
 
@@ -46,4 +46,4 @@ You can view the app by pointing your browser to [http://localhost:1962](http://
 4. `ln -s /path/to/ExtJS ext` - or, for Windows: `mklink ext /path/to/ExtJS`
 5. `npm run local`
 
-https://examples-test.sencha.com/ExtWebComponents/7.4.0/kitchensink/frame-index.html
+https://examples-test.sencha.com/ExtWebComponents/7.5.0/kitchensink/frame-index.html
