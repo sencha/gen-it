@@ -1,6 +1,6 @@
 {
   "name": "@sencha/cra-template-ext-react-modern",
-  "version": "7.4.0",
+  "version": "7.5.0",
   "description": "cra-template-ext-react-modern",
   "main": "template.json",
   "license": "MIT",

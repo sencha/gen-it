@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@sencha/ext-react-classic": "^7.4.0",
-    "@sencha/ext-classic-runtime": "^7.4.0",
+    "@sencha/ext-react-classic": "^7.5.0",
+    "@sencha/ext-classic-runtime": "^7.5.0",
     "source-map-explorer": "^2.4.2",
     "webpack-cli": "^3.3.11"
   },

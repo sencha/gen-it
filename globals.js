@@ -47,7 +47,7 @@ exports.setGlobals =() => {
   //console.log(`copy:\t\t\t${copy}`)
   console.log(`\n`)
 
-  global['ExtVersion'] = '7.4.0'
+  global['ExtVersion'] = '7.5.0'
   global['AllClassesFolder'] = './'
   global["generatedFolders"] = "./GeneratedFolders/";
 

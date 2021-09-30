@@ -170,11 +170,11 @@ The ExtAngular trial version is valid for 30-days. If you need any help with the
 ## Guides and Helpful Resources
 ExtAngular has extensive documentation and getting started guides. 
 * [Documentation](https://docs.sencha.com/extangular/)
-* [Understanding the App](https://docs.sencha.com/extangular/7.4.0/guides/getting_started/understanding_app_modern.html)
+* [Understanding the App](https://docs.sencha.com/extangular/7.5.0/guides/getting_started/understanding_app_modern.html)
 * [Learn about the Data Grid Features](https://www.sencha.com/grid)
 
 Check out our resources page to get quick access to videos, tutorials, webinars and more.
-* [Examples of 140+ ExtAngular Components](https://examples.sencha.com/ExtAngular/7.4.0/kitchensink/)
+* [Examples of 140+ ExtAngular Components](https://examples.sencha.com/ExtAngular/7.5.0/kitchensink/)
 * [ExtAngular Datasheet, Webinars and Whitepapers](https://www.sencha.com/resources/)
 
 ### Additional Resources
