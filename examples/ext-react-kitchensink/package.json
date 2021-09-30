@@ -1,13 +1,13 @@
 {
   "name": "@sencha/ext-react-kitchensink",
   "product": "ext-react",
-  "version": "7.4.0",
+  "version": "7.5.0",
   "description": "A boilerplate project for Ext React showing all Ext JS modern components.",
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "@sencha/ext-modern-runtime": "^7.4.0",
-    "@sencha/ext-react-modern": "^7.4.0",
+    "@sencha/ext-modern-runtime": "^7.5.0",
+    "@sencha/ext-react-modern": "^7.5.0",
     "react": "~16.13.0",
     "react-dom": "~16.13.0",
     "react-scripts": "4.0.3",
@@ -34,7 +34,7 @@
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
-    "@sencha/ext-webpack-plugin": "~7.4.0",
+    "@sencha/ext-webpack-plugin": "~7.5.0",
     "babel-loader": "8.1.0",
     "base-href-webpack-plugin": "~2.0.0",
     "copy-webpack-plugin": "^5.1.1",
@@ -54,7 +54,7 @@
     "webpack-dev-server": "3.11.1"
   },
   "scripts": {
-    "start": "node ./extract-code.js && cross-env REACT_APP_build_v=7.4.0.0 react-scripts start",
+    "start": "node ./extract-code.js && cross-env REACT_APP_build_v=7.5.0.0 react-scripts start",
     "build": "node ./extract-code.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
