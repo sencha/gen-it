@@ -383,7 +383,7 @@ const root = {
             { text: 'Wizard', component: Wizard, navIcon: 'icon-layout-card-indicator', layout: Ext.os.is.Phone ? 'fit': 'center' },
             { text: 'Froala Editor', component: FroalaEditor, layout: 'center', navIcon: 'icon-editor' },
         ]},
-        { text: 'Grids', premium: true, navIcon: 'icon-grids', children: [
+        { text: 'Grids', navIcon: 'icon-grids', children: [
             { text: 'Core Features', navIcon: 'icon-grids', children: [
                 { text: 'Basic Grid', component: BasicGrid, navIcon: 'icon-grids'},
                 { text: 'Grouped Grid', component: GroupedGrid, navIcon: 'icon-grouped-grid'},
@@ -393,14 +393,14 @@ const root = {
                 { text: 'Row Editing', component: RowEditingExample, navIcon: 'icon-row-editing'},
                 { text: 'Infinite Grid', component: InfiniteGrid, navIcon: 'icon-buffer-grid'}
             ]},
-            { text: 'Add-ons',premium: true, navIcon: 'icon-framing-buttons', children: [
-                { text: 'Tree Grouped Grid',premium: true, component: TreeGroupedGrid, navIcon: 'icon-tree-grouped-grid'},
+            { text: 'Add-ons', navIcon: 'icon-framing-buttons', children: [
+                { text: 'Tree Grouped Grid', component: TreeGroupedGrid, navIcon: 'icon-tree-grouped-grid'},
                 { text: 'Grid Tools', component: ToolGrid, navIcon: 'icon-grid-tools'},
                 { text: 'Row Expander', component: RowExpanderGrid, navIcon: 'icon-row-expander-grid'},
                 { text: 'Row Body', component: RowBodyGrid, navIcon: 'icon-row-body-grid'},
                 { text: 'Summary Row', component: SummaryRowGrid, navIcon: 'icon-grid-summary'},
                 { text: 'Grid Filtering', component: GridFiltering, navIcon: 'icon-grid-filtering'},
-				{ text: 'Grid Filterbar',premium: true, component: GridFilterbar, navIcon: 'icon-grid-filterbar'},
+				{ text: 'Grid Filterbar', component: GridFilterbar, navIcon: 'icon-grid-filterbar'},
                 { text: 'View Options', component: ViewOptionsGrid, navIcon: 'icon-view-options-grid'},
                 { text: 'Row Drag & Drop', component: RowDragAndDrop, navIcon: 'icon-dd-grid-to-form', hidden: Ext.os.is.Phone },
                 { text: 'Drag Form To Grid', component: DragFormToGrid, navIcon: 'icon-dd-form-to-grid'}
@@ -423,7 +423,7 @@ const root = {
             { text: 'Heterogeneous Tree', component: HeterogeneousTree, navIcon: 'icon-heterogeneous-tree'},
             { text: 'Tree Reorder', component: TreeReorder, navIcon: 'icon-tree-reorder'}
         ] },
-        { text: 'Calendar', premium: false, navIcon: 'icon-calendar', children:[
+        { text: 'Calendar', navIcon: 'icon-calendar', children:[
             { text: 'Calendar Panel', component: Calendar, navIcon: 'icon-calendar-panel' },
             { text: 'Month View', component: MonthView, navIcon: 'icon-calendar-month-view' },
             { text: 'Week View', component: WeekView, navIcon: 'icon-calendar-week-view' },

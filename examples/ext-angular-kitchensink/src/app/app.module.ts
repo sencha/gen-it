@@ -561,7 +561,7 @@ var treeRoot = {
       { text: 'Froala Editor', component: FroalaEditorComponent, layout: 'center', navIcon: 'icon-editor' },
     ]},
 
-    { text: 'Grids', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', navIcon: 'icon-grids', children: [
+    { text: 'Grids', navIcon: 'icon-grids', children: [
       { text: 'Core Features', navIcon: 'icon-grids', children: [
           { text: 'Basic Grid', component: BasicGridComponent, navIcon: 'icon-grids'},
           { text: 'Grouped Grid', component: GroupedGridComponent, navIcon: 'icon-grouped-grid'},
@@ -571,14 +571,14 @@ var treeRoot = {
           { text: 'Editable Row', component: EditableRowComponent, navIcon: 'icon-row-editing'},
           { text: 'Infinite Grid', component: InfiniteGridComponent, navIcon: 'icon-buffer-grid'}
       ]},
-      { text: 'Add-ons', premiumClass: 'x-fa fa-star app-premium-indicator', navIcon: 'icon-framing-buttons', children: [
-        { text: 'Tree Grouped Grid',premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: TreeGroupedGridComponent, navIcon: 'icon-tree-grouped-grid' },
+      { text: 'Add-ons', navIcon: 'icon-framing-buttons', children: [
+        { text: 'Tree Grouped Grid', component: TreeGroupedGridComponent, navIcon: 'icon-tree-grouped-grid' },
           { text: 'Grid Tools', component: GridToolsComponent, navIcon: 'icon-grid-tools'},
           { text: 'Row Expander', component: RowExpanderComponent, navIcon: 'icon-row-expander-grid'},
           { text: 'Row Body', component: RowBodyComponent, navIcon: 'icon-row-body-grid'},
           { text: 'Summary Row', component: SummaryRowComponent, navIcon: 'icon-grid-summary'},
           { text: 'Grid Filtering', component: GridFilteringComponent, navIcon: 'icon-grid-filtering'},
-          { text: 'Grid Filterbar', premium: true, premiumClass: 'x-fa fa-star app-premium-indicator', component: GridFilterbarComponent, navIcon: 'icon-grid-filterbar'},
+          { text: 'Grid Filterbar', component: GridFilterbarComponent, navIcon: 'icon-grid-filterbar'},
           { text: 'View Options', component: ViewOptionsComponent, navIcon: 'icon-view-options-grid'},
           { text: 'Row Drag And Drop', component: RowDragAndDropComponent, navIcon: 'icon-dd-grid-to-form'},
           { text: 'Drag Form To Grid', component: DragFormToGridComponent, navIcon: 'icon-dd-field-to-grid'}
