@@ -202,8 +202,7 @@ var xtypes = [
   'widget',
   'messagebox',
   'toast',
-  'window',
-  'treegroupedgrid'
+  'window'
 ]
 var classes = [
     'Ext.data.virtual.Store',
